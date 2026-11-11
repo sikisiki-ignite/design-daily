@@ -1,0 +1,93 @@
+[
+  {
+    "id": "2119859995248312662",
+    "url": "https://x.com/AmirMushich/status/2119859995248312662",
+    "author": "@AmirMushich",
+    "category": "UI",
+    "title": "레코드 가게를 통째로 옮긴 음반몰 — 호버로 움직이는 카탈로그",
+    "summary": [
+      "목록 대신 '매장 진열대 앞에 선 느낌'으로 탐색하게 만든 공간형 UI",
+      "실사 같은 매장 장면은 이미지·영상 생성 AI로, 앨범 정보는 오른쪽에 최소한만"
+    ],
+    "apply": "상품 수가 적고 분위기가 중요한 브랜드 페이지는 그리드 대신 공간 메타포로 탐색시키기",
+    "tags": [
+      "web",
+      "interaction",
+      "ai-generated",
+      "commerce"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119858129689001984/img/HDwpZTLK8aN6Nl_j.jpg",
+    "links": [
+      {
+        "title": "스타터 코드",
+        "url": "https://github.com/amirmushichge/interactive-garment-starter",
+        "note": "GitHub"
+      }
+    ],
+    "pub": "2026-11-11T14:06:16+09:00"
+  },
+  {
+    "id": "2119819549667406039",
+    "url": "https://x.com/saifgeeky/status/2119819549667406039",
+    "author": "@saifgeeky",
+    "category": "UI",
+    "title": "형광 연두 하나로 끝까지 밀어붙인 아이디어 앱 'milo'",
+    "summary": [
+      "연두+검정 2색과 캐릭터 얼굴만으로 스플래시·온보딩·홈을 통일 — 한 번 보면 기억되는 브랜드",
+      "홈의 'AI 팀원' 캐릭터 목록: AI 기능을 사람처럼 골라 쓰게 하는 장치"
+    ],
+    "apply": "AI 기능이 여러 개인 제품은 기능을 캐릭터·팀원으로 의인화해 고르게 하면 진입 장벽이 낮아짐",
+    "tags": [
+      "mobile",
+      "branding",
+      "onboarding",
+      "ai-product"
+    ],
+    "image": "https://pbs.twimg.com/media/HWscctRbYAA84Ei?format=jpg&name=medium",
+    "pub": "2026-11-11T14:16:16+09:00"
+  },
+  {
+    "id": "2120090478108451269",
+    "url": "https://x.com/adriankuleszo/status/2120090478108451269",
+    "author": "@adriankuleszo",
+    "category": "AI",
+    "title": "Mobbin MCP + Figma + Claude — 실제 앱 레퍼런스를 꺼내 와 UX를 비교하는 워크플로",
+    "summary": [
+      "AI가 화면을 '그리는' 게 아니라 레퍼런스 수집·비교를 맡는 역할 — 방향은 디자이너가 잡음",
+      "스레드: 대시보드 작업 중 Mobbin의 실제 앱 화면을 맥락째 Claude로 가져와 UX 비교"
+    ],
+    "apply": "화면 설계 전에 '비슷한 서비스 화면 비교 정리'를 AI에 맡기면 리서치 시간이 줄어듦",
+    "tags": [
+      "ai-workflow",
+      "mcp",
+      "reference",
+      "research"
+    ],
+    "pub": "2026-11-11T14:26:16+09:00"
+  },
+  {
+    "id": "2120259172902256711",
+    "url": "https://x.com/lennysan/status/2120259172902256711",
+    "author": "@lennysan",
+    "category": "AI",
+    "title": "디자이너 채용 공고 속 스킬 2위가 된 'Claude'",
+    "summary": [
+      "그래프 기준 Figma 37% · Claude 13% · Cursor 7% — Claude는 2026년 들어 급상승",
+      "Figma 수요도 계속 증가 중: '대체'가 아니라 '도구가 하나 더 붙는' 흐름"
+    ],
+    "apply": "팀 역량 기준에 'AI 도구로 화면을 만드는 능력'을 Figma 숙련도와 별도 항목으로 두기",
+    "tags": [
+      "career",
+      "hiring",
+      "trend"
+    ],
+    "image": "https://pbs.twimg.com/media/HWynO-XaQAAP8tB?format=jpg&name=medium",
+    "links": [
+      {
+        "title": "Lenny's Newsletter — 2026 테크 채용 시장",
+        "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late"
+      }
+    ],
+    "pub": "2026-11-11T14:36:16+09:00"
+  }
+]

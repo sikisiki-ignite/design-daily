@@ -6,7 +6,22 @@
 <description>UI·모션 디자인 일일 리서치 (현재 출처: X)</description>
 <language>ko</language>
 <atom:link href="https://sikisiki-ignite.github.io/design-daily/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 11 Nov 2026 13:58:53 +0900</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 14:06:16 +0900</lastBuildDate>
+<item>
+<title>[UI] 레코드 가게를 통째로 옮긴 음반몰 — 호버로 움직이는 카탈로그 — @AmirMushich</title>
+<link>https://x.com/AmirMushich/status/2119859995248312662</link>
+<guid isPermaLink="false">xdd-2119859995248312662</guid>
+<pubDate>Wed, 11 Nov 2026 14:06:16 +0900</pubDate>
+<description>- 목록 대신 &#x27;매장 진열대 앞에 선 느낌&#x27;으로 탐색하게 만든 공간형 UI
+- 실사 같은 매장 장면은 이미지·영상 생성 AI로, 앨범 정보는 오른쪽에 최소한만
+💡 상품 수가 적고 분위기가 중요한 브랜드 페이지는 그리드 대신 공간 메타포로 탐색시키기
+🔗 스타터 코드: https://github.com/amirmushichge/interactive-garment-starter</description>
+<category>web</category>
+<category>interaction</category>
+<category>ai-generated</category>
+<category>commerce</category>
+<enclosure url="https://pbs.twimg.com/amplify_video_thumb/2119858129689001984/img/HDwpZTLK8aN6Nl_j.jpg" type="image/jpeg" length="0"/>
+</item>
 <item>
 <title>[AI] AI로 웹사이트 만들 때 섹션별 레퍼런스 찾는 사이트 6곳 — @AI_Caffeine</title>
 <link>https://x.com/AI_Caffeine/status/2119731471800004833</link>
