@@ -6,6 +6,65 @@
 <description>UI·모션 디자인 일일 리서치 (현재 출처: X)</description>
 <language>ko</language>
 <atom:link href="https://sikisiki-ignite.github.io/design-daily/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 11 Nov 2026 10:49:14 +0900</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 10:51:32 +0900</lastBuildDate>
+<item>
+<title>[AI] 아이콘 제작 과정을 100% 코드로 만든 31초 모션 필름 — @marcelkargul</title>
+<link>https://sikisiki-ignite.github.io/design-daily/p/2119406341206724799.html</link>
+<guid isPermaLink="false">xdd-2119406341206724799-r2</guid>
+<pubDate>Wed, 11 Nov 2026 10:50:32 +0900</pubDate>
+<description>- Figma 스토리보드 6프레임(가이드선 → 치수 → 외곽선 → 채움 → 디테일 → 완성) → SVG 15개 레이어로 분리 → Remotion으로 레이어별 타이밍 애니메이션
+- 선이 스스로 그려지고, 라벨은 캐럿과 함께 한 글자씩 타이핑, 채움은 미세한 점이 모여 완성되는 연출
+- CSS 3D로 기울어진 평면 + 낮은 매크로 카메라 + 얕은 피사계심도, 9컷 하드컷 편집. 수정은 &#x27;전체 28% 빠르게&#x27;처럼 수치로 지시
+- 적용 아이디어: 제품 소개·릴리즈 영상을 Figma 스토리보드 → 코드 렌더링 파이프라인으로 만들면 수정이 &#x27;수치 변경&#x27;이 되어 반복이 빨라짐</description>
+<category>motion-graphics</category>
+<category>process</category>
+<category>remotion</category>
+<category>storyboard</category>
+<enclosure url="https://pbs.twimg.com/amplify_video_thumb/2119406267286351872/img/Yvulj6ueDeRwfRf1.jpg" type="image/jpeg" length="0"/>
+</item>
+<item>
+<title>[UI] Wealthsimple 앱 리디자인용 신규 아이콘 세트 — @iconists</title>
+<link>https://sikisiki-ignite.github.io/design-daily/p/2118621691647787034.html</link>
+<guid isPermaLink="false">xdd-2118621691647787034-r2</guid>
+<pubDate>Wed, 11 Nov 2026 10:49:32 +0900</pubDate>
+<description>- 핀테크 앱 Wealthsimple 리디자인을 위해 아이콘 전문 스튜디오 Iconists와 함께 만든 아이콘 세트 공개
+- 얇은 단일 선 두께와 둥근 끝처리로 통일, 기본 아이콘(홈·사람·알림) 사이에 열쇠·다이아몬드·망원경 같은 금융 은유 아이콘을 같은 문법으로 섞음
+- 아이콘 그리드만이 아니라 실제 앱 화면 속에 들어간 모습을 영상으로 함께 보여줌
+- 적용 아이디어: 아이콘 세트 문서에 &#x27;그리드 시트 + 실제 화면 적용 예&#x27; 두 가지를 같이 두면 일관성 검토가 쉬워짐</description>
+<category>icon</category>
+<category>fintech</category>
+<category>design-system</category>
+<enclosure url="https://pbs.twimg.com/amplify_video_thumb/2118621318010605568/img/Zst2y9QpOXntMsFl.jpg" type="image/jpeg" length="0"/>
+</item>
+<item>
+<title>[UI] 여행 앱 Roam — 빈 상태(Empty state)를 장면으로 만든 모션 — @Wuraoladesigns</title>
+<link>https://sikisiki-ignite.github.io/design-daily/p/2119682021895307643.html</link>
+<guid isPermaLink="false">xdd-2119682021895307643-r2</guid>
+<pubDate>Wed, 11 Nov 2026 10:48:32 +0900</pubDate>
+<description>- &#x27;No trips yet&#x27; 빈 상태에 줄에 걸린 폴라로이드 사진 3장을 배치 — 비어 있는 화면이 &#x27;첫 여행이 걸릴 자리&#x27;라는 이야기로 바뀜
+- 주 행동(Plan a trip, 오렌지)과 보조 행동(Find ideas, 회색)을 나란히 두어 다음 행동을 명확히 함
+- 아래에는 가로 스크롤 &#x27;인기 여행지&#x27; 카드로 빈 상태에서도 탐색 거리를 제공
+- 적용 아이디어: 목록이 비어 있는 화면에 &#x27;안내 문구 + 1차 행동 + 둘러볼 거리&#x27; 3단 구성을 기본 패턴으로 정리</description>
+<category>empty-state</category>
+<category>onboarding</category>
+<category>mobile</category>
+<category>illustration</category>
+<enclosure url="https://pbs.twimg.com/amplify_video_thumb/2119681878751948800/img/5g2fucNULezM-Bej.jpg" type="image/jpeg" length="0"/>
+</item>
+<item>
+<title>[UI] SaaS 대시보드 우측 알림 패널 디자인 — @zahragr8r</title>
+<link>https://sikisiki-ignite.github.io/design-daily/p/2119917698905764014.html</link>
+<guid isPermaLink="false">xdd-2119917698905764014-r2</guid>
+<pubDate>Wed, 11 Nov 2026 10:47:32 +0900</pubDate>
+<description>- 워크플로 자동화 대시보드 오른쪽에 알림 패널을 고정 — 본문(지표·워크플로 표)을 가리지 않고 나란히 확인
+- 패널 상단에 All / Errors / Success / Info 필터 탭, 각 알림은 상태 점 + 제목 + 한 줄 설명 + 시간 + 상태 배지 구조
+- 실패(Error)·성공 배지를 색으로 구분해 훑어보기만으로 문제 알림을 찾을 수 있음
+- 적용 아이디어: 백오피스 알림은 모달·드롭다운보다 &#x27;본문 옆 고정 패널 + 상태 필터 탭&#x27; 구조가 작업 흐름을 덜 끊음</description>
+<category>dashboard</category>
+<category>notification</category>
+<category>saas</category>
+<category>panel</category>
+<enclosure url="https://pbs.twimg.com/media/HWqc4jfa0AAmdZO?format=jpg&amp;name=medium" type="image/jpeg" length="0"/>
+</item>
 </channel>
 </rss>
