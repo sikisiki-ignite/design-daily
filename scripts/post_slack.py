@@ -109,6 +109,12 @@ def main():
             print(json.dumps(msg, ensure_ascii=False, indent=2))
             continue
         r = api("chat.postMessage", token, msg)
+        if not r.get("ok") and r.get("error") == "invalid_blocks" and it.get("image"):
+            # 슬랙이 썸네일 URL을 못 가져오면(예: 429) invalid_blocks → 이미지 없이 재시도
+            msg["blocks"] = [b for b in msg["blocks"] if b["type"] != "image"]
+            r = api("chat.postMessage", token, msg)
+            if r.get("ok"):
+                print("  (썸네일을 가져오지 못해 이미지 없이 게시)")
         if not r.get("ok"):
             print("실패:", it["id"], r.get("error"))
             continue
