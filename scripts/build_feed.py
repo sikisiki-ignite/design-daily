@@ -46,8 +46,23 @@ def load_items():
             it["_date"] = datetime.fromisoformat(it["pub"]) if it.get("pub") else day + timedelta(minutes=i)
             it["_day"] = day.strftime("%Y-%m-%d %H:%M")
             out.append(it)
+    # pub이 미래인 항목은 아직 발행하지 않음 (scripts/release.sh가 10분 간격으로 순차 공개)
+    now = datetime.now(KST)
+    out = [it for it in out if it["_date"] <= now]
     out.sort(key=lambda x: x["_date"], reverse=True)
     return out[:MAX_ITEMS]
+
+
+def pending_count():
+    """아직 공개 시각이 안 된 항목 수와 다음 공개 시각(초 단위 대기)."""
+    now = datetime.now(KST)
+    future = []
+    for f in sorted(ITEMS.glob("*.json")):
+        for it in json.loads(f.read_text(encoding="utf-8")):
+            if it.get("pub") and datetime.fromisoformat(it["pub"]) > now:
+                future.append(datetime.fromisoformat(it["pub"]))
+    wait = int((min(future) - now).total_seconds()) + 5 if future else 0
+    return len(future), wait
 
 
 def description(it):
@@ -215,6 +230,10 @@ img{{max-width:100%;max-height:360px;border-radius:8px;margin-top:8px}}
 
 
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "--pending":
+        n, wait = pending_count()
+        print(n, wait)
+        return
     base_url = sys.argv[1] if len(sys.argv) > 1 else "https://sikisiki-ignite.github.io/design-daily/"
     items = load_items()
     DOCS.mkdir(exist_ok=True)
