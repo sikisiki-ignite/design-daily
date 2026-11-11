@@ -85,5 +85,175 @@
     "image": "https://pbs.twimg.com/amplify_video_thumb/2119406267286351872/img/Yvulj6ueDeRwfRf1.jpg",
     "rev": 2,
     "pub": "2026-11-11T10:50:32+09:00"
+  },
+  {
+    "id": "2119843057948414169",
+    "url": "https://x.com/doublenickk/status/2119843057948414169",
+    "author": "@doublenickk",
+    "category": "AI",
+    "title": "AI 디자인 품질은 '좋은 프롬프트'보다 '만드는 AI와 평가하는 AI 분리'에서 나온다",
+    "summary": [
+      "Anthropic 연구: 인터페이스를 '예쁘게 만들어줘'라고 요청하는 대신, 만드는 에이전트와 평가하는 에이전트를 분리",
+      "평가 에이전트가 시각적 일관성·독창성 같은 구체적 기준으로 채점하고, 그 결과를 다음 수정 라운드에 반영",
+      "주관적인 디자인 피드백을 반복 가능한 개선 과정으로 바꾸는 방법"
+    ],
+    "apply": "AI로 화면을 만들 때 '디자인 기준표'를 먼저 정하고, 결과물은 별도 대화(또는 에이전트)에서 그 기준으로 검토 → 수정 요청하는 2단계로 운영",
+    "tags": [
+      "ai-workflow",
+      "critique",
+      "claude"
+    ],
+    "image": "https://pbs.twimg.com/media/HWsyBe1X0AEKuzA?format=jpg&name=medium",
+    "links": [
+      {
+        "title": "Harness design for long-running apps",
+        "url": "https://www.anthropic.com/research/harness-design-long-running-apps",
+        "note": "Anthropic 원문"
+      }
+    ],
+    "pub": "2026-11-11T10:52:31+09:00"
+  },
+  {
+    "id": "2119827982692819177",
+    "url": "https://x.com/rpnickson/status/2119827982692819177",
+    "author": "@rpnickson",
+    "category": "AI",
+    "title": "AI가 만든 UI가 다 비슷해 보일 때 — 프로덕트 디자인용 무료 스킬 8선",
+    "summary": [
+      "모델 기본값으로 만들면 결과물이 비슷해지는 문제를, 작업 전에 불러오는 지침 묶음(스킬)으로 해결하자는 정리",
+      "여러 디자인 방향을 나란히 비교(Oil UI), UI 애니메이션 원칙(Emil Kowalski), 레이아웃·밀도 조절(Taste), 'AI 티' 제거(Impeccable) 등",
+      "어워즈 수상 사이트를 레퍼런스로 끌어오는 Awwwards MCP처럼, 지침이 아니라 '도구'를 붙이는 방식도 함께 소개"
+    ],
+    "apply": "팀 디자인 원칙(간격·밀도·모션 규칙)을 스킬 형태 문서로 만들어 두면 AI 결과물의 일관성을 잡는 데 바로 쓸 수 있음",
+    "tags": [
+      "skills",
+      "ai-workflow",
+      "taste",
+      "claude-code"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119827400129142784/img/xMngjbN24M5gxzTM.jpg",
+    "links": [
+      {
+        "title": "Oil UI",
+        "url": "https://github.com/oil-oil/oil-ui",
+        "note": "서로 다른 디자인 방향 여러 개를 나란히 비교"
+      },
+      {
+        "title": "Impeccable",
+        "url": "https://github.com/pbakaus/impeccable",
+        "note": "AI 티 나는 UI 다듬기"
+      },
+      {
+        "title": "Emil Kowalski skills",
+        "url": "https://github.com/emilkowalski/skills",
+        "note": "UI 애니메이션 원칙"
+      },
+      {
+        "title": "Taste Skill",
+        "url": "https://github.com/Leonxlnx/taste-skill",
+        "note": "레이아웃 다양성·모션·밀도 조절"
+      },
+      {
+        "title": "Stageshow",
+        "url": "https://benji.org/stageshow",
+        "note": "제품 데모 애니메이션·벤토 그리드"
+      },
+      {
+        "title": "Dimensional Drawing",
+        "url": "https://github.com/enesozturk/dimensional-drawing",
+        "note": "컴포넌트 스펙 도면"
+      },
+      {
+        "title": "Brand Identity skill",
+        "url": "https://github.com/fatihaydost/brand-identity-skill",
+        "note": "로고·타입·컬러를 한 시스템으로"
+      },
+      {
+        "title": "Awwwards MCP",
+        "url": "https://github.com/INSANE0777/Awwwards-mcp",
+        "note": "수상작 레퍼런스 수집 도구"
+      }
+    ],
+    "pub": "2026-11-11T10:53:31+09:00"
+  },
+  {
+    "id": "2118168940841242803",
+    "url": "https://x.com/GitHub_Daily/status/2118168940841242803",
+    "author": "@GitHub_Daily",
+    "category": "AI",
+    "title": "대시보드·어드민 화면 전용 AI 디자인 스킬 (실제 대시보드 127개 분석 기반)",
+    "summary": [
+      "실제 대시보드 127개에서 뽑은 규칙: 1건→0건 변화에 빨간 −100% 대신 회색 작은 글씨 '이전 1', 축 눈금은 0·1k·2k처럼 정수",
+      "작업 마지막에 3440 / 1440 / 375 세 가지 폭으로 스크린샷을 찍어 실제 화면 기준으로 문제를 점검",
+      "기존 화면 스크린샷을 주면 결론 → 심각도별 문제 목록 순서로 리뷰도 해줌"
+    ],
+    "apply": "어드민·대시보드 디자인 검수 체크리스트(작은 수치 표현, 축 눈금, 반응형 3폭 확인)로 그대로 가져다 쓸 만함",
+    "tags": [
+      "dashboard",
+      "skills",
+      "review",
+      "admin"
+    ],
+    "image": "https://pbs.twimg.com/media/HWU_a5hbAAACj_8?format=jpg&name=medium",
+    "links": [
+      {
+        "title": "dashboard-design-skill",
+        "url": "https://github.com/abdiraimov-otabek/dashboard-design-skill",
+        "note": "GitHub"
+      }
+    ],
+    "pub": "2026-11-11T10:54:31+09:00"
+  },
+  {
+    "id": "2119990931848093970",
+    "url": "https://x.com/aeng_kkang/status/2119990931848093970",
+    "author": "@aeng_kkang",
+    "category": "AI",
+    "title": "Meta, AI 에이전트와 함께 쓰도록 만든 디자인 시스템 Astryx 공개",
+    "summary": [
+      "Meta 내부 앱 1만 3천 개 이상을 만든 디자인 시스템을 오픈소스(MIT)로 공개 — 150개 이상 컴포넌트, 다크 모드, 테마, 템플릿",
+      "사람과 AI 코딩 도구가 같은 문서·도구를 보고 화면을 만들도록 설계된 'AI 친화' 디자인 시스템",
+      "아직 베타, React 19 이상 필요. 사내 디자인 시스템을 AI 친화적으로 바꾸는 중이라면 참고 교재로 좋다는 평"
+    ],
+    "apply": "디자인 시스템 문서를 'AI가 읽고 그대로 따를 수 있는 형태'로 쓰는 방법의 실제 사례로 문서 구조를 참고",
+    "tags": [
+      "design-system",
+      "ai-ready",
+      "open-source"
+    ],
+    "image": "https://opengraph.githubassets.com/1/meta/astryx",
+    "links": [
+      {
+        "title": "meta/astryx",
+        "url": "https://github.com/meta/astryx",
+        "note": "GitHub"
+      },
+      {
+        "title": "Astryx 문서",
+        "url": "https://astryx.atmeta.com/"
+      }
+    ],
+    "pub": "2026-11-11T10:55:31+09:00"
+  },
+  {
+    "id": "2119664109037973910",
+    "url": "https://x.com/UiRahMan92/status/2119664109037973910",
+    "author": "@UiRahMan92",
+    "category": "UI",
+    "title": "AI 업무 도구 대시보드 — 흑백 베이스에 일러스트 한 장으로 포인트",
+    "summary": [
+      "좌측 사이드바 + 본문 구조의 대시보드 4화면(홈·목표·PR 리뷰·태스크 보드)을 같은 틀로 통일",
+      "전체를 흑백·회색 톤으로 두고, 각 화면 상단 히어로에만 풍경 일러스트를 넣어 화면마다 분위기를 줌",
+      "홈은 가운데 입력창 하나(AI 프롬프트)만 크게 두고 나머지는 최소화 — AI 도구 홈의 전형적인 구성"
+    ],
+    "apply": "정보가 많은 어드민 화면은 색을 빼고, 강조는 상단 한 영역에만 몰아 주는 방식으로 정돈감을 낼 수 있음",
+    "tags": [
+      "dashboard",
+      "saas",
+      "ai-product",
+      "layout"
+    ],
+    "image": "https://pbs.twimg.com/media/HWqPQGWawAAyUIe?format=jpg&name=medium",
+    "pub": "2026-11-11T10:56:31+09:00"
   }
 ]
