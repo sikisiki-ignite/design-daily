@@ -6,7 +6,20 @@
 <description>UI·모션 디자인 일일 리서치 (현재 출처: X)</description>
 <language>ko</language>
 <atom:link href="https://sikisiki-ignite.github.io/design-daily/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 11 Nov 2026 14:16:20 +0900</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 14:26:20 +0900</lastBuildDate>
+<item>
+<title>[AI] Mobbin MCP + Figma + Claude — 실제 앱 레퍼런스를 꺼내 와 UX를 비교하는 워크플로 — @adriankuleszo</title>
+<link>https://x.com/adriankuleszo/status/2120090478108451269</link>
+<guid isPermaLink="false">xdd-2120090478108451269</guid>
+<pubDate>Wed, 11 Nov 2026 14:26:16 +0900</pubDate>
+<description>- AI가 화면을 &#x27;그리는&#x27; 게 아니라 레퍼런스 수집·비교를 맡는 역할 — 방향은 디자이너가 잡음
+- 스레드: 대시보드 작업 중 Mobbin의 실제 앱 화면을 맥락째 Claude로 가져와 UX 비교
+💡 화면 설계 전에 &#x27;비슷한 서비스 화면 비교 정리&#x27;를 AI에 맡기면 리서치 시간이 줄어듦</description>
+<category>ai-workflow</category>
+<category>mcp</category>
+<category>reference</category>
+<category>research</category>
+</item>
 <item>
 <title>[UI] 형광 연두 하나로 끝까지 밀어붙인 아이디어 앱 &#x27;milo&#x27; — @saifgeeky</title>
 <link>https://x.com/saifgeeky/status/2119819549667406039</link>
