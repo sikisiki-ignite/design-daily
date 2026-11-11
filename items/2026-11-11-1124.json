@@ -1,0 +1,117 @@
+[
+  {
+    "id": "2119945327595716717",
+    "url": "https://x.com/RaminNasibov/status/2119945327595716717",
+    "author": "@RaminNasibov",
+    "category": "UI",
+    "title": "좌석 고르기 전에 '창밖 풍경'부터 보여주는 항공 앱 컨셉",
+    "summary": [
+      "좌석 선택 화면에서 좌석 번호(예: 11A)를 고르면, 그 자리에서 보이는 창밖 뷰를 먼저 보여주는 컨셉",
+      "창문이 없는 줄이면 '이 줄엔 창문이 없음'을 미리 알려줌 — 예약 후에야 알게 되는 정보를 선택 시점으로 앞당김",
+      "좌석 지도라는 추상적인 정보를 '실제로 보게 될 장면'으로 바꿔 보여주는 시각화"
+    ],
+    "apply": "선택지를 숫자·코드로만 보여주는 화면에서 '고르면 실제로 어떻게 되는지'를 미리보기로 보여주면 선택 후 후회를 줄일 수 있음",
+    "tags": [
+      "mobile",
+      "travel",
+      "preview",
+      "selection"
+    ],
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/2119945305235812352/pu/img/VkRFsDOFVK7VxYQe.jpg",
+    "pub": "2026-11-11T11:30:28+09:00"
+  },
+  {
+    "id": "2119858223109042669",
+    "url": "https://x.com/UxDamini_/status/2119858223109042669",
+    "author": "@UxDamini_",
+    "category": "UI",
+    "title": "여행 기록 앱 — '+' 하나에서 펼쳐지는 생성 바텀시트와 지도 화면",
+    "summary": [
+      "하단 탭 가운데 '+' 버튼을 누르면 '새 여행 / 기록 추가 / 장소 추가 / 컬렉션 만들기'를 한 바텀시트에서 고르게 구성",
+      "각 선택지에 일러스트 아이콘 + 한 줄 설명을 붙여 무엇을 만드는지 바로 이해되게 함",
+      "지도 화면은 장소 사진을 핀으로 올리고, 상단 필터 칩(All·Visited·Saved·Food)으로 범위를 좁힘"
+    ],
+    "apply": "만들 수 있는 게 여러 종류인 서비스는 '생성 버튼 1개 + 종류 선택 시트' 구조로 진입점을 하나로 모을 수 있음",
+    "tags": [
+      "mobile",
+      "bottom-sheet",
+      "map",
+      "create-flow"
+    ],
+    "image": "https://pbs.twimg.com/media/HWs_v1zbkAAGEB4?format=jpg&name=900x900",
+    "pub": "2026-11-11T11:31:28+09:00"
+  },
+  {
+    "id": "2119797909587984758",
+    "url": "https://x.com/AdhamDannaway/status/2119797909587984758",
+    "author": "@AdhamDannaway",
+    "category": "AI",
+    "title": "디자인 원칙 + 토큰을 DESIGN.md 파일 하나로 — AI가 디자인 시스템을 지키게 하는 방법",
+    "summary": [
+      "『Practical UI』 저자가 책의 디자인 가이드라인과 디자인 시스템 토큰을 AI 도구가 읽을 수 있는 DESIGN.md 파일 하나로 정리",
+      "테스트해 보니 Claude Code가 디자인 시스템을 올바르게 적용하고 흔한 디자인 실수를 크게 줄였다고 함",
+      "Figma 디자인 시스템을 Claude Code에 연결해 실제 컴포넌트를 쓰게 하고, DESIGN.md는 '가이드라인' 역할로 역할을 나눔"
+    ],
+    "apply": "디자인 시스템 문서 중 '원칙·규칙'만 따로 떼어 AI용 한 파일로 만들어 두면, AI로 만든 화면의 기준 이탈을 줄일 수 있음",
+    "tags": [
+      "design-system",
+      "design-md",
+      "claude-code",
+      "guidelines"
+    ],
+    "image": "https://pbs.twimg.com/media/HWrl3ziasAAlmLC?format=jpg&name=medium",
+    "pub": "2026-11-11T11:32:28+09:00"
+  },
+  {
+    "id": "2119731471800004833",
+    "url": "https://x.com/AI_Caffeine/status/2119731471800004833",
+    "author": "@AI_Caffeine",
+    "category": "AI",
+    "title": "AI로 웹사이트 만들 때 섹션별 레퍼런스 찾는 사이트 6곳",
+    "summary": [
+      "전체 스타일 → 첫 화면 → 메뉴 → 버튼·구독 폼 → 푸터 → 모션 순서로, 페이지 섹션마다 레퍼런스 사이트를 하나씩 매칭",
+      "Refero Styles는 실제 서비스의 색·폰트·간격을 보여주고, 마음에 드는 스타일을 DESIGN.md로 AI에게 넘길 수 있음",
+      "AI에게 '예쁘게'가 아니라 '이 레퍼런스처럼'이라고 지시하기 위한 재료 모음"
+    ],
+    "apply": "AI에게 화면을 요청할 때 섹션별 레퍼런스 링크를 같이 주면 결과물이 평균값으로 수렴하는 걸 줄일 수 있음",
+    "tags": [
+      "reference",
+      "ai-workflow",
+      "web"
+    ],
+    "image": "https://pbs.twimg.com/media/HWqBU9eaIAER94r?format=jpg&name=medium",
+    "links": [
+      {
+        "title": "Refero Styles",
+        "url": "https://styles.refero.design/",
+        "note": "실제 서비스의 색·폰트·간격, DESIGN.md 제공"
+      },
+      {
+        "title": "Regards",
+        "url": "https://www.regards.design/hero-sections",
+        "note": "첫 화면(히어로) 레퍼런스"
+      },
+      {
+        "title": "Navbar Gallery",
+        "url": "https://www.navbar.gallery/",
+        "note": "메뉴 구조"
+      },
+      {
+        "title": "CTA Gallery",
+        "url": "https://www.cta.gallery/",
+        "note": "버튼·구독 폼 문구와 배치"
+      },
+      {
+        "title": "Footer Design",
+        "url": "https://www.footer.design/",
+        "note": "푸터 구성"
+      },
+      {
+        "title": "Scrolltide",
+        "url": "https://www.scrolltide.co/",
+        "note": "스크롤 모션·인터랙션 (일부 유료)"
+      }
+    ],
+    "pub": "2026-11-11T11:33:28+09:00"
+  }
+]

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>[AI] 디자인 원칙 + 토큰을 DESIGN.md 파일 하나로 — AI가 디자인 시스템을 지키게 하는 방법 — @AdhamDannaway</title>
+<meta name="description" content="『Practical UI』 저자가 책의 디자인 가이드라인과 디자인 시스템 토큰을 AI 도구가 읽을 수 있는 DESIGN.md 파일 하나로 정리 테스트해 보니 Claude Code가 디자인 시스템을 올바르게 적용하고 흔한 디자인 실수를 크게 줄였다고 함 Figma 디자인 시스템을 Claude Code에 연결해 실제 컴포넌트를 쓰게 하고, DESIGN.md는 &#x27;가이드라인&#x27; 역할로 역할을 나눔">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Design Daily">
+<meta property="og:title" content="[AI] 디자인 원칙 + 토큰을 DESIGN.md 파일 하나로 — AI가 디자인 시스템을 지키게 하는 방법 — @AdhamDannaway">
+<meta property="og:description" content="『Practical UI』 저자가 책의 디자인 가이드라인과 디자인 시스템 토큰을 AI 도구가 읽을 수 있는 DESIGN.md 파일 하나로 정리 테스트해 보니 Claude Code가 디자인 시스템을 올바르게 적용하고 흔한 디자인 실수를 크게 줄였다고 함 Figma 디자인 시스템을 Claude Code에 연결해 실제 컴포넌트를 쓰게 하고, DESIGN.md는 &#x27;가이드라인&#x27; 역할로 역할을 나눔">
+<meta property="og:url" content="https://sikisiki-ignite.github.io/design-daily/p/2119797909587984758.html">
+<meta property="og:image" content="https://pbs.twimg.com/media/HWrl3ziasAAlmLC?format=jpg&amp;name=medium">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="[AI] 디자인 원칙 + 토큰을 DESIGN.md 파일 하나로 — AI가 디자인 시스템을 지키게 하는 방법 — @AdhamDannaway">
+<meta name="twitter:description" content="『Practical UI』 저자가 책의 디자인 가이드라인과 디자인 시스템 토큰을 AI 도구가 읽을 수 있는 DESIGN.md 파일 하나로 정리 테스트해 보니 Claude Code가 디자인 시스템을 올바르게 적용하고 흔한 디자인 실수를 크게 줄였다고 함 Figma 디자인 시스템을 Claude Code에 연결해 실제 컴포넌트를 쓰게 하고, DESIGN.md는 &#x27;가이드라인&#x27; 역할로 역할을 나눔">
+<meta name="twitter:image" content="https://pbs.twimg.com/media/HWrl3ziasAAlmLC?format=jpg&amp;name=medium">
+<style>
+:root{--bg:#fff;--fg:#1d1c1d;--muted:#616061;--link:#1264a3;--line:#e8e8e8;--btn:#1d1c1d;--btnfg:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1d21;--fg:#d1d2d3;--muted:#9a9b9e;--link:#1d9bd1;--line:#35373b;--btn:#d1d2d3;--btnfg:#1a1d21}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+.top{font-size:13px;color:var(--muted)} .top a{color:var(--muted)}
+h1{font-size:22px;line-height:1.4;margin:8px 0 16px}
+img{width:100%;border-radius:12px;border:1px solid var(--line)}
+ul{padding-left:20px} li{margin:6px 0} li.apply{color:var(--muted)}
+a.btn{display:inline-block;background:var(--btn);color:var(--btnfg);text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:600;margin-top:8px}
+.tags span{font-size:13px;color:var(--muted);margin-right:8px}
+.links{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:16px 0} .links a{color:var(--link)} .links .note{color:var(--muted);font-size:14px}
+</style></head><body><main>
+<div class="top"><a href="../">Design Daily</a> · 2026-11-11 11:24</div>
+<h1>[AI] 디자인 원칙 + 토큰을 DESIGN.md 파일 하나로 — AI가 디자인 시스템을 지키게 하는 방법 — @AdhamDannaway</h1>
+<a href="https://x.com/AdhamDannaway/status/2119797909587984758"><img src="https://pbs.twimg.com/media/HWrl3ziasAAlmLC?format=jpg&amp;name=medium" alt=""></a>
+<ul><li>『Practical UI』 저자가 책의 디자인 가이드라인과 디자인 시스템 토큰을 AI 도구가 읽을 수 있는 DESIGN.md 파일 하나로 정리</li><li>테스트해 보니 Claude Code가 디자인 시스템을 올바르게 적용하고 흔한 디자인 실수를 크게 줄였다고 함</li><li>Figma 디자인 시스템을 Claude Code에 연결해 실제 컴포넌트를 쓰게 하고, DESIGN.md는 &#x27;가이드라인&#x27; 역할로 역할을 나눔</li><li class="apply">적용 아이디어: 디자인 시스템 문서 중 &#x27;원칙·규칙&#x27;만 따로 떼어 AI용 한 파일로 만들어 두면, AI로 만든 화면의 기준 이탈을 줄일 수 있음</li></ul>
+
+<a class="btn" href="https://x.com/AdhamDannaway/status/2119797909587984758">X에서 원문 보기 →</a>
+<p class="tags"><span>#design-system</span> <span>#design-md</span> <span>#claude-code</span> <span>#guidelines</span></p>
+</main></body></html>
