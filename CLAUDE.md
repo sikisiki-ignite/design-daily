@@ -5,7 +5,7 @@ X(구 트위터)에서 UI·모션 디자인 게시물을 매일 수집·분석�
 ## 구조
 - `items/YYYY-MM-DD.json` — 그날 분석 결과 (형식은 `scripts/build_feed.py` 상단 주석)
 - `scripts/build_feed.py <base_url>` — items → `docs/feed.xml`(RSS) + `docs/index.html`(미리보기)
-- `docs/` — GitHub Pages로 공개되는 폴더
+- `docs/` — GitHub Pages로 공개되는 폴더. `docs/p/<id>.html`은 항목별 페이지(슬랙 썸네일용 og:image, RSS item 링크가 여기로 감)
 - `.work/` — 수집 원본·스크린샷 (git 제외)
 
 ## 일일 절차
