@@ -48,12 +48,16 @@ def load_items():
 
 
 def description(it):
-    lines = [f"- {s}" for s in it["summary"]]
+    # 슬랙 RSS 앱은 본문을 약 250~300자에서 자르므로 링크를 맨 앞에 둔다 (최대 3개, 나머지는 항목 페이지)
+    lines = []
+    links = it.get("links", [])
+    for l in links[:3]:
+        lines.append(f"🔗 {l['title']}: {l['url']}")
+    if len(links) > 3:
+        lines.append(f"🔗 외 {len(links) - 3}개는 제목 링크(항목 페이지)에서")
+    lines += [f"- {s}" for s in it["summary"]]
     if it.get("apply"):
         lines.append(f"- 적용 아이디어: {it['apply']}")
-    for l in it.get("links", []):
-        note = f" — {l['note']}" if l.get("note") else ""
-        lines.append(f"- 🔗 {l['title']}{note}: {l['url']}")
     return "\n".join(lines)
 
 
