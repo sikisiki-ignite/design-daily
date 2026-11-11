@@ -11,6 +11,21 @@
 - 메시지마다 X 작성자 이름·프로필 사진으로 표시(chat:write.customize) → 연속 게시돼도 글마다 구분됨.
 - 게시 후 slack_ts를 항목 JSON에 기록 → 중복 게시 방지, 수정·삭제 가능.
 - unfurl을 끄고 썸네일은 image 블록으로 직접 넣는다 (링크 카드가 여러 개 붙어 흘러내리는 문제 방지).
+
+items/YYYY-MM-DD-HHMM.json 항목 형식:
+  id        X 게시물 status id
+  url       https://x.com/<handle>/status/<id>
+  author    "@handle"
+  name      X 표시 이름 (메시지 발신자 이름)
+  avatar    X 프로필 이미지 URL (메시지 아이콘)
+  category  "UI" | "AI"
+  title     한 줄 제목
+  summary   ["요약", ...] 1~3줄 — 원문 재진술 금지
+  apply     적용 아이디어 한 줄
+  tags      ["tag", ...]
+  image     썸네일 URL (선택)
+  links     [{"title", "url", "note"(선택)}] (선택)
+  slack_ts  게시 후 자동 기록 (수정·삭제용)
 """
 import json
 import sys
