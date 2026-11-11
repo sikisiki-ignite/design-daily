@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>[Motion] iOS 27 글래스 버튼이 메뉴로 &#x27;변신&#x27;하는 전환 — @_Kavsoft</title>
+<meta name="description" content="SwiftUI에서 matchedTransitionSource를 glass 스타일보다 먼저 붙이면, 버튼이 따로 뜨는 팝오버가 아니라 버튼 자체가 늘어나 메뉴가 되는 전환으로 바뀜 Before/After를 같은 화면에서 비교: Before는 메뉴가 버튼 위에 별도로 나타나고, After는 우하단 + 버튼에서 메뉴가 자라나듯 펼쳐짐 트리거 요소와 결과 요소를 하나의 덩어리로 이어주는 shared element 전환이 시스템 기본 메뉴 수준으로 쉬워짐">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Design Daily">
+<meta property="og:title" content="[Motion] iOS 27 글래스 버튼이 메뉴로 &#x27;변신&#x27;하는 전환 — @_Kavsoft">
+<meta property="og:description" content="SwiftUI에서 matchedTransitionSource를 glass 스타일보다 먼저 붙이면, 버튼이 따로 뜨는 팝오버가 아니라 버튼 자체가 늘어나 메뉴가 되는 전환으로 바뀜 Before/After를 같은 화면에서 비교: Before는 메뉴가 버튼 위에 별도로 나타나고, After는 우하단 + 버튼에서 메뉴가 자라나듯 펼쳐짐 트리거 요소와 결과 요소를 하나의 덩어리로 이어주는 shared element 전환이 시스템 기본 메뉴 수준으로 쉬워짐">
+<meta property="og:url" content="https://sikisiki-ignite.github.io/design-daily/p/2119138933477151227.html">
+<meta property="og:image" content="https://pbs.twimg.com/amplify_video_thumb/2119138916154687488/img/nzNA9y6JSecQsBlo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="[Motion] iOS 27 글래스 버튼이 메뉴로 &#x27;변신&#x27;하는 전환 — @_Kavsoft">
+<meta name="twitter:description" content="SwiftUI에서 matchedTransitionSource를 glass 스타일보다 먼저 붙이면, 버튼이 따로 뜨는 팝오버가 아니라 버튼 자체가 늘어나 메뉴가 되는 전환으로 바뀜 Before/After를 같은 화면에서 비교: Before는 메뉴가 버튼 위에 별도로 나타나고, After는 우하단 + 버튼에서 메뉴가 자라나듯 펼쳐짐 트리거 요소와 결과 요소를 하나의 덩어리로 이어주는 shared element 전환이 시스템 기본 메뉴 수준으로 쉬워짐">
+<meta name="twitter:image" content="https://pbs.twimg.com/amplify_video_thumb/2119138916154687488/img/nzNA9y6JSecQsBlo.jpg">
+<style>
+:root{--bg:#fff;--fg:#1d1c1d;--muted:#616061;--link:#1264a3;--line:#e8e8e8;--btn:#1d1c1d;--btnfg:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1d21;--fg:#d1d2d3;--muted:#9a9b9e;--link:#1d9bd1;--line:#35373b;--btn:#d1d2d3;--btnfg:#1a1d21}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+.top{font-size:13px;color:var(--muted)} .top a{color:var(--muted)}
+h1{font-size:22px;line-height:1.4;margin:8px 0 16px}
+img{width:100%;border-radius:12px;border:1px solid var(--line)}
+ul{padding-left:20px} li{margin:6px 0} li.apply{color:var(--muted)}
+a.btn{display:inline-block;background:var(--btn);color:var(--btnfg);text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:600;margin-top:8px}
+.tags span{font-size:13px;color:var(--muted);margin-right:8px}
+</style></head><body><main>
+<div class="top"><a href="../">Design Daily</a> · 2026-11-11</div>
+<h1>[Motion] iOS 27 글래스 버튼이 메뉴로 &#x27;변신&#x27;하는 전환 — @_Kavsoft</h1>
+<a href="https://x.com/_Kavsoft/status/2119138933477151227"><img src="https://pbs.twimg.com/amplify_video_thumb/2119138916154687488/img/nzNA9y6JSecQsBlo.jpg" alt=""></a>
+<ul><li>SwiftUI에서 matchedTransitionSource를 glass 스타일보다 먼저 붙이면, 버튼이 따로 뜨는 팝오버가 아니라 버튼 자체가 늘어나 메뉴가 되는 전환으로 바뀜</li><li>Before/After를 같은 화면에서 비교: Before는 메뉴가 버튼 위에 별도로 나타나고, After는 우하단 + 버튼에서 메뉴가 자라나듯 펼쳐짐</li><li>트리거 요소와 결과 요소를 하나의 덩어리로 이어주는 shared element 전환이 시스템 기본 메뉴 수준으로 쉬워짐</li><li class="apply">적용 아이디어: FAB·더보기 버튼에서 열리는 메뉴는 &#x27;어디서 나왔는지&#x27; 보이도록 출발점에서 확장되는 전환을 기본값으로 고려</li></ul>
+<a class="btn" href="https://x.com/_Kavsoft/status/2119138933477151227">X에서 원문 보기 →</a>
+<p class="tags"><span>#transition</span> <span>#shared-element</span> <span>#ios</span> <span>#menu</span> <span>#glass</span></p>
+</main></body></html>

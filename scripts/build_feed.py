@@ -52,6 +52,60 @@ def description(it):
     return "\n".join(lines)
 
 
+def page_url(it, base_url):
+    return f"{base_url}p/{it['id']}.html"
+
+
+def item_title(it):
+    return f"[{it.get('category', 'UI')}] {it['title']} — {it['author']}"
+
+
+def build_item_page(it, base_url):
+    """슬랙 unfurl용 항목 페이지: og/twitter 메타 + 썸네일 + X 원문 버튼."""
+    x = html.escape
+    title = item_title(it)
+    desc = " ".join(it["summary"])[:280]
+    img = it.get("image", "")
+    lis = "".join(f"<li>{x(s)}</li>" for s in it["summary"])
+    if it.get("apply"):
+        lis += f'<li class="apply">적용 아이디어: {x(it["apply"])}</li>'
+    tags = " ".join(f"<span>#{x(t)}</span>" for t in it.get("tags", []))
+    return f"""<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{x(title)}</title>
+<meta name="description" content="{x(desc)}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{x(FEED_TITLE)}">
+<meta property="og:title" content="{x(title)}">
+<meta property="og:description" content="{x(desc)}">
+<meta property="og:url" content="{x(page_url(it, base_url))}">
+{f'<meta property="og:image" content="{x(img)}">' if img else ''}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{x(title)}">
+<meta name="twitter:description" content="{x(desc)}">
+{f'<meta name="twitter:image" content="{x(img)}">' if img else ''}
+<style>
+:root{{--bg:#fff;--fg:#1d1c1d;--muted:#616061;--link:#1264a3;--line:#e8e8e8;--btn:#1d1c1d;--btnfg:#fff}}
+@media (prefers-color-scheme:dark){{:root{{--bg:#1a1d21;--fg:#d1d2d3;--muted:#9a9b9e;--link:#1d9bd1;--line:#35373b;--btn:#d1d2d3;--btnfg:#1a1d21}}}}
+body{{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif}}
+main{{max-width:720px;margin:0 auto;padding:24px 16px 48px}}
+.top{{font-size:13px;color:var(--muted)}} .top a{{color:var(--muted)}}
+h1{{font-size:22px;line-height:1.4;margin:8px 0 16px}}
+img{{width:100%;border-radius:12px;border:1px solid var(--line)}}
+ul{{padding-left:20px}} li{{margin:6px 0}} li.apply{{color:var(--muted)}}
+a.btn{{display:inline-block;background:var(--btn);color:var(--btnfg);text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:600;margin-top:8px}}
+.tags span{{font-size:13px;color:var(--muted);margin-right:8px}}
+</style></head><body><main>
+<div class="top"><a href="../">{x(FEED_TITLE)}</a> · {it['_day']}</div>
+<h1>{x(title)}</h1>
+{f'<a href="{x(it["url"])}"><img src="{x(img)}" alt=""></a>' if img else ''}
+<ul>{lis}</ul>
+<a class="btn" href="{x(it['url'])}">X에서 원문 보기 →</a>
+<p class="tags">{tags}</p>
+</main></body></html>
+"""
+
+
 def build_rss(items, base_url):
     x = html.escape
     parts = [
@@ -66,17 +120,20 @@ def build_rss(items, base_url):
         f"<lastBuildDate>{format_datetime(datetime.now(KST))}</lastBuildDate>",
     ]
     for it in items:
-        title = f"[{it.get('category', 'UI')}] {it['title']} — {it['author']}"
+        title = item_title(it)
         parts += [
             "<item>",
             f"<title>{x(title)}</title>",
-            f"<link>{x(it['url'])}</link>",
+            # 링크는 항목별 페이지 — og:image로 슬랙 썸네일 미리보기를 띄우고, 페이지에서 X 원문으로 이동
+            f"<link>{x(page_url(it, base_url))}</link>",
             f'<guid isPermaLink="false">xdd-{x(str(it["id"]))}</guid>',
             f"<pubDate>{format_datetime(it['_date'])}</pubDate>",
             f"<description>{x(description(it))}</description>",
         ]
         for t in it.get("tags", []):
             parts.append(f"<category>{x(t)}</category>")
+        if it.get("image"):
+            parts.append(f'<enclosure url="{x(it["image"])}" type="image/jpeg" length="0"/>')
         parts.append("</item>")
     parts += ["</channel>", "</rss>"]
     return "\n".join(parts) + "\n"
@@ -128,6 +185,9 @@ def main():
     DOCS.mkdir(exist_ok=True)
     (DOCS / "feed.xml").write_text(build_rss(items, base_url), encoding="utf-8")
     (DOCS / "index.html").write_text(build_html(items), encoding="utf-8")
+    (DOCS / "p").mkdir(exist_ok=True)
+    for it in items:
+        (DOCS / "p" / f"{it['id']}.html").write_text(build_item_page(it, base_url), encoding="utf-8")
     print(f"built {len(items)} items -> docs/feed.xml, docs/index.html")
 
 
