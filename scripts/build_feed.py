@@ -11,8 +11,9 @@ items/YYYY-MM-DD.json 형식:
     "summary": ["요약 1", "요약 2", "요약 3"],
     "apply": "적용 아이디어 (외부 공개용 일반 표현)",
     "tags": ["motion", "feedback"],
-    "category": "UI" | "Motion",
-    "image": "썸네일 URL (선택)"
+    "category": "UI" | "AI",
+    "image": "썸네일 URL (선택)",
+    "links": [{"title": "링크 이름", "url": "https://...", "note": "한 줄 설명 (선택)"}]  (선택)
   }
 ]
 """
@@ -50,6 +51,9 @@ def description(it):
     lines = [f"- {s}" for s in it["summary"]]
     if it.get("apply"):
         lines.append(f"- 적용 아이디어: {it['apply']}")
+    for l in it.get("links", []):
+        note = f" — {l['note']}" if l.get("note") else ""
+        lines.append(f"- 🔗 {l['title']}{note}: {l['url']}")
     return "\n".join(lines)
 
 
@@ -59,6 +63,19 @@ def page_url(it, base_url):
 
 def item_title(it):
     return f"[{it.get('category', 'UI')}] {it['title']} — {it['author']}"
+
+
+def links_html(it):
+    x = html.escape
+    if not it.get("links"):
+        return ""
+    rows = "".join(
+        f'<li><a href="{x(l["url"])}" target="_blank" rel="noopener">{x(l["title"])}</a>'
+        + (f' <span class="note">— {x(l["note"])}</span>' if l.get("note") else "")
+        + "</li>"
+        for l in it["links"]
+    )
+    return f'<div class="links"><b>관련 링크</b><ul>{rows}</ul></div>'
 
 
 def build_item_page(it, base_url):
@@ -71,6 +88,7 @@ def build_item_page(it, base_url):
     if it.get("apply"):
         lis += f'<li class="apply">적용 아이디어: {x(it["apply"])}</li>'
     tags = " ".join(f"<span>#{x(t)}</span>" for t in it.get("tags", []))
+    links = links_html(it)
     return f"""<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{x(title)}</title>
@@ -96,11 +114,13 @@ img{{width:100%;border-radius:12px;border:1px solid var(--line)}}
 ul{{padding-left:20px}} li{{margin:6px 0}} li.apply{{color:var(--muted)}}
 a.btn{{display:inline-block;background:var(--btn);color:var(--btnfg);text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:600;margin-top:8px}}
 .tags span{{font-size:13px;color:var(--muted);margin-right:8px}}
+.links{{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:16px 0}} .links a{{color:var(--link)}} .links .note{{color:var(--muted);font-size:14px}}
 </style></head><body><main>
 <div class="top"><a href="../">{x(FEED_TITLE)}</a> · {it['_day']}</div>
 <h1>{x(title)}</h1>
 {f'<a href="{x(it["url"])}"><img src="{x(img)}" alt=""></a>' if img else ''}
 <ul>{lis}</ul>
+{links}
 <a class="btn" href="{x(it['url'])}">X에서 원문 보기 →</a>
 <p class="tags">{tags}</p>
 </main></body></html>
@@ -154,6 +174,7 @@ def build_html(items):
   <div class="meta"><b>{x(FEED_TITLE)}</b> <em>앱</em> <time>{it['_day']}</time></div>
   <a class="title" href="{x(it['url'])}" target="_blank" rel="noopener">[{x(it.get('category','UI'))}] {x(it['title'])} — {x(it['author'])}</a>
   <ul>{lis}</ul>
+  {links_html(it)}
   {img}
   <div class="tags">{tags}</div>
 </article>""")
