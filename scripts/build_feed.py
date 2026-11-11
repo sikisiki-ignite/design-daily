@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """items/*.json -> docs/feed.xml (RSS 2.0, Slack RSS 앱 구독용) + docs/index.html (미리보기).
 
-items/YYYY-MM-DD-am.json · YYYY-MM-DD-pm.json 형식:
+items/YYYY-MM-DD-HHMM.json (실행 시각) 형식:
 [
   {
     "id": "x 게시물 status id",
@@ -36,14 +36,15 @@ MAX_ITEMS = 60
 def load_items():
     out = []
     for f in sorted(ITEMS.glob("*.json")):
-        # 파일명: YYYY-MM-DD-am.json(10시) / YYYY-MM-DD-pm.json(15시). 접미사 없으면 오전으로 간주
-        hour = 15 if f.stem.endswith("-pm") else 10
-        day = datetime.strptime(f.stem[:10], "%Y-%m-%d").replace(hour=hour, tzinfo=KST)
+        # 파일명: YYYY-MM-DD-HHMM.json(실행 시각). 시각 없는 옛 파일(YYYY-MM-DD[-am].json)은 10시로 간주
+        hhmm = f.stem[11:15]
+        hour, minute = (int(hhmm[:2]), int(hhmm[2:])) if hhmm.isdigit() else (10, 0)
+        day = datetime.strptime(f.stem[:10], "%Y-%m-%d").replace(hour=hour, minute=minute, tzinfo=KST)
         for i, it in enumerate(json.loads(f.read_text(encoding="utf-8"))):
             # 같은 날 항목 순서 유지를 위해 1분씩 차이를 둠 (Top 1이 가장 먼저 게시)
             # "pub"(ISO)가 있으면 그 시각 사용 — 재발행 시 슬랙이 새 글로 인식하도록
             it["_date"] = datetime.fromisoformat(it["pub"]) if it.get("pub") else day + timedelta(minutes=i)
-            it["_day"] = f.stem[:10] + (" 오후" if f.stem.endswith("-pm") else "")
+            it["_day"] = day.strftime("%Y-%m-%d %H:%M")
             out.append(it)
     out.sort(key=lambda x: x["_date"], reverse=True)
     return out[:MAX_ITEMS]
