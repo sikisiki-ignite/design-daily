@@ -1,0 +1,75 @@
+[
+  {
+    "id": "2119865599543148557",
+    "url": "https://x.com/soybonjour/status/2119865599543148557",
+    "author": "@soybonjour",
+    "category": "UI",
+    "title": "감정이 있는 검색창 — 결과가 있으면 웃고, 없으면 시무룩",
+    "summary": [
+      "검색창 왼쪽 아이콘이 표정으로 결과 상태를 알려줌 — '결과 없음'을 문구보다 먼저 감정으로 전달",
+      "스레드: 말랑하게 늘어나는 바는 WebGL, 표정 아이콘은 순수 SVG로 구현"
+    ],
+    "apply": "빈 결과·오류처럼 실망스러운 상태에 작은 표정 변화를 주면 부정적인 순간의 체감이 부드러워짐",
+    "tags": [
+      "micro-interaction",
+      "search",
+      "empty-state",
+      "motion"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119856201315897344/img/VtqKkbwEPKs1TRNP.jpg",
+    "name": "Soybean°",
+    "avatar": "https://pbs.twimg.com/profile_images/2116951384528424960/SI4zVFbc_x96.jpg",
+    "slack_ts": "1794383975.781679"
+  },
+  {
+    "id": "2120085588598755695",
+    "url": "https://x.com/domi_kissi/status/2120085588598755695",
+    "author": "@domi_kissi",
+    "category": "UI",
+    "title": "개인 재무 대시보드 — 사이드바를 덜어내 본문에 집중시킨 버전",
+    "summary": [
+      "전날 올린 사이드바 시안에서 색과 버튼을 줄인 개선판 — 사이드바는 조용히, 강조는 본문 지표로",
+      "사이드바에 메뉴 개수 배지(12, 3)와 연결 계좌 잔액을 같이 두어 이동하지 않고도 현황 파악"
+    ],
+    "apply": "어드민 사이드바는 색을 빼고 '개수 배지' 정도만 남기면 본문 데이터가 더 잘 읽힘",
+    "tags": [
+      "dashboard",
+      "sidebar",
+      "fintech",
+      "layout"
+    ],
+    "image": "https://pbs.twimg.com/media/HWwOm4-aoAA6ZtC?format=jpg&name=medium",
+    "name": "Domi Kissi",
+    "avatar": "https://pbs.twimg.com/profile_images/2072792067785334784/LCwoTQdD_x96.jpg",
+    "slack_ts": "1794383978.420479"
+  },
+  {
+    "id": "2120184960535412907",
+    "url": "https://x.com/khyssabc/status/2120184960535412907",
+    "author": "@khyssabc",
+    "category": "AI",
+    "title": "유명 서비스 66곳의 디자인을 DESIGN.md로 정리한 저장소",
+    "summary": [
+      "Apple·Stripe 등 실제 서비스 디자인 시스템을 분석해 AI가 읽는 DESIGN.md 파일로 정리 — 파일 하나 넣고 '이 스타일로'라고 지시",
+      "오전에 소개한 '직접 DESIGN.md 쓰기'의 반대 방향: 남이 만든 걸 가져다 레퍼런스로 쓰는 방식"
+    ],
+    "apply": "우리 디자인 시스템 DESIGN.md를 쓸 때 이 저장소의 파일 구조를 목차 템플릿으로 참고하기",
+    "tags": [
+      "design-md",
+      "design-system",
+      "reference",
+      "ai-workflow"
+    ],
+    "image": "https://pbs.twimg.com/media/HWrMV7XakAAZcJw?format=png&name=900x900",
+    "name": "王多鱼",
+    "avatar": "https://pbs.twimg.com/profile_images/2108341472680607744/iTaeXgCJ_x96.jpg",
+    "links": [
+      {
+        "title": "VoltAgent/awesome-design-md",
+        "url": "https://github.com/VoltAgent/awesome-design-md",
+        "note": "GitHub"
+      }
+    ],
+    "slack_ts": "1794383980.828989"
+  }
+]
