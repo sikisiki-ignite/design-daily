@@ -51,16 +51,16 @@ def load_items():
 
 
 def description(it):
-    # 슬랙 RSS 앱은 본문을 약 250~300자에서 자르므로 링크를 맨 앞에 둔다 (최대 3개, 나머지는 항목 페이지)
+    # 요약·썸네일은 슬랙이 항목 페이지를 펼친 카드(og 태그)로 보여준다 → 본문엔 카드에 없는 것만:
+    # 관련 링크(최대 3개) + 적용 아이디어. 슬랙은 본문을 약 250~300자에서 자르므로 링크를 먼저.
     lines = []
     links = it.get("links", [])
     for l in links[:3]:
         lines.append(f"🔗 {l['title']}: {l['url']}")
     if len(links) > 3:
         lines.append(f"🔗 외 {len(links) - 3}개는 Design Daily 웹페이지에서")
-    lines += [f"- {s}" for s in it["summary"]]
     if it.get("apply"):
-        lines.append(f"- 적용 아이디어: {it['apply']}")
+        lines.append(f"💡 적용 아이디어: {it['apply']}")
     return "\n".join(lines)
 
 
@@ -122,7 +122,9 @@ ul{{padding-left:20px}} li{{margin:6px 0}} li.apply{{color:var(--muted)}}
 a.btn{{display:inline-block;background:var(--btn);color:var(--btnfg);text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:600;margin-top:8px}}
 .tags span{{font-size:13px;color:var(--muted);margin-right:8px}}
 .links{{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:16px 0}} .links a{{color:var(--link)}} .links .note{{color:var(--muted);font-size:14px}}
-</style></head><body><main>
+</style>
+<script>location.replace({json.dumps(it["url"])});</script>
+</head><body><main>
 <div class="top"><a href="../">{x(FEED_TITLE)}</a> · {it['_day']}</div>
 <h1>{x(title)}</h1>
 {f'<a href="{x(it["url"])}"><img src="{x(img)}" alt=""></a>' if img else ''}
@@ -152,8 +154,9 @@ def build_rss(items, base_url):
         parts += [
             "<item>",
             f"<title>{x(title)}</title>",
-            # 제목 링크는 X 원문. (항목 페이지로 보내면 슬랙이 그 페이지를 unfurl해 제목·요약이 중복 표시됨)
-            f"<link>{x(it['url'])}</link>",
+            # 제목 링크는 항목 페이지: 슬랙이 og 태그로 썸네일·요약 카드를 만들고,
+            # 사람이 열면 페이지가 즉시 X 원문으로 이동(JS) → 결과적으로 원문으로 감
+            f"<link>{x(page_url(it, base_url))}</link>",
             f'<guid isPermaLink="false">xdd-{x(str(it["id"]))}{"-r" + str(it["rev"]) if it.get("rev") else ""}</guid>',
             f"<pubDate>{format_datetime(it['_date'])}</pubDate>",
             f"<description>{x(description(it))}</description>",
