@@ -1,0 +1,99 @@
+[
+  {
+    "id": "2120313055162634300",
+    "url": "https://x.com/krblue_/status/2120313055162634300",
+    "author": "@krblue_",
+    "category": "AI",
+    "title": "디자인 QA 2일 → 2시간: Figma MCP + Playwright MCP로 시안·구현 비교",
+    "summary": [
+      "핵심은 도구 연결보다 '기준 문서화' — 처음엔 1px 차이까지 전부 이슈로 올라와 결국 사람이 다시 걸러야 했음",
+      "토큰(Primitive·Semantic·Responsive)을 스킬 문서로 정리하고 P1~P3 우선순위로 분류하자 쓸 만해짐"
+    ],
+    "apply": "AI QA를 붙이기 전에 '무시해도 되는 차이'와 '반드시 고칠 차이' 기준표부터 만들기",
+    "tags": [
+      "design-qa",
+      "mcp",
+      "figma",
+      "responsive"
+    ],
+    "image": "https://pbs.twimg.com/media/HWYhrQLbIAA9OUR?format=jpg&name=medium",
+    "name": "Builderlog",
+    "avatar": "https://pbs.twimg.com/profile_images/2109594339269828608/a80o6-kH_x96.jpg",
+    "slack_ts": "1794379122.307179"
+  },
+  {
+    "id": "2120272842172576040",
+    "url": "https://x.com/D_R_Farrell/status/2120272842172576040",
+    "author": "@D_R_Farrell",
+    "category": "AI",
+    "title": "AI 시대 디자인 작업의 변화 — 가장 중요한 스킬은 '어휘력'",
+    "summary": [
+      "에이전트에게 좋은 피드백을 주려면 정확한 디자인 용어가 필요 — 시안보다 '말로 지시하는 능력'이 결과를 가름",
+      "스레드 팁: 잘 만든 화면 캡처를 주고 '이걸 비평·수정할 때 쓸 용어를 가르쳐 줘'라고 요청해 어휘를 늘리기"
+    ],
+    "apply": "팀 디자인 리뷰에서 자주 쓰는 표현(정렬·리듬·위계 등)을 용어집으로 모아 AI 지시문에도 그대로 쓰기",
+    "tags": [
+      "ai-workflow",
+      "vocabulary",
+      "design-system",
+      "career"
+    ],
+    "name": "DRFarrell🐦‍🔥",
+    "avatar": "https://pbs.twimg.com/profile_images/1286475817598377984/lIEMnZzS_x96.jpg",
+    "slack_ts": "1794379124.656559"
+  },
+  {
+    "id": "2120103943082795438",
+    "url": "https://x.com/naver_d2/status/2120103943082795438",
+    "author": "@naver_d2",
+    "category": "AI",
+    "title": "NAVER D2 — Figma → 네이티브 UI 자동화 스킬 만들기 10계명 (오픈소스)",
+    "summary": [
+      "Figma 디자인을 Android·iOS 화면 코드로 바꾸는 Claude Code 플러그인을 공개하고 만들며 얻은 원칙을 정리",
+      "디자이너용 기능 포함: 빌드된 화면을 Figma와 겹쳐 비교하는 '디자인 QA'와 개발 전 '선디자인검수' 흐름"
+    ],
+    "apply": "디자인 시스템 토큰 매핑을 프로젝트별 스킬로 따로 두는 구조는 웹 디자인 시스템에도 그대로 참고할 만함",
+    "tags": [
+      "figma-to-code",
+      "skills",
+      "design-qa",
+      "open-source"
+    ],
+    "image": "https://opengraph.githubassets.com/1/naver/design-to-ui",
+    "name": "NAVER D2",
+    "avatar": "https://pbs.twimg.com/profile_images/1839220564520538112/nx79wGAB_x96.png",
+    "links": [
+      {
+        "title": "D2 원문 — AI 스킬 만들기 10계명",
+        "url": "https://d2.naver.com/helloworld/8562180"
+      },
+      {
+        "title": "naver/design-to-ui",
+        "url": "https://github.com/naver/design-to-ui",
+        "note": "GitHub"
+      }
+    ]
+  },
+  {
+    "id": "2120268783168504039",
+    "url": "https://x.com/_heyrico/status/2120268783168504039",
+    "author": "@_heyrico",
+    "category": "UI",
+    "title": "SaaS의 작은 UI 두 가지 — 온보딩 체크리스트 & 워크스페이스 전환 메뉴",
+    "summary": [
+      "사이드바 하단 'Getting Started' 버튼에 진행 링(1/5)을 달고, 누르면 단계별 체크리스트가 펼쳐짐",
+      "워크스페이스 메뉴는 계정 설정·멤버 초대·테마 전환(Light/Dark)과 워크스페이스 목록을 한 드롭다운에 묶음"
+    ],
+    "apply": "초기 설정 단계가 많은 어드민은 진행률이 보이는 체크리스트를 사이드바에 상주시키면 이탈을 줄일 수 있음",
+    "tags": [
+      "saas",
+      "onboarding",
+      "dropdown",
+      "sidebar"
+    ],
+    "image": "https://pbs.twimg.com/media/HWy1NcUbsAAthE3?format=jpg&name=medium",
+    "name": "rico",
+    "avatar": "https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_x96.jpg",
+    "slack_ts": "1794379127.753039"
+  }
+]
