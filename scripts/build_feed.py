@@ -38,7 +38,8 @@ def load_items():
         day = datetime.strptime(f.stem, "%Y-%m-%d").replace(hour=10, tzinfo=KST)
         for i, it in enumerate(json.loads(f.read_text(encoding="utf-8"))):
             # 같은 날 항목 순서 유지를 위해 1분씩 차이를 둠 (Top 1이 가장 먼저 게시)
-            it["_date"] = day + timedelta(minutes=i)
+            # "pub"(ISO)가 있으면 그 시각 사용 — 재발행 시 슬랙이 새 글로 인식하도록
+            it["_date"] = datetime.fromisoformat(it["pub"]) if it.get("pub") else day + timedelta(minutes=i)
             it["_day"] = f.stem
             out.append(it)
     out.sort(key=lambda x: x["_date"], reverse=True)
@@ -126,7 +127,7 @@ def build_rss(items, base_url):
             f"<title>{x(title)}</title>",
             # 링크는 항목별 페이지 — og:image로 슬랙 썸네일 미리보기를 띄우고, 페이지에서 X 원문으로 이동
             f"<link>{x(page_url(it, base_url))}</link>",
-            f'<guid isPermaLink="false">xdd-{x(str(it["id"]))}</guid>',
+            f'<guid isPermaLink="false">xdd-{x(str(it["id"]))}{"-r" + str(it["rev"]) if it.get("rev") else ""}</guid>',
             f"<pubDate>{format_datetime(it['_date'])}</pubDate>",
             f"<description>{x(description(it))}</description>",
         ]

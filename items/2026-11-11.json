@@ -11,8 +11,16 @@
       "트리거 요소와 결과 요소를 하나의 덩어리로 이어주는 shared element 전환이 시스템 기본 메뉴 수준으로 쉬워짐"
     ],
     "apply": "FAB·더보기 버튼에서 열리는 메뉴는 '어디서 나왔는지' 보이도록 출발점에서 확장되는 전환을 기본값으로 고려",
-    "tags": ["transition", "shared-element", "ios", "menu", "glass"],
-    "image": "https://pbs.twimg.com/amplify_video_thumb/2119138916154687488/img/nzNA9y6JSecQsBlo.jpg"
+    "tags": [
+      "transition",
+      "shared-element",
+      "ios",
+      "menu",
+      "glass"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119138916154687488/img/nzNA9y6JSecQsBlo.jpg",
+    "rev": 2,
+    "pub": "2026-11-11T10:35:25+09:00"
   },
   {
     "id": "2120041561090380215",
@@ -26,8 +34,15 @@
       "제스처 → 축소 → 목적지 도착 → 확인 문구까지 한 흐름으로 이어지는 짧은 피드백 시퀀스"
     ],
     "apply": "저장·담기·보관 같은 액션은 대상이 저장 위치로 이동하는 짧은 모션으로 '어디에 저장됐는지'까지 알려주기",
-    "tags": ["gesture", "feedback", "android", "save"],
-    "image": "https://pbs.twimg.com/amplify_video_thumb/2120041514554572800/img/rN8FYVRVIJTT_d-Z.jpg"
+    "tags": [
+      "gesture",
+      "feedback",
+      "android",
+      "save"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120041514554572800/img/rN8FYVRVIJTT_d-Z.jpg",
+    "rev": 2,
+    "pub": "2026-11-11T10:36:25+09:00"
   },
   {
     "id": "2119406341206724799",
@@ -41,8 +56,15 @@
       "CSS 3D로 기울어진 평면 + 낮은 매크로 카메라 + 얕은 피사계심도, 9컷 하드컷 편집. 수정은 '전체 28% 빠르게'처럼 수치로 지시"
     ],
     "apply": "제품 소개·릴리즈 영상을 Figma 스토리보드 → 코드 렌더링 파이프라인으로 만들면 수정이 '수치 변경'이 되어 반복이 빨라짐",
-    "tags": ["motion-graphics", "process", "remotion", "storyboard"],
-    "image": "https://pbs.twimg.com/amplify_video_thumb/2119406267286351872/img/Yvulj6ueDeRwfRf1.jpg"
+    "tags": [
+      "motion-graphics",
+      "process",
+      "remotion",
+      "storyboard"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119406267286351872/img/Yvulj6ueDeRwfRf1.jpg",
+    "rev": 2,
+    "pub": "2026-11-11T10:37:25+09:00"
   },
   {
     "id": "2119682021895307643",
@@ -56,8 +78,15 @@
       "아래에는 가로 스크롤 '인기 여행지' 카드로 빈 상태에서도 탐색 거리를 제공"
     ],
     "apply": "목록이 비어 있는 화면에 '안내 문구 + 1차 행동 + 둘러볼 거리' 3단 구성을 기본 패턴으로 정리",
-    "tags": ["empty-state", "onboarding", "mobile", "illustration"],
-    "image": "https://pbs.twimg.com/amplify_video_thumb/2119681878751948800/img/5g2fucNULezM-Bej.jpg"
+    "tags": [
+      "empty-state",
+      "onboarding",
+      "mobile",
+      "illustration"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119681878751948800/img/5g2fucNULezM-Bej.jpg",
+    "rev": 2,
+    "pub": "2026-11-11T10:38:25+09:00"
   },
   {
     "id": "2118621691647787034",
@@ -71,8 +100,14 @@
       "아이콘 그리드만이 아니라 실제 앱 화면 속에 들어간 모습을 영상으로 함께 보여줌"
     ],
     "apply": "아이콘 세트 문서에 '그리드 시트 + 실제 화면 적용 예' 두 가지를 같이 두면 일관성 검토가 쉬워짐",
-    "tags": ["icon", "fintech", "design-system"],
-    "image": "https://pbs.twimg.com/amplify_video_thumb/2118621318010605568/img/Zst2y9QpOXntMsFl.jpg"
+    "tags": [
+      "icon",
+      "fintech",
+      "design-system"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2118621318010605568/img/Zst2y9QpOXntMsFl.jpg",
+    "rev": 2,
+    "pub": "2026-11-11T10:39:25+09:00"
   },
   {
     "id": "2119917698905764014",
@@ -86,7 +121,14 @@
       "실패(Error)·성공 배지를 색으로 구분해 훑어보기만으로 문제 알림을 찾을 수 있음"
     ],
     "apply": "백오피스 알림은 모달·드롭다운보다 '본문 옆 고정 패널 + 상태 필터 탭' 구조가 작업 흐름을 덜 끊음",
-    "tags": ["dashboard", "notification", "saas", "panel"],
-    "image": "https://pbs.twimg.com/media/HWqc4jfa0AAmdZO?format=jpg&name=medium"
+    "tags": [
+      "dashboard",
+      "notification",
+      "saas",
+      "panel"
+    ],
+    "image": "https://pbs.twimg.com/media/HWqc4jfa0AAmdZO?format=jpg&name=medium",
+    "rev": 2,
+    "pub": "2026-11-11T10:40:25+09:00"
   }
 ]
