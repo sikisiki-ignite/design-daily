@@ -57,7 +57,7 @@ def description(it):
     for l in links[:3]:
         lines.append(f"🔗 {l['title']}: {l['url']}")
     if len(links) > 3:
-        lines.append(f"🔗 외 {len(links) - 3}개는 제목 링크(항목 페이지)에서")
+        lines.append(f"🔗 외 {len(links) - 3}개는 Design Daily 웹페이지에서")
     lines += [f"- {s}" for s in it["summary"]]
     if it.get("apply"):
         lines.append(f"- 적용 아이디어: {it['apply']}")
@@ -152,8 +152,8 @@ def build_rss(items, base_url):
         parts += [
             "<item>",
             f"<title>{x(title)}</title>",
-            # 링크는 항목별 페이지 — og:image로 슬랙 썸네일 미리보기를 띄우고, 페이지에서 X 원문으로 이동
-            f"<link>{x(page_url(it, base_url))}</link>",
+            # 제목 링크는 X 원문. (항목 페이지로 보내면 슬랙이 그 페이지를 unfurl해 제목·요약이 중복 표시됨)
+            f"<link>{x(it['url'])}</link>",
             f'<guid isPermaLink="false">xdd-{x(str(it["id"]))}{"-r" + str(it["rev"]) if it.get("rev") else ""}</guid>',
             f"<pubDate>{format_datetime(it['_date'])}</pubDate>",
             f"<description>{x(description(it))}</description>",

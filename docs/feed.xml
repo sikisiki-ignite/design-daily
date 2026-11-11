@@ -6,16 +6,16 @@
 <description>UI·모션 디자인 일일 리서치 (현재 출처: X)</description>
 <language>ko</language>
 <atom:link href="https://sikisiki-ignite.github.io/design-daily/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 11 Nov 2026 11:34:28 +0900</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 11:37:41 +0900</lastBuildDate>
 <item>
 <title>[AI] AI로 웹사이트 만들 때 섹션별 레퍼런스 찾는 사이트 6곳 — @AI_Caffeine</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119731471800004833.html</link>
+<link>https://x.com/AI_Caffeine/status/2119731471800004833</link>
 <guid isPermaLink="false">xdd-2119731471800004833</guid>
 <pubDate>Wed, 11 Nov 2026 11:33:28 +0900</pubDate>
 <description>🔗 Refero Styles: https://styles.refero.design/
 🔗 Regards: https://www.regards.design/hero-sections
 🔗 Navbar Gallery: https://www.navbar.gallery/
-🔗 외 3개는 제목 링크(항목 페이지)에서
+🔗 외 3개는 Design Daily 웹페이지에서
 - 전체 스타일 → 첫 화면 → 메뉴 → 버튼·구독 폼 → 푸터 → 모션 순서로, 페이지 섹션마다 레퍼런스 사이트를 하나씩 매칭
 - Refero Styles는 실제 서비스의 색·폰트·간격을 보여주고, 마음에 드는 스타일을 DESIGN.md로 AI에게 넘길 수 있음
 - AI에게 &#x27;예쁘게&#x27;가 아니라 &#x27;이 레퍼런스처럼&#x27;이라고 지시하기 위한 재료 모음
@@ -27,7 +27,7 @@
 </item>
 <item>
 <title>[AI] 디자인 원칙 + 토큰을 DESIGN.md 파일 하나로 — AI가 디자인 시스템을 지키게 하는 방법 — @AdhamDannaway</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119797909587984758.html</link>
+<link>https://x.com/AdhamDannaway/status/2119797909587984758</link>
 <guid isPermaLink="false">xdd-2119797909587984758</guid>
 <pubDate>Wed, 11 Nov 2026 11:32:28 +0900</pubDate>
 <description>- 『Practical UI』 저자가 책의 디자인 가이드라인과 디자인 시스템 토큰을 AI 도구가 읽을 수 있는 DESIGN.md 파일 하나로 정리
@@ -42,7 +42,7 @@
 </item>
 <item>
 <title>[UI] 여행 기록 앱 — &#x27;+&#x27; 하나에서 펼쳐지는 생성 바텀시트와 지도 화면 — @UxDamini_</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119858223109042669.html</link>
+<link>https://x.com/UxDamini_/status/2119858223109042669</link>
 <guid isPermaLink="false">xdd-2119858223109042669</guid>
 <pubDate>Wed, 11 Nov 2026 11:31:28 +0900</pubDate>
 <description>- 하단 탭 가운데 &#x27;+&#x27; 버튼을 누르면 &#x27;새 여행 / 기록 추가 / 장소 추가 / 컬렉션 만들기&#x27;를 한 바텀시트에서 고르게 구성
@@ -57,7 +57,7 @@
 </item>
 <item>
 <title>[UI] 좌석 고르기 전에 &#x27;창밖 풍경&#x27;부터 보여주는 항공 앱 컨셉 — @RaminNasibov</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119945327595716717.html</link>
+<link>https://x.com/RaminNasibov/status/2119945327595716717</link>
 <guid isPermaLink="false">xdd-2119945327595716717</guid>
 <pubDate>Wed, 11 Nov 2026 11:30:28 +0900</pubDate>
 <description>- 좌석 선택 화면에서 좌석 번호(예: 11A)를 고르면, 그 자리에서 보이는 창밖 뷰를 먼저 보여주는 컨셉
@@ -72,7 +72,7 @@
 </item>
 <item>
 <title>[UI] AI 업무 도구 대시보드 — 흑백 베이스에 일러스트 한 장으로 포인트 — @UiRahMan92</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119664109037973910.html</link>
+<link>https://x.com/UiRahMan92/status/2119664109037973910</link>
 <guid isPermaLink="false">xdd-2119664109037973910</guid>
 <pubDate>Wed, 11 Nov 2026 10:56:31 +0900</pubDate>
 <description>- 좌측 사이드바 + 본문 구조의 대시보드 4화면(홈·목표·PR 리뷰·태스크 보드)을 같은 틀로 통일
@@ -87,7 +87,7 @@
 </item>
 <item>
 <title>[AI] Meta, AI 에이전트와 함께 쓰도록 만든 디자인 시스템 Astryx 공개 — @aeng_kkang</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119990931848093970.html</link>
+<link>https://x.com/aeng_kkang/status/2119990931848093970</link>
 <guid isPermaLink="false">xdd-2119990931848093970</guid>
 <pubDate>Wed, 11 Nov 2026 10:55:31 +0900</pubDate>
 <description>🔗 meta/astryx: https://github.com/meta/astryx
@@ -103,7 +103,7 @@
 </item>
 <item>
 <title>[AI] 대시보드·어드민 화면 전용 AI 디자인 스킬 (실제 대시보드 127개 분석 기반) — @GitHub_Daily</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2118168940841242803.html</link>
+<link>https://x.com/GitHub_Daily/status/2118168940841242803</link>
 <guid isPermaLink="false">xdd-2118168940841242803</guid>
 <pubDate>Wed, 11 Nov 2026 10:54:31 +0900</pubDate>
 <description>🔗 dashboard-design-skill: https://github.com/abdiraimov-otabek/dashboard-design-skill
@@ -119,13 +119,13 @@
 </item>
 <item>
 <title>[AI] AI가 만든 UI가 다 비슷해 보일 때 — 프로덕트 디자인용 무료 스킬 8선 — @rpnickson</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119827982692819177.html</link>
+<link>https://x.com/rpnickson/status/2119827982692819177</link>
 <guid isPermaLink="false">xdd-2119827982692819177</guid>
 <pubDate>Wed, 11 Nov 2026 10:53:31 +0900</pubDate>
 <description>🔗 Oil UI: https://github.com/oil-oil/oil-ui
 🔗 Impeccable: https://github.com/pbakaus/impeccable
 🔗 Emil Kowalski skills: https://github.com/emilkowalski/skills
-🔗 외 5개는 제목 링크(항목 페이지)에서
+🔗 외 5개는 Design Daily 웹페이지에서
 - 모델 기본값으로 만들면 결과물이 비슷해지는 문제를, 작업 전에 불러오는 지침 묶음(스킬)으로 해결하자는 정리
 - 여러 디자인 방향을 나란히 비교(Oil UI), UI 애니메이션 원칙(Emil Kowalski), 레이아웃·밀도 조절(Taste), &#x27;AI 티&#x27; 제거(Impeccable) 등
 - 어워즈 수상 사이트를 레퍼런스로 끌어오는 Awwwards MCP처럼, 지침이 아니라 &#x27;도구&#x27;를 붙이는 방식도 함께 소개
@@ -138,7 +138,7 @@
 </item>
 <item>
 <title>[AI] AI 디자인 품질은 &#x27;좋은 프롬프트&#x27;보다 &#x27;만드는 AI와 평가하는 AI 분리&#x27;에서 나온다 — @doublenickk</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119843057948414169.html</link>
+<link>https://x.com/doublenickk/status/2119843057948414169</link>
 <guid isPermaLink="false">xdd-2119843057948414169</guid>
 <pubDate>Wed, 11 Nov 2026 10:52:31 +0900</pubDate>
 <description>🔗 Harness design for long-running apps: https://www.anthropic.com/research/harness-design-long-running-apps
@@ -153,7 +153,7 @@
 </item>
 <item>
 <title>[AI] 아이콘 제작 과정을 100% 코드로 만든 31초 모션 필름 — @marcelkargul</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119406341206724799.html</link>
+<link>https://x.com/marcelkargul/status/2119406341206724799</link>
 <guid isPermaLink="false">xdd-2119406341206724799-r2</guid>
 <pubDate>Wed, 11 Nov 2026 10:50:32 +0900</pubDate>
 <description>- Figma 스토리보드 6프레임(가이드선 → 치수 → 외곽선 → 채움 → 디테일 → 완성) → SVG 15개 레이어로 분리 → Remotion으로 레이어별 타이밍 애니메이션
@@ -168,7 +168,7 @@
 </item>
 <item>
 <title>[UI] Wealthsimple 앱 리디자인용 신규 아이콘 세트 — @iconists</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2118621691647787034.html</link>
+<link>https://x.com/iconists/status/2118621691647787034</link>
 <guid isPermaLink="false">xdd-2118621691647787034-r2</guid>
 <pubDate>Wed, 11 Nov 2026 10:49:32 +0900</pubDate>
 <description>- 핀테크 앱 Wealthsimple 리디자인을 위해 아이콘 전문 스튜디오 Iconists와 함께 만든 아이콘 세트 공개
@@ -182,7 +182,7 @@
 </item>
 <item>
 <title>[UI] 여행 앱 Roam — 빈 상태(Empty state)를 장면으로 만든 모션 — @Wuraoladesigns</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119682021895307643.html</link>
+<link>https://x.com/Wuraoladesigns/status/2119682021895307643</link>
 <guid isPermaLink="false">xdd-2119682021895307643-r2</guid>
 <pubDate>Wed, 11 Nov 2026 10:48:32 +0900</pubDate>
 <description>- &#x27;No trips yet&#x27; 빈 상태에 줄에 걸린 폴라로이드 사진 3장을 배치 — 비어 있는 화면이 &#x27;첫 여행이 걸릴 자리&#x27;라는 이야기로 바뀜
@@ -197,7 +197,7 @@
 </item>
 <item>
 <title>[UI] SaaS 대시보드 우측 알림 패널 디자인 — @zahragr8r</title>
-<link>https://sikisiki-ignite.github.io/design-daily/p/2119917698905764014.html</link>
+<link>https://x.com/zahragr8r/status/2119917698905764014</link>
 <guid isPermaLink="false">xdd-2119917698905764014-r2</guid>
 <pubDate>Wed, 11 Nov 2026 10:47:32 +0900</pubDate>
 <description>- 워크플로 자동화 대시보드 오른쪽에 알림 패널을 고정 — 본문(지표·워크플로 표)을 가리지 않고 나란히 확인
