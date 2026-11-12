@@ -13,11 +13,12 @@
 - unfurl을 끄고 썸네일은 image 블록으로 직접 넣는다 (링크 카드가 여러 개 붙어 흘러내리는 문제 방지).
 
 items/YYYY-MM-DD-HHMM.json 항목 형식:
-  id        X 게시물 status id
-  url       https://x.com/<handle>/status/<id>
+  id        X: status id / Threads: "th_<post code>"
+  source    "X"(기본) | "Threads"
+  url       원문 URL (x.com/<handle>/status/<id> · threads.com/@<handle>/post/<code>)
   author    "@handle"
-  name      X 표시 이름 (메시지 발신자 이름)
-  avatar    X 프로필 이미지 URL (메시지 아이콘)
+  name      표시 이름 (메시지 발신자 이름)
+  avatar    프로필 이미지 URL (메시지 아이콘). Threads CDN 이미지는 약 4~5일 뒤 만료됨
   category  "UI" | "AI"
   title     한 줄 제목
   summary   ["요약", ...] 1~3줄 — 원문 재진술 금지
@@ -28,6 +29,8 @@ items/YYYY-MM-DD-HHMM.json 항목 형식:
   slack_ts  게시 후 자동 기록 (수정·삭제용)
 """
 import json
+import re
+import subprocess
 import sys
 import time
 import urllib.request
@@ -59,6 +62,40 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+AVATAR_DIR = ROOT / "assets" / "avatars"
+RAW_BASE = "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/"
+
+
+def host_avatars(items):
+    """슬랙은 Threads(Instagram CDN) 프로필 사진 URL을 icon_url로 받지 않음(invalid_arguments).
+    → pbs.twimg.com이 아닌 아바타는 저장소 assets/avatars/에 복사하고 raw.githubusercontent 주소로 바꾼다.
+    (CDN 서명 URL 만료 문제도 함께 피함)"""
+    changed = []
+    for it in items:
+        av = it.get("avatar")
+        if not av or "pbs.twimg.com" in av or av.startswith(RAW_BASE) or it.get("slack_ts"):
+            continue
+        name = re.sub(r"[^A-Za-z0-9_.-]", "_", it["author"].lstrip("@")) + ".jpg"
+        AVATAR_DIR.mkdir(parents=True, exist_ok=True)
+        req = urllib.request.Request(av, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            (AVATAR_DIR / name).write_bytes(r.read())
+        it["avatar"] = RAW_BASE + name
+        changed.append(name)
+    if changed:
+        subprocess.run(["git", "add", str(AVATAR_DIR)], cwd=ROOT, check=True)
+        subprocess.run(["git", "commit", "-qm", "avatars: " + ", ".join(changed)], cwd=ROOT, check=True)
+        subprocess.run(["git", "push", "-q"], cwd=ROOT, check=True)
+        for _ in range(12):  # raw 주소가 열릴 때까지 대기
+            try:
+                urllib.request.urlopen(RAW_BASE + changed[-1], timeout=10)
+                break
+            except Exception:
+                time.sleep(5)
+        print("아바타 호스팅:", ", ".join(changed))
+    return bool(changed)
+
+
 def build_message(it, channel):
     title = f"[{it.get('category', 'UI')}] {it['title']}"
     body = f"*<{it['url']}|{esc(title)}>*"
@@ -76,7 +113,8 @@ def build_message(it, channel):
     if it.get("image"):
         blocks.append({"type": "image", "image_url": it["image"], "alt_text": it["title"][:200]})
     tags = " ".join(f"#{t}" for t in it.get("tags", []))
-    blocks.append({"type": "context", "elements": [{"type": "mrkdwn", "text": f"<{it['url']}|X 원문 보기> · {esc(tags)}"}]})
+    source = it.get("source", "X")
+    blocks.append({"type": "context", "elements": [{"type": "mrkdwn", "text": f"<{it['url']}|{source} 원문 보기> · {esc(tags)}"}]})
     msg = {
         "channel": channel,
         "text": title,
@@ -106,6 +144,8 @@ def main():
         sys.exit(".env에 SLACK_BOT_TOKEN / SLACK_CHANNEL_ID가 필요합니다")
 
     items = json.loads(path.read_text(encoding="utf-8"))
+    if not dry and not delete and host_avatars(items):
+        path.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for it in items:
         if only and it["id"] != only:
             continue

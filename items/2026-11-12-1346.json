@@ -1,0 +1,134 @@
+[
+  {
+    "id": "2120563609625374918",
+    "url": "https://x.com/saleh_digital/status/2120563609625374918",
+    "author": "@saleh_digital",
+    "category": "AI",
+    "title": "DESIGN.md 다음 단계? '디자인 하네스' — 에이전트용으로 다시 설계한 디자인 시스템",
+    "summary": [
+      "작성자 글: DESIGN.md·스킬·프롬프트만으로는 결과물 품질이 크게 안 올라갔다는 문제의식에서 출발",
+      "디자인 지식과 에이전트 지식을 한 구조에 묶은 '에이전트 네이티브 디자인 시스템' 스키마를 제안 — 구조·한계·FAQ까지 정리"
+    ],
+    "apply": "최근 반복되는 DESIGN.md 흐름의 한계와 다음 방향을 보는 글 — 우리 디자인 시스템을 AI용으로 옮길 때 설계 참고",
+    "tags": [
+      "design-system",
+      "agents",
+      "design-md",
+      "framework"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120559030359773185/img/xzEGHXcC5sEpySjq.jpg",
+    "name": "salehdigital",
+    "avatar": "https://pbs.twimg.com/profile_images/2100673112123518977/8brRNcq__x96.jpg",
+    "links": [
+      {
+        "title": "What is a design harness?",
+        "url": "https://saleh.digital/articles/what-is-a-design-harness/",
+        "note": "원문 아티클"
+      }
+    ],
+    "source": "X",
+    "slack_ts": "1794460747.956379"
+  },
+  {
+    "id": "2120523138375307572",
+    "url": "https://x.com/saifgeeky/status/2120523138375307572",
+    "author": "@saifgeeky",
+    "category": "UI",
+    "title": "3D 캐릭터와 라임 포인트 — 'morrow' 아이디어 앱의 가입·홈·탐색",
+    "summary": [
+      "입체 캐릭터 일러스트를 썸네일·온보딩에 반복 사용해 AI 생성물 앱의 결과를 '수집하는 재미'로 보여줌",
+      "홈 상단 '무슨 생각 중이에요?' 입력 카드 하나를 라임색으로 강조 — 주 행동이 한눈에 보임"
+    ],
+    "apply": "생성형 기능의 홈은 입력 진입점 하나만 강하게 강조하고, 나머지는 결과물 썸네일로 채우면 정돈돼 보임",
+    "tags": [
+      "mobile",
+      "onboarding",
+      "ai-product",
+      "illustration"
+    ],
+    "image": "https://pbs.twimg.com/media/HW2ccvxbkAAY-D1?format=jpg&name=medium",
+    "name": "Saif Shaikh",
+    "avatar": "https://pbs.twimg.com/profile_images/2085023155522076672/iRVyBcn2_x96.jpg",
+    "source": "X",
+    "slack_ts": "1794460750.463729"
+  },
+  {
+    "id": "2120576291929821227",
+    "url": "https://x.com/Danetag/status/2120576291929821227",
+    "author": "@Danetag",
+    "category": "UI",
+    "title": "Shopify Editions의 'Expo 모드' — 실제 웹페이지를 그대로 접어 3D 전시장으로",
+    "summary": [
+      "같은 페이지를 복제하지 않고 HTML-in-Canvas + WebGPU로 입체 장면으로 전환 — 카드는 솟고 제목은 떠오르고 그래프엔 깊이",
+      "링크·폼·포커스가 그대로 동작해 '연출'과 '사용 가능한 페이지'를 동시에 유지"
+    ],
+    "apply": "발표·런칭 페이지에서 콘텐츠는 그대로 두고 보기 모드만 바꾸는 연출 방식 — 별도 랜딩을 만들 필요가 줄어듦",
+    "tags": [
+      "web",
+      "interaction",
+      "3d",
+      "launch-page"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120563891730055168/img/RjEBYT9mpqY2Op0u.jpg",
+    "name": "Arnaud Tanielian",
+    "avatar": "https://pbs.twimg.com/profile_images/1344539664116539393/jicLY6lg_x96.jpg",
+    "source": "X",
+    "slack_ts": "1794460752.890859"
+  },
+  {
+    "id": "th_DfhSPcxgPLX",
+    "source": "Threads",
+    "url": "https://www.threads.com/@filatov.design/post/DfhSPcxgPLX",
+    "author": "@filatov.design",
+    "category": "UI",
+    "name": "filatov.design",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/filatov.design.jpg",
+    "title": "모델 9명이 원형으로 서 있는 스트리트웨어 쇼핑 사이트 — 돌리고, 펼치고, 영수증이 출력되는 인터랙션",
+    "summary": [
+      "상품 목록 대신 '원형 무대'를 돌려 보는 탐색 → 그리드로 전환 → 룩을 열면 위에서 종이 영수증이 내려오는 연출",
+      "작성자 스레드: 제작 과정 글과 이 프로젝트를 한 번에 재현하는 프롬프트까지 공개, 모바일에서도 동작"
+    ],
+    "apply": "상품 수가 적은 브랜드 페이지는 '보는 방식 전환(원형↔그리드)'만으로도 탐색 자체를 경험으로 만들 수 있음",
+    "tags": [
+      "web",
+      "interaction",
+      "commerce",
+      "branding"
+    ],
+    "image": "https://scontent-icn2-1.cdninstagram.com/v/t51.71878-15/892848405_1932369174606685_1928605295658341668_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjU3OTc2ODM3MDU5MDQyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=K1W0y-ZTZloQ7kNvwHlk2IY&_nc_oc=AdrCmcUncQpS-tVssJ-xeqWzZjQ6HOqXrLN_072vBD51scajD50gM-67_bO3sh_w8fY&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=8sqBXmgSA1rFRfSBY6ymHQ&_nc_ss=7b2a8&oh=00_AQR6v3F6tH9lQvv0z0kFkkUQfIf-Wi9WVdsmb5N8D272EA&oe=6AFB0180",
+    "links": [
+      {
+        "title": "제작 과정 (Full breakdown)",
+        "url": "https://filatov.design/blog/offline-streetwear-ring"
+      },
+      {
+        "title": "재현용 프롬프트",
+        "url": "https://filatov.design/sites/offline"
+      }
+    ],
+    "slack_ts": "1794460816.946959"
+  },
+  {
+    "id": "th_Dff1qmLiTbq",
+    "source": "Threads",
+    "url": "https://www.threads.com/@eric_zwu/post/Dff1qmLiTbq",
+    "author": "@eric_zwu",
+    "category": "AI",
+    "name": "eric_zwu",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/eric_zwu.jpg",
+    "title": "나만의 디자인 레퍼런스 라이브러리를 AI에 연결하기 — 인터랙션·디테일까지 태깅",
+    "summary": [
+      "레퍼런스를 AI에 줄 때 빠지는 '어디가 좋은지(인터랙션·디테일·주석)'를 직접 기록해 저장소에 쌓고 MCP로 에이전트에 연결",
+      "스레드: 인터랙션은 코드 스냅샷 + 프레임 시트로 함께 저장 — 이미지 한 장으로는 전달 안 되는 부분을 보완"
+    ],
+    "apply": "팀 레퍼런스 폴더에 '왜 좋은지' 한 줄 주석을 붙여 두면, 나중에 AI에 레퍼런스로 줄 때 그대로 지시문이 됨",
+    "tags": [
+      "reference",
+      "mcp",
+      "ai-workflow",
+      "library"
+    ],
+    "image": "https://scontent-icn2-1.cdninstagram.com/v/t51.71878-15/895543155_1662537628990104_8597741283209567884_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjE3MjYxNTU3MTM1NTM3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=7uLtdtcGI0wQ7kNvwF5lg9S&_nc_oc=Adr34NuwU6zXUwgLTKr5m8Va9bcxupl9e1fclKlZmxS95wj8EULrRL2J5knWYmcOnX8&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=aVQEBA5wi8MABcPEktxguA&_nc_ss=7b2a8&oh=00_AQRjJwq6hSKPwiqoj-ZmQyB3GJtokSuhyNggYGBC7Fua-w&oe=6AFB0B85",
+    "slack_ts": "1794460819.218779"
+  }
+]
