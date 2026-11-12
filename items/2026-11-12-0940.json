@@ -1,0 +1,96 @@
+[
+  {
+    "id": "2120446395031155055",
+    "url": "https://x.com/genue/status/2120446395031155055",
+    "author": "@genue",
+    "category": "AI",
+    "title": "40명 스튜디오 → 1인 디자이너: 브랜드 하나를 AI 도구 조합으로 끝낸 실제 스택",
+    "summary": [
+      "네이밍·캐릭터·로고·브랜드북·웹·향후 제작용 스킬까지, 단계마다 다른 도구를 쓴 구성 공개",
+      "브랜드 피라미드는 2시간 회의 녹취 + Figma MCP로, 캐릭터는 3×3 그리드로 탐색 후 벡터화·일관성 정리"
+    ],
+    "apply": "브랜딩 초기 단계(회의 → 방향 정리)를 녹취 + AI 요약으로 돌리면 시안 착수까지의 시간이 크게 줄어듦",
+    "tags": [
+      "branding",
+      "ai-workflow",
+      "tool-stack",
+      "solo-designer"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120445986522677248/img/KCu_WFNgXXO5sCbf.jpg",
+    "name": "genue",
+    "avatar": "https://pbs.twimg.com/profile_images/2050560607863164928/Gwc9DxqC_x96.jpg",
+    "links": [
+      {
+        "title": "결과물 브랜드북 (Quod)",
+        "url": "https://getquod.ai/brand"
+      }
+    ],
+    "slack_ts": "1794444367.234039"
+  },
+  {
+    "id": "2120597017634422928",
+    "url": "https://x.com/nickbakeddesign/status/2120597017634422928",
+    "author": "@nickbakeddesign",
+    "category": "AI",
+    "title": "브랜드 납품물에 'AI용 파일'이 기본 포함되는 시대 — DESIGN.md + BRAND.md + Claude 스킬",
+    "summary": [
+      "스레드: 가이드라인을 두 번 쓴다 — 사람용 페이지 하나, AI용 다운로드 하나",
+      "DESIGN.md는 색·타입·레이아웃 규칙, BRAND.md는 말투·단어 — 시각과 언어를 파일로 분리"
+    ],
+    "apply": "디자인 시스템 문서를 배포할 때 사람용 문서와 별도로 'AI가 읽는 요약 파일'을 함께 제공하기",
+    "tags": [
+      "design-md",
+      "branding",
+      "guidelines",
+      "deliverable"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120596851300929536/img/R0H_rOswXCE8tWma.jpg",
+    "name": "Nick",
+    "avatar": "https://pbs.twimg.com/profile_images/2103357555674406912/5Vu-8QE6_x96.jpg",
+    "slack_ts": "1794444369.822799"
+  },
+  {
+    "id": "2120554918377669000",
+    "url": "https://x.com/_heyrico/status/2120554918377669000",
+    "author": "@_heyrico",
+    "category": "UI",
+    "title": "쌓이는 알림 카드 — 중요도별 색과 버튼 하나로 정리한 알림 UI",
+    "summary": [
+      "안내(파랑)·주의(노랑)·긴급(빨강)을 카드 배경 톤으로 구분하고, 카드마다 행동 버튼 1개 + 닫기만 둠",
+      "여러 개가 오면 위에서 아래로 쌓이고, 이미지가 붙은 공지형 카드도 같은 틀 안에서 처리"
+    ],
+    "apply": "백오피스 알림은 '중요도 색 + 바로 할 행동 1개' 규칙만 지켜도 무엇부터 처리할지가 명확해짐",
+    "tags": [
+      "alert",
+      "notification",
+      "saas",
+      "dark-ui"
+    ],
+    "image": "https://pbs.twimg.com/media/HW25cpwaYAAjWKV?format=jpg&name=medium",
+    "name": "rico",
+    "avatar": "https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_x96.jpg",
+    "slack_ts": "1794444371.767269"
+  },
+  {
+    "id": "2120546447024083104",
+    "url": "https://x.com/marcelkargul/status/2120546447024083104",
+    "author": "@marcelkargul",
+    "category": "UI",
+    "title": "절제된 블루 하나로 정리한 뱅킹 앱 3화면",
+    "summary": [
+      "홈·지출·자산 화면 모두 '큰 금액 + 전월 대비 %'를 같은 위치에 두어 화면이 바뀌어도 읽는 순서가 같음",
+      "색은 블루 계열 하나로 도넛·라인 차트까지 통일, 기간 탭(1D~1Y)도 화면 간 공통"
+    ],
+    "apply": "지표 화면이 여러 개인 대시보드는 '핵심 숫자 위치·기간 선택' 같은 고정 요소를 먼저 정해 두면 일관성이 생김",
+    "tags": [
+      "mobile",
+      "fintech",
+      "dashboard",
+      "consistency"
+    ],
+    "image": "https://pbs.twimg.com/media/HW2xusOXAAEr-aa?format=jpg&name=medium",
+    "name": "Marcel",
+    "avatar": "https://pbs.twimg.com/profile_images/2097100069376028672/trgGfghP_x96.jpg",
+    "slack_ts": "1794444374.298609"
+  }
+]
