@@ -1,0 +1,160 @@
+[
+  {
+    "id": "2120547960983359888",
+    "source": "X",
+    "url": "https://x.com/mindset__design/status/2120547960983359888",
+    "author": "@mindset__design",
+    "category": "AI",
+    "name": "mi.nds.et",
+    "avatar": "https://pbs.twimg.com/profile_images/1800965339410272256/EmBvdOBK_x96.jpg",
+    "title": "Stripe·Meta·Krea 디자이너들이 화면을 켜고 보여주는 'AI로 실제 작업하는 법' — 영상 시리즈 'mutuals'",
+    "summary": [
+      "결과물보다 '어떻게 만들었는지'를 화면 공유로 보여주는 형식 — 실제 업무 흐름과 시행착오(AI에게 소리치는 장면 포함)까지",
+      "파일럿에 쓰인 도구: Claude·Codex·Cursor·Midjourney에 WebGL·UIKit, 디자인 피드백 도구 Agentation 등"
+    ],
+    "apply": "팀 내에서도 '결과물 공유' 대신 15분 화면 공유 세션으로 서로의 AI 작업 흐름을 보여주면 노하우가 빨리 퍼짐",
+    "tags": [
+      "ai-workflow",
+      "video",
+      "designers",
+      "process"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120546362110435328/img/2DdCLEBorh9_hhrZ.jpg",
+    "slack_ts": "1794475382.505819"
+  },
+  {
+    "id": "th_DflkEPsEnkx",
+    "source": "Threads",
+    "url": "https://www.threads.com/@rlarjsdnxx/post/DflkEPsEnkx",
+    "author": "@rlarjsdnxx",
+    "category": "AI",
+    "name": "rlarjsdnxx",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/rlarjsdnxx.jpg",
+    "title": "AI가 디자인 레퍼런스를 잘 못 찾는 이유 — 핀터레스트·비핸스·아레나가 AI 봇을 막아 둠",
+    "summary": [
+      "레퍼런스 사이트들이 robots.txt로 GPTBot·ClaudeBot 등 AI 봇 접근을 차단 → AI에게 '레퍼런스 찾아줘'를 시키면 엉뚱한 핀이나 다른 사이트에서 가져옴",
+      "작성자 스레드: 사용자가 직접 시키는 에이전트는 예외일 수 있지만, 학습·검색 색인 봇은 대부분 막혀 있음"
+    ],
+    "apply": "AI에게 레퍼런스 검색을 맡기기보다, 직접 고른 레퍼런스 이미지·링크를 넘겨주는 쪽이 결과가 정확함",
+    "tags": [
+      "reference",
+      "ai-workflow",
+      "research"
+    ],
+    "image": "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-15/900478679_17980735350134117_5568750524408700060_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNzc4NDA2MzE1MDYxODkyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTg3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5KjrEmd-GlEQ7kNvwFVLzji&_nc_oc=AdqbEEDA1J4SfBjIBq9CyYOaM0ftQms1-fa9oyqYMweexZnXLL8gdotqv-ZMudRCGUs&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=iX50qYixGCvqBq7V2JouAA&_nc_ss=7b2a8&oh=00_AQRy5Ay7zM-kOXHMQZcxrUe9V6lEyjJ63LZovJfnz7mbJQ&oe=6AFB6357",
+    "slack_ts": "1794475386.291409"
+  },
+  {
+    "id": "th_DfkRpV2D8e4",
+    "source": "Threads",
+    "url": "https://www.threads.com/@thedzianis/post/DfkRpV2D8e4",
+    "author": "@thedzianis",
+    "category": "AI",
+    "name": "thedzianis",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/thedzianis.jpg",
+    "title": "스크린샷 말고 '에이전트가 읽을 수 있는' 레퍼런스 사이트 모음",
+    "summary": [
+      "이미지 대신 마크다운·프롬프트·소스 형태로 레퍼런스를 주는 사이트들 — 위 글(AI가 레퍼런스를 못 찾는 문제)의 해법 쪽",
+      "디자인 시스템 마크다운, 프롬프트에 매핑된 UI 영감, MCP로 붙는 컴포넌트 레지스트리 등"
+    ],
+    "apply": "AI 작업 시 레퍼런스는 '이미지 + 해당 사이트의 DESIGN.md/컴포넌트 코드'를 함께 넘기면 재현도가 높아짐",
+    "tags": [
+      "reference",
+      "design-md",
+      "mcp",
+      "resources"
+    ],
+    "image": "https://scontent-icn2-1.cdninstagram.com/v/t51.71878-15/896375400_2557917741381791_629358369242168585_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNzQyMTU3NDUyMDg4MzEyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=tHlVaHFFTNEQ7kNvwGioE_b&_nc_oc=AdpMaeQCsk06UEvFAeNWMMjocK6tlnnrwLjslb-VzfB3LjGakGh90a1u9kkAkIygV3Y&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=iDC49icC9tbb9BPeriRD8g&_nc_ss=7b2a8&oh=00_AQQvCTAea4U985yKfEgkuf3BHyqpgA21EK7woeKiPLcc8A&oe=6AFB34B9",
+    "links": [
+      {
+        "title": "designmd.ai",
+        "url": "https://designmd.ai",
+        "note": "디자인 시스템을 에이전트용 마크다운으로"
+      },
+      {
+        "title": "kage.design",
+        "url": "https://kage.design",
+        "note": "프롬프트에 매핑된 UI 영감"
+      },
+      {
+        "title": "Refero Styles",
+        "url": "https://styles.refero.design",
+        "note": "실서비스 DESIGN.md"
+      },
+      {
+        "title": "21st.dev",
+        "url": "https://21st.dev",
+        "note": "MCP로 붙는 컴포넌트 레지스트리"
+      }
+    ],
+    "slack_ts": "1794475389.555859"
+  },
+  {
+    "id": "th_Dfko5M_jCzi",
+    "source": "Threads",
+    "url": "https://www.threads.com/@textura.eu/post/Dfko5M_jCzi",
+    "author": "@textura.eu",
+    "category": "UI",
+    "name": "textura.eu",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/textura.eu.jpg",
+    "title": "북마크해 둘 디자인 레퍼런스 사이트 — 랜딩·모션 디테일·로고·벤토 그리드",
+    "summary": [
+      "용도별로 하나씩: 랜딩 페이지, 작은 모션 디테일, 로고 갤러리, 벤토 그리드 레이아웃",
+      "특히 60fps.design은 앱의 미세 인터랙션만 모아 볼 수 있어 모션 기준 잡을 때 유용"
+    ],
+    "apply": "팀 레퍼런스 북마크를 '용도별 1곳'으로 정리해 두면 시안 착수 전 탐색 시간이 줄어듦",
+    "tags": [
+      "reference",
+      "inspiration",
+      "resources",
+      "web"
+    ],
+    "image": "https://scontent-icn2-1.cdninstagram.com/v/t51.71878-15/899444435_1510996494317259_9153238797856082012_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNzUyMzgxOTU5NzczNzE4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=vUM2wCSfn-sQ7kNvwEl13ol&_nc_oc=AdonBhu4XI3htESZuXoFaK_Fr5OVp3GMFhrJhTfSPLq98VlrUc4wrF4lfc55ym0E6sI&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=VOcMyVyAmVeNl4glSv4xgA&_nc_ss=7b2a8&oh=00_AQQqmgSBwXgcH121yC_XkdKfBar3YFCGZJPIIUaj-G_Y2w&oe=6AFB45D3",
+    "links": [
+      {
+        "title": "Land-book",
+        "url": "https://land-book.com",
+        "note": "랜딩 페이지 갤러리"
+      },
+      {
+        "title": "60fps.design",
+        "url": "https://60fps.design",
+        "note": "앱 미세 인터랙션·모션"
+      },
+      {
+        "title": "Logosystem",
+        "url": "https://logosystem.co",
+        "note": "로고 디자인 갤러리"
+      },
+      {
+        "title": "Bento Grids",
+        "url": "https://bentogrids.com",
+        "note": "벤토 그리드 레이아웃"
+      }
+    ],
+    "slack_ts": "1794475392.848699"
+  },
+  {
+    "id": "th_DfgVGv7mqGN",
+    "source": "Threads",
+    "url": "https://www.threads.com/@nizam.design/post/DfgVGv7mqGN",
+    "author": "@nizam.design",
+    "category": "UI",
+    "name": "nizam.design",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/nizam.design.jpg",
+    "title": "협력사 심사 어드민 — 서류 목록·원본 미리보기·AI 추출 결과를 한 화면 3단으로",
+    "summary": [
+      "왼쪽 '확인 필요/누락/검증 완료'로 묶인 서류 목록, 가운데 원본 문서, 오른쪽 AI가 뽑은 필드와 경고(보장액 미달·만료 임박)",
+      "상단 'AI checks' 토글과 'Blocked by Legal' 상태 배지로 지금 무엇이 막혀 있는지 바로 보임"
+    ],
+    "apply": "서류 검토형 백오피스는 '목록 · 원본 · 추출/판단' 3단 구조로 두면 화면 전환 없이 검토가 끝남",
+    "tags": [
+      "admin",
+      "b2b",
+      "document-review",
+      "ai-product"
+    ],
+    "image": "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-15/897100475_17995747485106182_6729270933236211637_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjMxMDg4OTYyODY3MjM5Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDA5Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ivwJX1PCwCcQ7kNvwHlxF6I&_nc_oc=AdqjBexS5SW0n3mQDNGM0RP8AX6kmO66MLImBoJ_X1mj674bZeOexeInbmUwe0hpEQg&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=uN_LdKnq0l2O1ExYlWOwuA&_nc_ss=7b2a8&oh=00_AQR0LdG3s5s67PIVVom6QEqoy8B97Zbta0L0yqLaMRMqhA&oe=6AFB3B44",
+    "slack_ts": "1794475396.829879"
+  }
+]
