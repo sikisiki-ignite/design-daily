@@ -45,7 +45,7 @@ X(구 트위터)·Threads에서 UI 디자인 + AI로 디자인하는 방법 게�
    - 게시물 단위는 `div[data-pressable-container="true"]`. 텍스트 마지막 숫자 4개 = 좋아요·댓글·리포스트·공유
    - 검색어(영·한): UI design / UX design / product design / design system / Claude design / Figma MCP / AI design / design inspiration / UI 디자인 / UX 디자인 / 디자이너 AI / 클로드 디자인 / 피그마 AI / 디자인 레퍼런스
    - 상세 페이지에서 작성자 본인 스레드(링크·팁)를 확인. 외부 링크는 `l.threads.com/?u=` 의 u 값을 풀어 쓴다
-   - 항목: `id`="th_<post code>", `source`="Threads", 이미지는 Threads CDN URL(약 4~5일 뒤 만료 — 2026-11-16 주에 재검토하기로 함). 아바타는 슬랙이 Threads CDN URL을 icon_url로 거부(invalid_arguments)하므로 `post_slack.py`가 자동으로 `assets/avatars/`에 복사해 raw.githubusercontent 주소로 바꿔 게시
+   - 항목: `id`="th_<post code>", `source`="Threads", Threads CDN 이미지는 수집 그대로 넣으면 된다 — `post_slack.py`가 게시 직전에 아바타는 `assets/avatars/`, 썸네일은 `assets/images/`에 복사·푸시하고 raw.githubusercontent 주소로 바꿔 게시 (아바타: 슬랙이 CDN URL을 icon_url로 거부 / 썸네일: CDN URL 4~5일 뒤 만료)
 2. 이미 발행한 id(items/**/*.json, _archive 포함)는 제외. 직전 회차 이후 새 글을 우선.
 3. 후보를 직접 열어 전문·스레드·링크·화면 확인 후 선정.
 4. 항목마다 요약 + 적용 아이디어 1줄 + 관련 링크. 측정하지 않은 수치는 쓰지 않는다.
@@ -78,6 +78,7 @@ X(구 트위터)·Threads에서 UI 디자인 + AI로 디자인하는 방법 게�
 - 2026-11-11: RSS 잔재 정리(사용자 요청) — `build_feed.py`·`release.sh`·`docs/` 삭제, GitHub Pages 비활성화. 위 RSS 관련 결정 기록은 이력으로만 남김.
 - 2026-11-12: 리서치 소스에 **Threads** 추가 (사용자 요청). X와 같은 절차·기준. 메시지 하단 표기 "Threads 원문 보기".
 - 2026-11-12: 회차당 기본 5건으로 변경, 레퍼런스 사이트 공유 글을 포함 대상으로 명시(검색어 추가), Threads 이미지 만료 문제는 다음 주 재검토 (모두 사용자 결정). Threads 아바타는 저장소에 복사해 사용.
+- 2026-11-16: Threads 썸네일 만료 문제 재검토 → 아바타와 같은 방식으로 저장소(`assets/images/`)에 복사해 사용 (사용자 승인). 11/12 Threads 6건도 `--update`로 이미지 주소 교체 완료. 대가: 타인 이미지가 공개 저장소에 보관됨.
 
 ## 실행 트리거
 "Design Daily 돌려줘"("오늘 ~" 포함) → 현재 시각으로 `items/YYYY-MM-DD-HHMM.json`을 만들고 일일 절차 1~6 실행. 새 항목의 `pub`은 현재 시각 기준. 푸시 전에 선정 항목 목록을 사용자에게 보여주고 확인받는다.
