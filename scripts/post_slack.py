@@ -6,6 +6,7 @@
   python3 scripts/post_slack.py items/2026-11-11-1430.json --id <id>  # 한 항목만
   python3 scripts/post_slack.py items/... --dry-run                   # 보낼 내용만 출력
   python3 scripts/post_slack.py items/... --id <id> --delete          # 올린 메시지 삭제
+  python3 scripts/post_slack.py items/... --update                    # 올린 메시지를 현재 JSON 내용으로 수정
 
 - 토큰·채널은 .env (SLACK_BOT_TOKEN, SLACK_CHANNEL_ID). git에 올라가지 않음.
 - 메시지마다 X 작성자 이름·프로필 사진으로 표시(chat:write.customize) → 연속 게시돼도 글마다 구분됨.
@@ -62,29 +63,37 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-AVATAR_DIR = ROOT / "assets" / "avatars"
-RAW_BASE = "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/"
+ASSET_DIR = ROOT / "assets"
+RAW_BASE = "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/"
 
 
-def host_avatars(items):
-    """슬랙은 Threads(Instagram CDN) 프로필 사진 URL을 icon_url로 받지 않음(invalid_arguments).
-    → pbs.twimg.com이 아닌 아바타는 저장소 assets/avatars/에 복사하고 raw.githubusercontent 주소로 바꾼다.
-    (CDN 서명 URL 만료 문제도 함께 피함)"""
+def _is_stable(url):
+    return (not url) or "pbs.twimg.com" in url or "opengraph.githubassets.com" in url or url.startswith(RAW_BASE)
+
+
+def host_assets(items, include_posted=False):
+    """X(pbs.twimg.com) 외 이미지를 저장소 assets/에 복사하고 raw.githubusercontent 주소로 바꾼다.
+    - 아바타: 슬랙이 Threads(Instagram CDN) URL을 icon_url로 거부(invalid_arguments)
+    - 썸네일: Threads CDN 서명 URL은 약 4~5일 뒤 만료 → 슬랙에서 사진이 사라짐 (2026-11-16 적용)"""
     changed = []
     for it in items:
-        av = it.get("avatar")
-        if not av or "pbs.twimg.com" in av or av.startswith(RAW_BASE) or it.get("slack_ts"):
+        if it.get("slack_ts") and not include_posted:
             continue
-        name = re.sub(r"[^A-Za-z0-9_.-]", "_", it["author"].lstrip("@")) + ".jpg"
-        AVATAR_DIR.mkdir(parents=True, exist_ok=True)
-        req = urllib.request.Request(av, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=20) as r:
-            (AVATAR_DIR / name).write_bytes(r.read())
-        it["avatar"] = RAW_BASE + name
-        changed.append(name)
+        for field, sub, name in (("avatar", "avatars", re.sub(r"[^A-Za-z0-9_.-]", "_", it["author"].lstrip("@")) + ".jpg"),
+                                 ("image", "images", re.sub(r"[^A-Za-z0-9_.-]", "_", str(it["id"])) + ".jpg")):
+            url = it.get(field)
+            if _is_stable(url):
+                continue
+            d = ASSET_DIR / sub
+            d.mkdir(parents=True, exist_ok=True)
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                (d / name).write_bytes(r.read())
+            it[field] = RAW_BASE + sub + "/" + name
+            changed.append(sub + "/" + name)
     if changed:
-        subprocess.run(["git", "add", str(AVATAR_DIR)], cwd=ROOT, check=True)
-        subprocess.run(["git", "commit", "-qm", "avatars: " + ", ".join(changed)], cwd=ROOT, check=True)
+        subprocess.run(["git", "add", str(ASSET_DIR)], cwd=ROOT, check=True)
+        subprocess.run(["git", "commit", "-qm", "assets: " + ", ".join(changed)], cwd=ROOT, check=True)
         subprocess.run(["git", "push", "-q"], cwd=ROOT, check=True)
         for _ in range(12):  # raw 주소가 열릴 때까지 대기
             try:
@@ -92,7 +101,7 @@ def host_avatars(items):
                 break
             except Exception:
                 time.sleep(5)
-        print("아바타 호스팅:", ", ".join(changed))
+        print("이미지 호스팅:", ", ".join(changed))
     return bool(changed)
 
 
@@ -138,13 +147,14 @@ def main():
     only = args[args.index("--id") + 1] if "--id" in args else None
     dry = "--dry-run" in args
     delete = "--delete" in args
+    update = "--update" in args  # 이미 올린 메시지를 현재 JSON 내용으로 수정(chat.update)
     env = load_env()
     token, channel = env.get("SLACK_BOT_TOKEN"), env.get("SLACK_CHANNEL_ID")
     if not dry and not (token and channel):
         sys.exit(".env에 SLACK_BOT_TOKEN / SLACK_CHANNEL_ID가 필요합니다")
 
     items = json.loads(path.read_text(encoding="utf-8"))
-    if not dry and not delete and host_avatars(items):
+    if not dry and not delete and host_assets(items, include_posted=update):
         path.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for it in items:
         if only and it["id"] != only:
@@ -157,7 +167,12 @@ def main():
                     it.pop("slack_ts")
             continue
         if it.get("slack_ts"):
-            print("이미 게시됨, 건너뜀:", it["id"])
+            if update and not dry:
+                msg = build_message(it, channel)
+                r = api("chat.update", token, {"channel": channel, "ts": it["slack_ts"], "text": msg["text"], "blocks": msg["blocks"]})
+                print("수정" if r.get("ok") else f"수정 실패: {r.get('error')}", it["id"])
+            else:
+                print("이미 게시됨, 건너뜀:", it["id"])
             continue
         msg = build_message(it, channel)
         if dry:

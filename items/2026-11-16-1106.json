@@ -1,0 +1,162 @@
+[
+  {
+    "id": "2122014119511703753",
+    "source": "X",
+    "url": "https://x.com/diegohaz/status/2122014119511703753",
+    "author": "@diegohaz",
+    "category": "UI",
+    "name": "Haz",
+    "avatar": "https://pbs.twimg.com/profile_images/1964797260597772288/uQG557we_x96.jpg",
+    "title": "탭 UI를 끝까지 파고든 디테일 — 선택 표시의 곡률부터 넘칠 때의 동작까지",
+    "summary": [
+      "영상에서 선택된 탭과 아래 패널이 이어지는 모서리 곡률을 수치로 시각화 — '그냥 탭'도 계산된 형태라는 걸 보여줌",
+      "탭이 넘치면 스크롤바 없이 가로 스크롤 + 숨은 탭이 있는 쪽에만 화살표 버튼 노출 (후속 글 예고)"
+    ],
+    "apply": "디자인 시스템 탭 컴포넌트 문서에 '넘칠 때 동작(스크롤·화살표 노출 조건)'을 명시해 두기",
+    "tags": [
+      "tabs",
+      "component",
+      "detail",
+      "interaction"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122012899371560960/img/LlTgpMvQU17iweES.jpg",
+    "slack_ts": "1794802959.073639"
+  },
+  {
+    "id": "th_DftwuXWEQHf",
+    "source": "Threads",
+    "url": "https://www.threads.com/@aoub_ak/post/DftwuXWEQHf",
+    "author": "@aoub_ak",
+    "category": "UI",
+    "name": "aoub_ak",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/aoub_ak.jpg",
+    "title": "주유소 관리자 대시보드 — '계산은 시스템이, 사람은 숫자 4개만 입력'",
+    "summary": [
+      "계량기 값만 넣으면 리터·매출·현금 잔액이 자동 계산 — 화면 디자인보다 '입력 항목 줄이기'가 핵심",
+      "작성자 스레드: 이전 계량기 값과 비교하는 검증을 더하면 마감 오류를 미리 막을 수 있다는 논의"
+    ],
+    "apply": "백오피스 입력 폼은 '사람이 꼭 넣어야 하는 값'만 남기고 나머지는 계산·자동 채움으로 돌리기",
+    "tags": [
+      "dashboard",
+      "admin",
+      "form",
+      "dark-ui"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DftwuXWEQHf.jpg",
+    "slack_ts": "1794802961.562959"
+  },
+  {
+    "id": "2121594713081827657",
+    "source": "X",
+    "url": "https://x.com/Yarad_ai/status/2121594713081827657",
+    "author": "@Yarad_ai",
+    "category": "AI",
+    "name": "Yarad",
+    "avatar": "https://pbs.twimg.com/profile_images/1707507337727000576/P8pVT8jC_x96.jpg",
+    "title": "Google Labs, AI 에이전트용 UI 디자인 스킬 15종 오픈소스 공개 (Stitch Skills)",
+    "summary": [
+      "텍스트·이미지로 화면 생성 → DESIGN.md로 여러 페이지 일관성 유지 → React 코드 → 데모 영상까지 이어지는 흐름을 스킬로 묶음",
+      "대형 플랫폼이 DESIGN.md를 표준처럼 쓰기 시작했다는 신호 — 지난주 이어진 DESIGN.md 흐름의 공식판"
+    ],
+    "apply": "어드민 화면을 AI로 만들 때 이 스킬 세트의 DESIGN.md 구조를 우리 디자인 시스템 요약 파일의 틀로 참고",
+    "tags": [
+      "skills",
+      "design-md",
+      "google",
+      "open-source"
+    ],
+    "image": null,
+    "links": [
+      {
+        "title": "google-labs-code/stitch-skills",
+        "url": "https://github.com/google-labs-code/stitch-skills",
+        "note": "GitHub"
+      }
+    ],
+    "slack_ts": "1794802963.916129"
+  },
+  {
+    "id": "th_DfuFfJhDlFi",
+    "source": "Threads",
+    "url": "https://www.threads.com/@haeinjvng/post/DfuFfJhDlFi",
+    "author": "@haeinjvng",
+    "category": "AI",
+    "name": "haeinjvng",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/haeinjvng.jpg",
+    "title": "AI로 '두 번 만에' 만든 디자인 시스템 — shadcn을 바탕에 깔고 취향만 얹기",
+    "summary": [
+      "기본 컴포넌트는 shadcn으로 '어설프지 않은 수준'을 확보하고, 시간은 제품 만들기에 쓰자는 관점",
+      "작성자 스레드: 차별점은 '취향 레이어' — 컴포넌트를 고르는 안목과 질감(frost 등) 같은 작은 디테일로 개성을 낸다"
+    ],
+    "apply": "새 내부 도구는 검증된 컴포넌트 라이브러리 + 우리 브랜드 디테일 몇 가지로 시작하면 디자인 시간이 크게 줄어듦",
+    "tags": [
+      "design-system",
+      "shadcn",
+      "taste",
+      "ai-workflow"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DfuFfJhDlFi.jpg",
+    "links": [
+      {
+        "title": "완성된 디자인 시스템",
+        "url": "http://design.ohmmmm.com"
+      },
+      {
+        "title": "shadcn/ui",
+        "url": "http://ui.shadcn.com",
+        "note": "출발점으로 쓴 컴포넌트 라이브러리"
+      }
+    ],
+    "slack_ts": "1794802966.283349"
+  },
+  {
+    "id": "th_DfvoQnvkuso",
+    "source": "Threads",
+    "url": "https://www.threads.com/@tomatolayer/post/DfvoQnvkuso",
+    "author": "@tomatolayer",
+    "category": "UI",
+    "name": "tomatolayer",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/tomatolayer.jpg",
+    "title": "미감 올리고 싶을 때 켜두는 레퍼런스 사이트 — 레이아웃·여백 / 색 조합·그라데이션",
+    "summary": [
+      "'많이 보기'보다 여백·색 비율이 잘 잡힌 기준점을 먼저 눈에 익히자는 관점으로 용도별 정리",
+      "국내 작업을 볼 수 있는 노트폴리오, 미묘한 색 온도를 볼 수 있는 그라데이션 사이트들이 포함"
+    ],
+    "apply": "팀 무드보드 작업 전 '레이아웃 기준 1곳 + 색 기준 1곳'을 정해 두면 시안 톤이 빨리 맞춰짐",
+    "tags": [
+      "reference",
+      "inspiration",
+      "color",
+      "layout"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DfvoQnvkuso.jpg",
+    "links": [
+      {
+        "title": "Studio FNT",
+        "url": "http://studiofnt.com",
+        "note": "절제된 조형·비례"
+      },
+      {
+        "title": "노트폴리오",
+        "url": "http://notefolio.net",
+        "note": "국내 아트워크·포스터 레이아웃"
+      },
+      {
+        "title": "Gradient Hunt",
+        "url": "http://gradienthunt.com",
+        "note": "배색 조합"
+      },
+      {
+        "title": "Colin Keany Blend",
+        "url": "https://colinkeany.com/blend",
+        "note": "색 온도·그라데이션 밸런스"
+      },
+      {
+        "title": "Eggradients",
+        "url": "http://eggradients.com",
+        "note": "뻔하지 않은 배색 카드"
+      }
+    ],
+    "slack_ts": "1794802968.704329"
+  }
+]
