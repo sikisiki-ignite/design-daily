@@ -42,6 +42,7 @@ X(구 트위터)·Threads에서 UI 디자인 + AI로 디자인하는 방법 게�
 1. ego-browser(로그인된 X 계정)로 최근 7일 검색, Top 정렬. 쿼리: UI 디자인 / AI 디자인 워크플로(claude·figma·mcp·prompt 등) / 한국어(lang:ko) / **레퍼런스 사이트**(`"design inspiration" OR "design resources" OR "inspiration sites" OR "design references" OR 레퍼런스 사이트`).
    **Threads** (2026-11-12 추가, 사용자 로그인됨): `https://www.threads.com/search?q=<검색어>&serp_type=default` (인기) + `&filter=recent` (최근) 둘 다.
    - Threads 검색엔 날짜 필터가 없음 → 인기 탭은 몇 달 전 글이 섞이므로 `time[datetime]`으로 최근 7일만, 최근 탭은 스팸이 많아 좋아요 15개 이상만 남긴다
+   - `page.goto`가 가끔 시간 초과(load 대기)로 멈춤 → goto를 try/catch로 감싸고 다음 검색어로 진행. X+Threads 수집은 10분 이상 걸리므로 백그라운드 실행
    - 게시물 단위는 `div[data-pressable-container="true"]`. 텍스트 마지막 숫자 4개 = 좋아요·댓글·리포스트·공유
    - 검색어(영·한): UI design / UX design / product design / design system / Claude design / Figma MCP / AI design / design inspiration / UI 디자인 / UX 디자인 / 디자이너 AI / 클로드 디자인 / 피그마 AI / 디자인 레퍼런스
    - 상세 페이지에서 작성자 본인 스레드(링크·팁)를 확인. 외부 링크는 `l.threads.com/?u=` 의 u 값을 풀어 쓴다
