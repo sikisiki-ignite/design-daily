@@ -1,0 +1,151 @@
+[
+  {
+    "id": "2122430710053019994",
+    "source": "X",
+    "url": "https://x.com/marcelkargul/status/2122430710053019994",
+    "author": "@marcelkargul",
+    "category": "AI",
+    "name": "Marcel",
+    "avatar": "https://pbs.twimg.com/profile_images/2097100069376028672/trgGfghP_x96.jpg",
+    "title": "Claude Code로 Figma 안에서 490화면을 만든 팀의 셋업 — 핵심은 프롬프트가 아니라 '파일'",
+    "summary": [
+      "토큰만 바인딩(hex 금지) · 결정은 design-system.md에 '규칙+이유+날짜' 한 줄씩 · 실제 화면에서 반복된 블록 6개만 명명",
+      "배치마다 감사 스크립트(폴백 색·아이콘 선 굵기·clip 등) — 한 번에 아이콘 112개·프레임 858개 오류를 잡음. 피드백은 규칙+자동 검사로 영구화"
+    ],
+    "apply": "AI에 디자인 시스템을 맡기기 전에 '토큰 강제 · 규칙 파일 · 배치 후 감사' 3가지부터 갖추기 — 디자인 판단은 사람이 유지",
+    "tags": [
+      "figma",
+      "claude-code",
+      "design-system",
+      "audit"
+    ],
+    "image": "https://pbs.twimg.com/media/HXBQCmKWkAArVNH?format=jpg&name=medium",
+    "slack_ts": "1794897903.342449"
+  },
+  {
+    "id": "2122306470096326787",
+    "source": "X",
+    "url": "https://x.com/PrajwalTomar_/status/2122306470096326787",
+    "author": "@PrajwalTomar_",
+    "category": "AI",
+    "name": "Prajwal Tomar",
+    "avatar": "https://pbs.twimg.com/profile_images/1994957908099125248/9AaluzL-_x96.jpg",
+    "title": "인기 디자인 스킬 제작자의 AI 디자인 루프 — 레퍼런스 10개 · 시안 3개 · 'AI 티' 금지 목록 · 별도 모델 채점",
+    "summary": [
+      "문단 설명 대신 실제 사이트 10개를 레퍼런스로, 한 페이지에 시안 3개를 띄워 고르고, Inter·보라 그라데이션·같은 카드 3개를 이름으로 금지",
+      "디자인 먼저·애니메이션은 나중, 맥락 없는 다른 모델이 매 라운드 채점(9.2/10까지) — 작성자 실험에선 6라운드·37분"
+    ],
+    "apply": "AI 시안 리뷰를 '같은 대화에서 고쳐줘' 대신 '새 대화에서 기준표로 채점'으로 바꾸면 품질이 꾸준히 오름",
+    "tags": [
+      "ai-workflow",
+      "critique",
+      "prompt",
+      "loop"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122306440656470016/img/jd9JrFGkjHfUiXoR.jpg",
+    "slack_ts": "1794897905.638099"
+  },
+  {
+    "id": "th_Dfy2gyDCcH7",
+    "source": "Threads",
+    "url": "https://www.threads.com/@instagramsandeep/post/Dfy2gyDCcH7",
+    "author": "@instagramsandeep",
+    "category": "UI",
+    "name": "instagramsandeep",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/instagramsandeep.jpg",
+    "title": "시간이 '액체'처럼 출렁이는 타임 피커 — 물·젤리·시럽 질감 중 고르기",
+    "summary": [
+      "눈금자를 끌면 바늘을 지나 출렁이고 물방울이 튀었다 가라앉는 물리 모션, 숫자도 녹듯이 바뀜",
+      "질감(물·젤리·시럽)·라이트/다크·12/24시간을 고른 뒤 Figma·Claude·React로 복사해 쓰는 컴포넌트"
+    ],
+    "apply": "반복 조작하는 입력 컴포넌트에 '조작감' 프리셋을 두면 같은 UI도 브랜드 성격에 맞게 다른 느낌을 낼 수 있음",
+    "tags": [
+      "micro-interaction",
+      "picker",
+      "motion",
+      "component"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Dfy2gyDCcH7.jpg",
+    "links": [
+      {
+        "title": "capturemotion.dev",
+        "url": "http://capturemotion.dev",
+        "note": "Liquid Dial 등 모션 컴포넌트"
+      }
+    ],
+    "slack_ts": "1794897908.121909"
+  },
+  {
+    "id": "2122248809065373991",
+    "source": "X",
+    "url": "https://x.com/Tanjim38/status/2122248809065373991",
+    "author": "@Tanjim38",
+    "category": "UI",
+    "name": "Tanjim",
+    "avatar": "https://pbs.twimg.com/profile_images/1972193264649621506/kCQd0-Mf_x96.jpg",
+    "title": "주간 캘린더 대시보드 — 왼쪽 할 일 목록과 오른쪽 일정 블록을 한 화면에",
+    "summary": [
+      "왼쪽에 '이번 주/이번 달/개인' 묶음별 체크리스트, 오른쪽 주간 그리드에 참석자 아바타가 붙은 일정 블록",
+      "블록마다 상단 아이콘으로 종류(회의·점심·워크숍)를 구분하고, 진행 상태는 블록 하단 색 띠로 표시"
+    ],
+    "apply": "일정·업무가 섞인 화면은 '목록(할 일) + 그리드(시간)' 2단으로 나누고 종류는 아이콘, 상태는 색으로 역할을 분리",
+    "tags": [
+      "calendar",
+      "dashboard",
+      "schedule",
+      "motion"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122218694772228096/img/6udnPwIcn8askSwA.jpg",
+    "slack_ts": "1794897910.474529"
+  },
+  {
+    "id": "2122248508593823767",
+    "source": "X",
+    "url": "https://x.com/Abmankendrick/status/2122248508593823767",
+    "author": "@Abmankendrick",
+    "category": "UI",
+    "name": "Abraham John 🦄🦓",
+    "avatar": "https://pbs.twimg.com/profile_images/1983915658829041664/iG7fFe9U_x96.jpg",
+    "title": "매일 UI/UX 연습 과제를 주는 사이트 모음 — 브리프·가상 클라이언트·UX 챌린지",
+    "summary": [
+      "실전 브리프를 무작위로 받아 연습하는 곳들 — 화면 과제(Daily UI)부터 가상 클라이언트 의뢰, UX 문제 풀이까지",
+      "레퍼런스 '보기'가 아니라 '손으로 풀기'용이라 주니어 온보딩·팀 스터디 과제로 쓰기 좋음"
+    ],
+    "apply": "팀 주간 스터디에 이 사이트들의 브리프를 하나씩 받아 30분 시안 → 리뷰하는 루틴을 만들어 볼 수 있음",
+    "tags": [
+      "reference",
+      "practice",
+      "challenge",
+      "learning"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122248495486664704/img/ocwmQ5HXb8ezYqO6.jpg",
+    "links": [
+      {
+        "title": "Daily UI",
+        "url": "https://www.dailyui.co/",
+        "note": "매일 화면 과제"
+      },
+      {
+        "title": "Good Brief",
+        "url": "https://goodbrief.io/",
+        "note": "실전형 디자인 브리프"
+      },
+      {
+        "title": "UX Challenge",
+        "url": "https://uxchallenge.co/",
+        "note": "UX 문제 풀이"
+      },
+      {
+        "title": "Fake Clients",
+        "url": "https://fakeclients.com/",
+        "note": "가상 클라이언트 의뢰"
+      },
+      {
+        "title": "UX Tools Challenges",
+        "url": "https://www.uxtools.co/challenges",
+        "note": "도구 실습 과제"
+      }
+    ],
+    "slack_ts": "1794897912.767599"
+  }
+]
