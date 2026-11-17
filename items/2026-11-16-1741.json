@@ -1,0 +1,122 @@
+[
+  {
+    "id": "th_DfyE9k7v2I3",
+    "source": "Threads",
+    "url": "https://www.threads.com/@mengto/post/DfyE9k7v2I3",
+    "author": "@mengto",
+    "category": "UI",
+    "name": "mengto",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/mengto.jpg",
+    "title": "Design+Code 창업자 Meng To의 디자인 영감 사이트 — 3D 웹·일간 큐레이션·컴포넌트별 UI",
+    "summary": [
+      "실시간 3D(Three.js) 사이트만 모은 갤러리 2곳이 포함된 게 특징 — 요즘 랜딩 페이지 트렌드를 반영한 구성",
+      "UI를 컴포넌트 단위로 분류해 보는 곳, 매일 디자인·도구를 큐레이션하는 곳까지 용도가 고르게 나뉨"
+    ],
+    "apply": "3D·인터랙티브 랜딩을 검토할 때는 일반 갤러리보다 3D 전용 갤러리부터 보면 레퍼런스 찾는 시간이 줄어듦",
+    "tags": [
+      "reference",
+      "inspiration",
+      "3d",
+      "resources"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DfyE9k7v2I3.jpg",
+    "links": [
+      {
+        "title": "mesh3d.gallery",
+        "url": "http://mesh3d.gallery",
+        "note": "실시간 Three.js 사이트 갤러리"
+      },
+      {
+        "title": "recent.design",
+        "url": "http://recent.design",
+        "note": "디자인·웹사이트·도구 일간 큐레이션"
+      },
+      {
+        "title": "threeui.com",
+        "url": "https://threeui.com",
+        "note": "Three.js 랜딩·컴포넌트·셰이더"
+      },
+      {
+        "title": "Collect UI",
+        "url": "https://collectui.com",
+        "note": "컴포넌트별로 분류한 UI 모음"
+      }
+    ],
+    "slack_ts": "1794884049.927299"
+  },
+  {
+    "id": "th_Dfvm60IhZkR",
+    "source": "Threads",
+    "url": "https://www.threads.com/@dddesign.io/post/Dfvm60IhZkR",
+    "author": "@dddesign.io",
+    "category": "AI",
+    "name": "dddesign.io",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/dddesign.io.jpg",
+    "title": "피그마 계속 써야 할까? — 피그마 에이전트 · Claude MCP · Claude 단독 비교 (한국어 영상)",
+    "summary": [
+      "'어느 쪽이 맞나'가 아니라 상황별로 무엇을 쓸지 정리 — 실제로 Claude로 디자인 시스템을 만들어 본 결과 기반",
+      "어떤 도구로 시작하든 공통으로 필요한 조건 3가지를 따로 정리"
+    ],
+    "apply": "팀에서 AI 디자인 도구를 고를 때 '도구 비교'보다 '공통 전제 조건'부터 맞추는 순서로 논의하기",
+    "tags": [
+      "ai-workflow",
+      "figma",
+      "mcp",
+      "korean"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Dfvm60IhZkR.jpg",
+    "links": [
+      {
+        "title": "영상: 피그마, 계속 써야 할까? 클로드로 디자인 시스템 직접 만들어 본 결과",
+        "url": "https://youtu.be/SEEA8dr1mrg"
+      }
+    ],
+    "slack_ts": "1794884052.278239"
+  },
+  {
+    "id": "th_DfwvNNlgOEv",
+    "source": "Threads",
+    "url": "https://www.threads.com/@gr8rstudio/post/DfwvNNlgOEv",
+    "author": "@gr8rstudio",
+    "category": "UI",
+    "name": "gr8rstudio",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/gr8rstudio.jpg",
+    "title": "발전·송전 운영 모니터링 대시보드 — 지표 수십 개를 카드 그리드로 정리",
+    "summary": [
+      "상단엔 핵심 수치 8개를 아이콘·게이지와 한 줄로, 아래엔 발전·송전·수요 등 영역별 카드를 같은 틀로 반복",
+      "카드마다 '상세 보기' 버튼 위치를 통일해 정보 밀도가 높아도 시선 이동이 예측 가능"
+    ],
+    "apply": "지표가 많은 운영 화면은 '같은 카드 틀 반복 + 상단 핵심 수치 1줄' 규칙만으로도 복잡도가 크게 줄어듦",
+    "tags": [
+      "dashboard",
+      "monitoring",
+      "data-dense",
+      "dark-ui"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DfwvNNlgOEv.jpg",
+    "slack_ts": "1794884054.738199"
+  },
+  {
+    "id": "2122028638992236662",
+    "source": "X",
+    "url": "https://x.com/IamMuhammadMuiz/status/2122028638992236662",
+    "author": "@IamMuhammadMuiz",
+    "category": "UI",
+    "name": "Adesina Muiz",
+    "avatar": "https://pbs.twimg.com/profile_images/2028455256997199872/wkxQsEKt_x96.jpg",
+    "title": "물류 추적 앱 — 배송 단계를 4점 타임라인으로, 상태는 연두 하나로",
+    "summary": [
+      "배송 상세는 '집하 → 이동 → 배송 출발 → 완료' 4단계 점 타임라인으로 현재 위치를 한눈에",
+      "홈은 배송 건수 요약 3칸 + 실시간 지도 카드 + 최근 배송 목록 — 연두색을 '진행 중·완료' 상태에만 사용"
+    ],
+    "apply": "진행 단계가 있는 업무(승인·배송·처리)는 단계 수를 4~5개로 고정한 점 타임라인이 가장 빨리 읽힘",
+    "tags": [
+      "mobile",
+      "logistics",
+      "timeline",
+      "status"
+    ],
+    "image": "https://pbs.twimg.com/media/HXL1yyCXQAA8ehU?format=jpg&name=medium",
+    "slack_ts": "1794884057.363409"
+  }
+]
