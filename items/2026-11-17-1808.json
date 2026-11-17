@@ -1,0 +1,133 @@
+[
+  {
+    "id": "2122171791103897844",
+    "source": "X",
+    "url": "https://x.com/ianneo_ai/status/2122171791103897844",
+    "author": "@ianneo_ai",
+    "category": "UI",
+    "name": "Ian (伊恩)",
+    "avatar": "https://pbs.twimg.com/profile_images/1891533502811865088/TGLd-ENY_x96.jpg",
+    "title": "화면이 싸 보이는 건 비주얼이 아니라 '콘텐츠 정리' 문제 — 15개 요소를 4묶음으로",
+    "summary": [
+      "'이 섹션을 키울까, 버튼을 위로 올릴까'는 시각 문제처럼 보이지만, 사용자에게 얼마나 중요한지 모르면 답할 수 없다는 관점",
+      "핵심 정보 찾기 → 나머지 우선순위·과감히 빼기 → 비슷한 것끼리 묶기 순서를, 15개 콘텐츠가 4그룹으로 줄어드는 인터랙티브 그림으로 설명"
+    ],
+    "apply": "시안 리뷰에서 레이아웃 논쟁이 길어지면, 먼저 화면 콘텐츠를 '필수/선택/삭제'로 분류하는 단계를 거치기",
+    "tags": [
+      "information-architecture",
+      "layout",
+      "content",
+      "principle"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122171140219285504/img/yTa8EjivCE9Fqy9P.jpg",
+    "slack_ts": "1794911079.951869"
+  },
+  {
+    "id": "th_Df0d3mAiNO2",
+    "source": "Threads",
+    "url": "https://www.threads.com/@g9ingan/post/Df0d3mAiNO2",
+    "author": "@g9ingan",
+    "category": "UI",
+    "name": "g9ingan",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/g9ingan.jpg",
+    "title": "'지금 12명이 보고 있어요' — 숫자가 1이면 그때도 보여줘야 할까? (13년차 UX 기획자 팁)",
+    "summary": [
+      "사회적 증거 문구는 반대로도 작동 — '1명이 보고 있어요'는 '아무도 안 찾는 곳'이라는 근거가 됨",
+      "정해 둘 것 3가지: 최소 숫자(예: 5명 미만이면 숨김) · '지금'의 기준(최근 10분 실제 집계) · 숫자가 작을 땐 다른 근거(이번 달 예약 수·평점)로 대체"
+    ],
+    "apply": "대시보드·목록의 카운트 배지도 '작은 숫자일 때 보여줄지'를 기획 단계에서 규칙으로 정해 두기",
+    "tags": [
+      "ux-writing",
+      "social-proof",
+      "microcopy",
+      "korean"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Df0d3mAiNO2.jpg",
+    "slack_ts": "1794911082.356259"
+  },
+  {
+    "id": "2122524479087878470",
+    "source": "X",
+    "url": "https://x.com/yozm_it/status/2122524479087878470",
+    "author": "@yozm_it",
+    "category": "AI",
+    "name": "요즘IT",
+    "avatar": "https://pbs.twimg.com/profile_images/1950792216139743232/6F8I2fh4_x96.jpg",
+    "title": "UI 검증을 3번 반복하는 자동화 하네스 — 기획 문서 기준 · Figma 비교 · E2E 테스트 (요즘IT)",
+    "summary": [
+      "AI가 구현·검증할 기준을 도메인별 기획 문서(docs/specs/<domain>.md)로 표준화하는 게 출발점",
+      "헤드리스 브라우저로 Figma 시안과 비교→수정을 최대 3회 반복하고, API 연동·기획 준수는 E2E 테스트로 확인"
+    ],
+    "apply": "디자인 QA를 AI에 맡길 때 '비교 기준 문서 + 반복 횟수 상한'을 정해 두면 무한 수정 루프를 막을 수 있음",
+    "tags": [
+      "design-qa",
+      "harness",
+      "automation",
+      "korean"
+    ],
+    "image": "https://pbs.twimg.com/media/HXS4vQqbEAAC_lW?format=jpg&name=medium",
+    "links": [
+      {
+        "title": "요즘IT — 팀 작업 흐름에 하네스 연결하기: UI 개발부터 검증·리뷰까지",
+        "url": "https://yozm.wishket.com/magazine/detail/4040/"
+      }
+    ],
+    "slack_ts": "1794911084.634939"
+  },
+  {
+    "id": "2122140802201927765",
+    "source": "X",
+    "url": "https://x.com/GeekNewsHada/status/2122140802201927765",
+    "author": "@GeekNewsHada",
+    "category": "AI",
+    "name": "GeekNews",
+    "avatar": "https://pbs.twimg.com/profile_images/1149438560795107329/F1-aa31C_x96.png",
+    "title": "Shopify 디자인 스튜디오의 '새로운 풀스택 디자이너' — Figma 스케치에서 바로 작동하는 데모까지",
+    "summary": [
+      "아이디어는 Figma로 스케치하고, Codex·Claude Code로 휴대폰·PC에서 바로 써 볼 수 있는 데모를 만들어 조직 설득에 활용",
+      "작업을 쪼개 AI에 맡기되, 결과를 반복 검토하며 비주얼·인터랙션 품질을 다듬는 건 여전히 디자이너 몫이라는 정리"
+    ],
+    "apply": "내부 제안 단계에서 정적 시안 대신 '클릭되는 데모'를 만들면 이해관계자 합의가 빨라짐",
+    "tags": [
+      "ai-workflow",
+      "prototype",
+      "shopify",
+      "role"
+    ],
+    "image": null,
+    "links": [
+      {
+        "title": "GeekNews 요약",
+        "url": "https://news.hada.io/topic?id=37244"
+      },
+      {
+        "title": "원문 — The New Full-Stack Designer (Y Combinator)",
+        "url": "https://www.ycombinator.com/library/gc-the-new-full-stack-designer"
+      }
+    ],
+    "slack_ts": "1794911086.893099"
+  },
+  {
+    "id": "2122570393836019933",
+    "source": "X",
+    "url": "https://x.com/Khazix0918/status/2122570393836019933",
+    "author": "@Khazix0918",
+    "category": "AI",
+    "name": "数字生命卡兹克",
+    "avatar": "https://pbs.twimg.com/profile_images/1756592360367259648/GXJ4Kl6w_x96.jpg",
+    "title": "3년 만에 타오바오 디자인팀에 하루 입사해 본 전직 디자이너 — AI가 바꾼 대기업 디자인 현장 (중국어 장문)",
+    "summary": [
+      "팀의 AI 활용은 3갈래: 대량 크리에이티브는 거의 AI화(디자이너는 요구사항·에이전트 흐름·스타일 조정), 200여 개 디자인 지식베이스를 AI로 이전, 그리고 자체 제작한 AI+캔버스 도구",
+      "대화형 HTML 생성 → Figma 플러그인 → 직접 만든 도구로 진화한 이유: 복잡한 업무 지식 반영과 '디자인=최종 결과물'로 구현 손실을 없애기 위해"
+    ],
+    "apply": "사내 디자인 규범·업무 지식을 AI가 답할 수 있게 정리하는 것부터가 대규모 팀 AI 도입의 출발점이라는 사례",
+    "tags": [
+      "case-study",
+      "enterprise",
+      "ai-workflow",
+      "design-tool"
+    ],
+    "image": "https://pbs.twimg.com/tweet_video_thumb/HXThzJxbIAAUZAL.jpg",
+    "slack_ts": "1794911089.161139"
+  }
+]
