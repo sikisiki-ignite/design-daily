@@ -1,0 +1,108 @@
+[
+  {
+    "id": "2122714711095468195",
+    "source": "X",
+    "url": "https://x.com/PaulJun_/status/2122714711095468195",
+    "author": "@PaulJun_",
+    "category": "AI",
+    "name": "Paul Jun",
+    "avatar": "https://pbs.twimg.com/profile_images/1603123088647938049/xnythTXg_x96.jpg",
+    "title": "Ramp 브랜드 총괄의 'Brand as Infrastructure' — 반복 작업은 소프트웨어로, 판단은 사람에게",
+    "summary": [
+      "시니어 브랜드 디자이너를 덱·백서 제작에서 빼고 브랜드 시스템에 집중 → 합류 2주 만에 백서 작업 90%를 자동화한 사내 도구까지 등장",
+      "Figma에 '10/10 예시'를 여러 개 만들어 에이전트가 좋은 작업을 학습, 사내 Slack 에이전트가 덱·원페이저·인쇄물을 생성. 직접 만든 고품질 작업은 다시 브랜드 시스템에 편입"
+    ],
+    "apply": "반복 산출물(보고서·소개 자료) 중 셀프서브로 돌릴 것과 디자이너가 직접 만들 것을 먼저 나누고, '모범 예시'부터 쌓기",
+    "tags": [
+      "brand",
+      "ai-workflow",
+      "design-ops",
+      "case-study"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120851647127511040/img/yvC1oP_e6D-bbWLJ.jpg",
+    "slack_ts": "1794978399.365819"
+  },
+  {
+    "id": "2122530337783992496",
+    "source": "X",
+    "url": "https://x.com/BrooksWhaleX/status/2122530337783992496",
+    "author": "@BrooksWhaleX",
+    "category": "AI",
+    "name": "Brooks Whale X 🐋",
+    "avatar": "https://pbs.twimg.com/profile_images/2034559748574466048/ExKH5MXt_x96.jpg",
+    "title": "애플식 3D 스크롤 스토리텔링 페이지를 에이전트로 — 오픈소스 스킬 'scroll-world'",
+    "summary": [
+      "장면을 설명하면 아이소메트릭 장면 이미지·카메라 이동 영상·장면 사이 연결 클립까지 생성하고, 스크롤로 재생되는 엔진에 붙여 줌",
+      "시작 전에 브랜드·장면·아트 디렉션·예산을 먼저 묻는 인터뷰 단계가 있고, 모바일용 세로 버전도 따로 렌더"
+    ],
+    "apply": "제품 소개·런칭 페이지에서 3D 스크롤 연출을 검토할 때 외주 전에 이 스킬로 콘셉트 시안부터 만들어 보기",
+    "tags": [
+      "web",
+      "scroll",
+      "3d",
+      "skills"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122530313616359424/img/xqlSqCFZH_0Tcffz.jpg",
+    "links": [
+      {
+        "title": "oso95/scroll-world",
+        "url": "https://github.com/oso95/scroll-world",
+        "note": "GitHub (MIT)"
+      }
+    ],
+    "slack_ts": "1794978401.603259"
+  },
+  {
+    "id": "2122816047225155845",
+    "source": "X",
+    "url": "https://x.com/bookiroad1/status/2122816047225155845",
+    "author": "@bookiroad1",
+    "category": "UI",
+    "name": "부키로드 BOOKIROAD 🥷💿",
+    "avatar": "https://pbs.twimg.com/profile_images/2109999813509169152/NtPUcwsc_x96.jpg",
+    "title": "가입·구매 버튼을 AI에 맡기기 전에 — CTA 갤러리로 레퍼런스 고르고 지시하는 법",
+    "summary": [
+      "실서비스의 버튼·가입 폼·요금제·팝업만 8개 분류로 모은 사이트, 업종·라이트/다크로 거르고 데스크톱/모바일 화면을 비교",
+      "작성자 사용법: 마음에 드는 2~3개를 골라 AI에 넘기고 '배치·강조 방식만 분석해 우리 서비스용으로, 모바일 고려, 그대로 베끼지 말 것'으로 지시"
+    ],
+    "apply": "'버튼 좀 더 예쁘게' 대신 실제 CTA 레퍼런스 2~3개 + 분석 지시를 주면 결과 품질이 확실히 달라짐",
+    "tags": [
+      "cta",
+      "reference",
+      "ai-workflow",
+      "conversion"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122695653432410112/img/qPpT04UiqrmzncQ7.jpg",
+    "links": [
+      {
+        "title": "CTA Gallery",
+        "url": "https://www.cta.gallery/",
+        "note": "실서비스 CTA·가입 폼·요금제 모음"
+      }
+    ],
+    "slack_ts": "1794978403.965109"
+  },
+  {
+    "id": "th_Dfzt1RsoKVu",
+    "source": "Threads",
+    "url": "https://www.threads.com/@soni.axion/post/Dfzt1RsoKVu",
+    "author": "@soni.axion",
+    "category": "UI",
+    "name": "soni.axion",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/soni.axion.jpg",
+    "title": "청구서 214건을 '한눈에' — 연체·위험·처리 완료로 바꿔 보여주는 화면",
+    "summary": [
+      "표부터 보여주지 않고 위에 연체 기간별 점 그래프(에이징)를 두어 '얼마나 밀렸는지'를 먼저 전달",
+      "아래 연체 목록엔 상태(계획 합의·약속·대화 중·대기)를 점과 문구로, 진행 정도를 작은 점 막대로 표시"
+    ],
+    "apply": "목록형 어드민 화면은 표 위에 '사용자가 먼저 알아야 할 답(연체·위험)'을 요약 시각화로 올려 두기",
+    "tags": [
+      "dashboard",
+      "table",
+      "fintech",
+      "data-viz"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Dfzt1RsoKVu.jpg",
+    "slack_ts": "1794978406.392049"
+  }
+]
