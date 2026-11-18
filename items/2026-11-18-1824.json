@@ -1,0 +1,107 @@
+[
+  {
+    "id": "th_Df3z71kE3Lg",
+    "source": "Threads",
+    "url": "https://www.threads.com/@kez_works/post/Df3z71kE3Lg",
+    "author": "@kez_works",
+    "category": "AI",
+    "name": "kez_works",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/kez_works.jpg",
+    "title": "AI 목업이 자꾸 틀어질 때 — 이미지 생성 전에 블렌더로 '프리비즈' 한 단계 넣기",
+    "summary": [
+      "각도·오브젝트 수·텍스트가 늘수록 AI가 재해석하며 오차가 생김 (캔이 눕자 일러스트 이파리가 엄지손가락에서 돋아난 비교 예시)",
+      "블렌더로 각도·배치를 먼저 잡고 디자인을 씌운 뒤 AI는 리터칭만 하게 → 왜곡·크기 변화가 사라짐. 단순 모델링은 Claude·GPT가 대신 만들어 줌"
+    ],
+    "apply": "AI 이미지 작업에서 '구도·배치'처럼 바뀌면 안 되는 정보는 AI에 맡기지 말고 미리 고정한 입력으로 주기",
+    "tags": [
+      "mockup",
+      "image-gen",
+      "blender",
+      "korean"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Df3z71kE3Lg.jpg",
+    "slack_ts": "1794994957.867059"
+  },
+  {
+    "id": "2122917792903209141",
+    "source": "X",
+    "url": "https://x.com/Kubai087/status/2122917792903209141",
+    "author": "@Kubai087",
+    "category": "AI",
+    "name": "枯白 Kubai",
+    "avatar": "https://pbs.twimg.com/profile_images/2036148968900665346/DblPsR4p_x96.jpg",
+    "title": "바이브 코딩한 제품을 '만든 티' 나게 다듬는 팁 999개 — 무료 튜토리얼 사이트 Vibe Design Tips",
+    "summary": [
+      "AI로 빠르게 만든 화면에 빠지기 쉬운 '작은 디테일'만 모은 튜토리얼 시리즈를 사이트로 정리",
+      "북마크·하이라이트·일괄 다운로드를 지원해, 팁을 모아 AI에게 그대로 넘기는 용도로도 쓸 수 있음"
+    ],
+    "apply": "AI 시안 검수 체크리스트를 만들 때 이 사이트의 팁을 항목 후보로 훑어보기",
+    "tags": [
+      "polish",
+      "detail",
+      "tips",
+      "reference"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2122917070115577856/img/oEAA5NzXEE5fRGBM.jpg",
+    "links": [
+      {
+        "title": "Vibe Design Tips",
+        "url": "https://vibedesign.tips/",
+        "note": "디테일 팁 모음 (무료)"
+      }
+    ],
+    "slack_ts": "1794994960.141899"
+  },
+  {
+    "id": "2122814246098698354",
+    "source": "X",
+    "url": "https://x.com/wired_jp/status/2122814246098698354",
+    "author": "@wired_jp",
+    "category": "AI",
+    "name": "WIRED.jp",
+    "avatar": "https://pbs.twimg.com/profile_images/1605821808347082752/aymalKvn_x96.jpg",
+    "title": "WIRED: '이미 질렸다' — 인터넷을 뒤덮은 판에 박힌 AI 디자인 스타일",
+    "summary": [
+      "Claude Design 등장 이후 웹 디자인이 하룻밤 새 정해진 틀로 바뀌었다는 진단 — 지금이야말로 사람의 독창성이 필요하다는 기사",
+      "그동안 피드에 올린 'AI 티 지우기' 글들(편향 끄기 프롬프트·금지 목록)이 나온 배경을 매체 관점에서 정리한 글"
+    ],
+    "apply": "AI로 만든 시안은 '요즘 다 이렇게 생긴' 요소(세리프+오프화이트, 글로우 카드 등)를 체크리스트로 걸러 보기",
+    "tags": [
+      "ai-aesthetic",
+      "critique",
+      "trend",
+      "media"
+    ],
+    "links": [
+      {
+        "title": "WIRED.jp 기사",
+        "url": "https://wired.jp/article/sz-the-ai-design-aesthetic-thats-taking-over-the-internet/",
+        "note": "일본어"
+      }
+    ],
+    "slack_ts": "1794994962.234019"
+  },
+  {
+    "id": "th_Df4MPyfgcyj",
+    "source": "Threads",
+    "url": "https://www.threads.com/@oonijota77/post/Df4MPyfgcyj",
+    "author": "@oonijota77",
+    "category": "UI",
+    "name": "oonijota77",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/oonijota77.jpg",
+    "title": "'쉬는 중'을 둘로 나누면 — AI 작업 상태 표시를 '내 답 기다림'과 '작업 끝'으로",
+    "summary": [
+      "Claude 창 3개가 모두 조용할 때 어느 창부터 볼지 모르는 문제 — 작업 중/쉬는 중 표시만으로는 부족",
+      "'내 답을 기다리는 중'과 '작업 끝'을 구분하면 사람이 개입해야 다시 움직이는 창부터 볼 수 있다는 상태 설계 제안"
+    ],
+    "apply": "AI·자동화 기능의 상태 표시는 '대기'를 '사용자 응답 필요'와 '완료'로 쪼개 행동 우선순위가 보이게 하기",
+    "tags": [
+      "state-design",
+      "status",
+      "ai-product",
+      "korean"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Df4MPyfgcyj.jpg",
+    "slack_ts": "1794994964.658349"
+  }
+]
