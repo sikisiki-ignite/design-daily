@@ -1,0 +1,101 @@
+[
+  {
+    "id": "2122870797635035572",
+    "source": "X",
+    "url": "https://x.com/RaminNasibov/status/2122870797635035572",
+    "author": "@RaminNasibov",
+    "category": "UI",
+    "name": "Ramin Nasibov",
+    "avatar": "https://pbs.twimg.com/profile_images/2006792793650323456/WI88G3rp_x96.jpg",
+    "title": "이사 앱 컨셉 — 소파를 옮기기 전에 '문으로 들어가는지' 먼저 보여주기",
+    "summary": [
+      "가구 치수와 문·복도 치수를 아이소메트릭 평면도 위에서 비교해 경로를 시뮬레이션, 결과를 '문보다 깊어요(소파 92cm, 문 86cm)'처럼 한 문장 + 수치로",
+      "11/11에 올린 '좌석 고르기 전 창밖 풍경' 항공 앱과 같은 작가 — 결정 전에 결과를 미리 보여주는 시리즈"
+    ],
+    "apply": "되돌리기 어려운 행동(주문·확정) 앞에는 '실패 여부를 미리 판정해 주는 화면'을 두고, 결과는 짧은 결론 + 근거 수치로",
+    "tags": [
+      "mobile",
+      "preview",
+      "concept",
+      "isometric"
+    ],
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/2122870772762853377/pu/img/NXv7g9onvWS9QkkU.jpg",
+    "slack_ts": "1795077551.089509"
+  },
+  {
+    "id": "th_Df1jwPxiX_-",
+    "source": "Threads",
+    "url": "https://www.threads.com/@jdd.work/post/Df1jwPxiX_-",
+    "author": "@jdd.work",
+    "category": "UI",
+    "name": "jdd.work",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/jdd.work.jpg",
+    "title": "AI에게 반응형 UI를 지시할 때 쓰는 용어 — 앵커·피벗·9슬라이스 (한국어)",
+    "summary": [
+      "앵커(UI를 어디에 붙일지 기준), 피벗(늘리거나 돌릴 때의 기준점), 9슬라이스(모서리 모양을 유지하며 늘리기)를 그림과 예시 지시문으로 설명",
+      "예: '체력바를 오른쪽 위 앵커에 고정해줘', '9슬라이스로 모서리를 유지하며 창을 넓혀줘' — 게임 UI 예시지만 웹·앱 반응형에도 그대로 통함"
+    ],
+    "apply": "디자인 가이드의 반응형 규칙(고정 기준·늘어나는 영역)을 이 용어로 정리해 두면 AI·개발자 모두에게 지시가 정확해짐",
+    "tags": [
+      "responsive",
+      "vocabulary",
+      "prompt",
+      "korean"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Df1jwPxiX_-.jpg",
+    "slack_ts": "1795077553.532799"
+  },
+  {
+    "id": "2122881945688281510",
+    "source": "X",
+    "url": "https://x.com/ZacheryNielson/status/2122881945688281510",
+    "author": "@ZacheryNielson",
+    "category": "AI",
+    "name": "Zac Nielson",
+    "avatar": "https://pbs.twimg.com/profile_images/2119133330301927424/_31Pfog1_x96.jpg",
+    "title": "Claude가 '진짜 디자인 파일' 안에서 작업하는 디자인 툴 Optic — AI 되돌리기·레이어 잠금·분기 비교",
+    "summary": [
+      "AI 초안이 채팅창에 갇혀 편집이 안 되는 문제를 겨냥: Claude가 실제 레이어 위에서 작업하고, 한 번의 AI 작업이 '한 단계'로 묶여 무엇이 바뀌었는지 보고 일부만 되돌릴 수 있음",
+      "완성한 레이어는 잠가서 AI가 읽기만 하게(Protect), 모든 방향·수정을 분기로 저장해 나란히 비교·합치기(Paths). 서체·색·모서리·밀도부터 정하고 시안 3개를 받는 흐름"
+    ],
+    "apply": "AI 디자인 도구를 고를 때 '변경 내역이 보이는가·부분 되돌리기가 되는가·잠금이 되는가'를 체크 기준으로 삼기",
+    "tags": [
+      "design-tool",
+      "claude",
+      "agent-ux",
+      "versioning"
+    ],
+    "image": "https://pbs.twimg.com/media/HXX7lYcWEAAzAFX?format=jpg&name=large",
+    "links": [
+      {
+        "title": "Optic",
+        "url": "https://visualexplorer.app/optic",
+        "note": "Mac·웹"
+      }
+    ],
+    "slack_ts": "1795077555.826169"
+  },
+  {
+    "id": "th_Df6c6KeET4D",
+    "source": "Threads",
+    "url": "https://www.threads.com/@peesamac/post/Df6c6KeET4D",
+    "author": "@peesamac",
+    "category": "AI",
+    "name": "peesamac",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/peesamac.jpg",
+    "title": "100명 규모 UX/UI 팀의 학습 문화 만들기 — AXONS 컨퍼런스 2번째 세션 요약 (태국어)",
+    "summary": [
+      "강의부터 짜지 않고 팀에 3가지를 먼저 물음(가고 싶은 회사와 이유·밖에서 본 우리 팀·바라는 미래) → 원하는 건 이미 팀 안에 있는데 '접근·공간·도전'이 없어서 안 보였다는 발견",
+      "아이디어를 영향도×비용 2축에 놓고 빠른 성과부터: 동료 공유, 실험 콘테스트, UX/UI용 AI 워크숍, 커뮤니티 활동. 1박 워크숍·전원 강의비·긴 의무 교육은 '피할 것'으로 분류"
+    ],
+    "apply": "팀 AI 학습을 의무 교육 대신 '동료 공유 + 작은 실험 콘테스트'로 시작해 보기",
+    "tags": [
+      "team",
+      "learning-culture",
+      "case-study",
+      "conference"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Df6c6KeET4D.jpg",
+    "slack_ts": "1795077557.838969"
+  }
+]
