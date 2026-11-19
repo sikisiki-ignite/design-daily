@@ -1,0 +1,141 @@
+[
+  {
+    "id": "2123177631499628775",
+    "source": "X",
+    "url": "https://x.com/diegohaz/status/2123177631499628775",
+    "author": "@diegohaz",
+    "category": "UI",
+    "name": "Haz",
+    "avatar": "https://pbs.twimg.com/profile_images/1964797260597772288/uQG557we_x96.jpg",
+    "title": "사이드바 '현재 메뉴' 표시의 디테일 — 저대비 배경만으론 부족한 이유",
+    "summary": [
+      "옅은 배경·굵은 글자만으로는 현재 위치가 잘 안 보임(저시력 사용자는 더) → 고대비 막대 같은 추가 표시가 필요",
+      "막대를 오른쪽에 두면 스크롤바와, 왼쪽 끝에 붙이면 화면 테두리와 겹쳐 보임 → 양쪽에 여백을 두고 띄우는 게 해법 (탭 시리즈 3편)"
+    ],
+    "apply": "어드민 사이드바의 활성 메뉴 스타일을 '배경+굵기+독립 인디케이터' 3중으로 점검하고, 인디케이터는 가장자리에서 띄우기",
+    "tags": [
+      "navigation",
+      "accessibility",
+      "sidebar",
+      "detail"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2123175156914790400/img/xn00av4_rnuz5_T3.jpg",
+    "slack_ts": "1795068774.246959"
+  },
+  {
+    "id": "th_Df4kHItDeWy",
+    "source": "Threads",
+    "url": "https://www.threads.com/@ui.iliasmiah000/post/Df4kHItDeWy",
+    "author": "@ui.iliasmiah000",
+    "category": "UI",
+    "name": "ui.iliasmiah000",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/ui.iliasmiah000.jpg",
+    "title": "AI 에이전트에게 '거절'도 가르치는 승인 화면 — 이유와 메모를 남기면 다음부터 학습",
+    "summary": [
+      "자동화 앱의 승인 대기열: 에이전트가 제안한 리밸런싱을 사람이 거절할 때 이유·메모를 같이 남겨 에이전트가 '일요일까지 기다리기'를 학습",
+      "오른쪽엔 '왜 지금 필요한지' 설명, 실행 전후 비교, 가드레일 점검(수수료·가격 영향 등) 4/4 통과 표시를 함께 배치"
+    ],
+    "apply": "AI 기능의 승인 화면엔 '승인/거절' 버튼만 두지 말고, 거절 사유를 남겨 다음 제안에 반영되는 흐름까지 설계하기",
+    "tags": [
+      "ai-product",
+      "approval",
+      "agent-ux",
+      "dashboard"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Df4kHItDeWy.jpg",
+    "slack_ts": "1795068776.683359"
+  },
+  {
+    "id": "2123228003664580979",
+    "source": "X",
+    "url": "https://x.com/yuwen_lu_/status/2123228003664580979",
+    "author": "@yuwen_lu_",
+    "category": "AI",
+    "name": "yuwen lu",
+    "avatar": "https://pbs.twimg.com/profile_images/2041949642519441408/YFwzU-Q5_x96.jpg",
+    "title": "AI 디자인 벤치마크 제작 비하인드 — 취향도 채점 기준표로 측정되고, 모델마다 'AI 티'가 다르다",
+    "summary": [
+      "랜딩 페이지가 아니라 웹앱·모바일 앱 같은 복잡한 실제 과제로 모델을 비교하는 갤러리, 실용 디자인 원칙 기반 채점표가 전문가 선호와 높은 상관",
+      "모델별 슬롭 패턴도 관찰: Claude는 → 오른쪽 화살표, GPT는 ↗ 좁은 대각선 화살표를 즐겨 씀 — 패턴은 계속 바뀌어 꾸준히 갱신"
+    ],
+    "apply": "우리 AI 시안 검수표에도 '모델별로 자주 나오는 장식'을 항목으로 넣어 두고 주기적으로 업데이트하기",
+    "tags": [
+      "benchmark",
+      "ai-aesthetic",
+      "evaluation",
+      "models"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2123116651512217600/img/NKfGhsWFmVLDgh9T.jpg",
+    "slack_ts": "1795068778.983099"
+  },
+  {
+    "id": "th_Df6L931gKT8",
+    "source": "Threads",
+    "url": "https://www.threads.com/@peesamac/post/Df6LV6rgEr9",
+    "author": "@peesamac",
+    "category": "AI",
+    "name": "peesamac",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/peesamac.jpg",
+    "title": "태국 농식품 테크 기업 AXONS 디자인팀의 AI 전환기 — '에이전트는 정리해도 사람은 그대로' (컨퍼런스 현장 요약)",
+    "summary": [
+      "AI를 맡을 R&D 팀을 따로 만들고, 그 아래 AI 에이전트 4개를 운영 — 성과 없는 에이전트는 '해고'하되 사람 97명은 그대로",
+      "UX/UI 업무를 하나씩 'AI가 할 수 있나·더 잘하나·사람 판단이 필요한가'로 분류해 맡기고, 디자이너 시간 배분을 50:50에서 75:25로 재편"
+    ],
+    "apply": "팀 AI 도입 시 '업무 목록 → AI 대체/협업/사람 전담 분류'부터 하고, 전환기 생산성 하락을 전제로 계획 세우기",
+    "tags": [
+      "case-study",
+      "team",
+      "ai-transformation",
+      "conference"
+    ],
+    "slack_ts": "1795068781.251789"
+  },
+  {
+    "id": "th_Dfv_9R0jGjM",
+    "source": "Threads",
+    "url": "https://www.threads.com/@runkater/post/Dfv_9R0jGjM",
+    "author": "@runkater",
+    "category": "UI",
+    "name": "runkater",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/runkater.jpg",
+    "title": "글로벌 IT 기업들이 공개한 디자인 시스템 — 일부는 AI가 직접 참고하도록 MCP·CLI까지",
+    "summary": [
+      "Meta·Google·Microsoft·IBM·Adobe·GitHub의 실서비스 디자인 시스템을 가이드뿐 아니라 오픈소스 컴포넌트로 활용 가능",
+      "작성자 포인트: 일부는 AI 에이전트가 시스템을 직접 참고하도록 MCP나 CLI를 제공 → AI에게 '이 시스템 기준으로' 지시만 하면 됨"
+    ],
+    "apply": "내부 도구를 AI로 빠르게 만들 때는 이런 공개 시스템 중 하나를 기준으로 고정해 두면 간격·크기 고민이 줄어듦",
+    "tags": [
+      "design-system",
+      "reference",
+      "open-source",
+      "korean"
+    ],
+    "links": [
+      {
+        "title": "Material Design 3 (Google)",
+        "url": "https://m3.material.io"
+      },
+      {
+        "title": "Fluent 2 (Microsoft)",
+        "url": "https://fluent2.microsoft.design"
+      },
+      {
+        "title": "Carbon (IBM)",
+        "url": "https://carbondesignsystem.com"
+      },
+      {
+        "title": "Spectrum (Adobe)",
+        "url": "https://spectrum.adobe.com"
+      },
+      {
+        "title": "Primer (GitHub)",
+        "url": "https://primer.style"
+      },
+      {
+        "title": "Astryx (Meta)",
+        "url": "https://github.com/meta/astryx"
+      }
+    ],
+    "slack_ts": "1795068783.652339"
+  }
+]
