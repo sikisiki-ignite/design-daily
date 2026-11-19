@@ -1,0 +1,134 @@
+[
+  {
+    "id": "2122935356056117430",
+    "source": "X",
+    "url": "https://x.com/augustasdesign/status/2122935356056117430",
+    "author": "@augustasdesign",
+    "category": "UI",
+    "name": "Augustas",
+    "avatar": "https://pbs.twimg.com/profile_images/2119388687918100480/kPjZldBq_x96.jpg",
+    "title": "영업 예측 대시보드 'Sable' — 목표선과 예측 궤적을 입자 흐름으로 그린 다크 UI",
+    "summary": [
+      "상단 KPI 4개(확정·최선·파이프라인 커버리지·성사율)마다 작은 막대 스파크라인을 붙여 숫자와 추세를 함께",
+      "'예측 vs 목표' 차트를 선 대신 퍼지는 입자 궤적으로 표현해 불확실성 범위를 시각적으로 전달, 하단엔 담당자별 달성률·주요 딜 목록"
+    ],
+    "apply": "예측처럼 '범위가 있는 수치'는 단일 선 대신 밴드·분포로 보여주면 오해가 줄어듦",
+    "tags": [
+      "dashboard",
+      "data-viz",
+      "dark-ui",
+      "forecast"
+    ],
+    "image": "https://pbs.twimg.com/media/HXYudIkWgAAZFD-?format=jpg&name=medium",
+    "links": [
+      {
+        "title": "작업 더 보기 (Larpo Studio)",
+        "url": "https://larpo.studio/"
+      }
+    ],
+    "slack_ts": "1795053787.732399"
+  },
+  {
+    "id": "2123151513191325965",
+    "source": "X",
+    "url": "https://x.com/_heyrico/status/2123151513191325965",
+    "author": "@_heyrico",
+    "category": "UI",
+    "name": "rico",
+    "avatar": "https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_x96.jpg",
+    "title": "AI 상담 제품을 설명하는 마이크로 일러스트 — 연결 채널·지식 소스·톤 설정을 작은 카드로",
+    "summary": [
+      "메신저 아이콘 묶음(연결 채널), 정책 문서·플레이북 칩(지식 소스), 대화 말풍선(에이전트 응답), 태그 칩(환불 요청·화난 말투) 5장",
+      "실제 UI 조각을 흐린 꽃 사진 배경 위에 올려 기능 설명 이미지를 스크린샷보다 가볍게 구성"
+    ],
+    "apply": "기능 소개 페이지에는 전체 스크린샷 대신 핵심 UI 조각만 잘라낸 '마이크로 일러스트'를 쓰면 메시지가 선명해짐",
+    "tags": [
+      "illustration",
+      "marketing",
+      "ai-product",
+      "saas"
+    ],
+    "image": "https://pbs.twimg.com/media/HXbzDN7bcAAeV7U?format=jpg&name=medium",
+    "slack_ts": "1795053789.776559"
+  },
+  {
+    "id": "th_Df3cFH-CYYd",
+    "source": "Threads",
+    "url": "https://www.threads.com/@yentrandeshort/post/Df3cFH-CYYd",
+    "author": "@yentrandeshort",
+    "category": "UI",
+    "name": "yentrandeshort",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/yentrandeshort.jpg",
+    "title": "Microsoft Windows App의 새 연결 툴바 — 고정 상단 바에서 '이동·접기' 가능한 툴바로 (Ignite 2026 공개)",
+    "summary": [
+      "담당 디자이너 공유: Windows 365 Cloud PC를 macOS·iOS·Android·Windows에서 쓰는 툴바를 재설계",
+      "작성자 스레드: 예전엔 상단 고정이라 화면을 차지했는데, 이제 옮기고 접을 수 있게 해 작업 화면 방해를 줄임 (현재 공개 미리보기)"
+    ],
+    "apply": "원격·편집 도구처럼 콘텐츠가 주인공인 화면의 툴바는 '고정'보다 '이동·접기'를 기본 옵션으로 검토",
+    "tags": [
+      "toolbar",
+      "case-study",
+      "microsoft",
+      "cross-platform"
+    ],
+    "links": [
+      {
+        "title": "Microsoft Learn — New connection experience on Windows (preview)",
+        "url": "https://learn.microsoft.com/en-us/windows-app/new-connection-experience-windows"
+      }
+    ],
+    "slack_ts": "1795053792.095799"
+  },
+  {
+    "id": "2123046178975891883",
+    "source": "X",
+    "url": "https://x.com/_kejk/status/2123046178975891883",
+    "author": "@_kejk",
+    "category": "AI",
+    "name": "Karl",
+    "avatar": "https://pbs.twimg.com/profile_images/2090495948241747968/B_HjrTVo_x96.jpg",
+    "title": "DuckDuckGo 채용 담당자가 만든 '포트폴리오 점검 스킬' — 30초 안에 '와'가 나오나",
+    "summary": [
+      "포트폴리오 수백 개를 보며 느낀 문제: 작업은 좋은데 무엇을 기여했는지·어떤 결정이 본인 것인지·우리 팀 일과 어떻게 연결되는지 안 보임",
+      "타이틀은 단순하게('AI 디자이너'처럼 도구로 자신을 설명하지 말 것), AI는 '무엇을 어떻게 만들었는지'로 보여주기 — 이 기준을 AI 스킬로 공개"
+    ],
+    "apply": "팀 채용·내부 포트폴리오 리뷰에 '기여·결정·맥락' 3가지 질문을 체크리스트로 써 보기",
+    "tags": [
+      "portfolio",
+      "career",
+      "hiring",
+      "skills"
+    ],
+    "image": "https://pbs.twimg.com/tweet_video_thumb/HXaTNazbEAAfOFn.jpg",
+    "links": [
+      {
+        "title": "포트폴리오 점검 스킬 (GitHub)",
+        "url": "https://github.com/kemiljk/skills/tree/main/skills/dxe-hiring-manager-bar"
+      }
+    ],
+    "slack_ts": "1795053794.036629"
+  },
+  {
+    "id": "th_Df4TMEZDZbe",
+    "source": "Threads",
+    "url": "https://www.threads.com/@uiuxtogether/post/Df4TMEZDZbe",
+    "author": "@uiuxtogether",
+    "category": "AI",
+    "name": "uiuxtogether",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/uiuxtogether.jpg",
+    "title": "Adobe MAX: 내가 쓰는 AI 에이전트로 Photoshop·Illustrator 원본 파일을 직접 작업",
+    "summary": [
+      "에이전트가 레이어·벡터·시퀀스가 살아 있는 원본 파일을 수정 → 사람이 이어서 손으로 다듬을 수 있음. Drive·Slack과 연결하면 브리프 수집부터 공유까지",
+      "함께 발표: 일러스트·리터칭·3D를 한 캔버스에 둔 Firefly Design, 글로 인터랙티브 프로토타입을 만드는 Firefly Builder(비공개 베타) — MCP는 2027년 초 베타"
+    ],
+    "apply": "AI 결과물이 '편집 가능한 원본'으로 나오는지가 도구 선택 기준 — 이미지 한 장으로만 나오면 후반 수정 비용이 큼",
+    "tags": [
+      "adobe",
+      "agents",
+      "tools",
+      "news"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Df4TMEZDZbe.jpg",
+    "slack_ts": "1795053796.447019"
+  }
+]
