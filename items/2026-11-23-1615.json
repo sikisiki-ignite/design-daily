@@ -1,0 +1,155 @@
+[
+  {
+    "id": "th_DgASVYUAE8W",
+    "source": "Threads",
+    "url": "https://www.threads.com/@filatov.design/post/DgASVYUAE8W",
+    "author": "@filatov.design",
+    "category": "UI",
+    "name": "filatov.design",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/filatov.design.jpg",
+    "title": "화면 아래가 탄산음료로 차 있는 브랜드 사이트 — 캔을 집어 흔들고 다시 떨어뜨리기",
+    "summary": [
+      "상품 목록 대신 화면 하단에 음료가 찰랑이고, 캔을 끌어 흔들면 거품이 일고 다시 놓으면 떠오르는 물리 인터랙션",
+      "작성자 스레드: 맛 이름·음료 색·캔 이미지를 바꿔 볼 수 있고, 프롬프트 하나로 Claude·Codex가 그대로 재현 (11/12 스트리트웨어 사이트와 같은 작가)"
+    ],
+    "apply": "상품이 적은 브랜드 페이지는 '제품 자체를 만지는 경험' 하나로 기억에 남는 첫 화면을 만들 수 있음",
+    "tags": [
+      "web",
+      "interaction",
+      "physics",
+      "branding"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DgASVYUAE8W.jpg",
+    "links": [
+      {
+        "title": "직접 바꿔 보기 (커스터마이즈)",
+        "url": "https://filatov.design/customize?site=psst"
+      }
+    ],
+    "slack_ts": "1795422391.534919"
+  },
+  {
+    "id": "2124186265461707055",
+    "source": "X",
+    "url": "https://x.com/diegohaz/status/2124186265461707055",
+    "author": "@diegohaz",
+    "category": "UI",
+    "name": "Haz",
+    "avatar": "https://pbs.twimg.com/profile_images/1964797260597772288/uQG557we_x96.jpg",
+    "title": "사이드바 접기 버튼이 '튀지 않게' — 앱 셸 UI의 디테일 (동적 탭 + 접히는 사이드바)",
+    "summary": [
+      "사이드바를 접고 펼 때 토글 버튼 위치가 따라 움직이지 않도록 고정하는 앱 셸 구조를 영상으로 설명",
+      "탭·스크롤 탭·활성 메뉴에 이은 시리즈 4편 — 작성자 스레드: 이 패턴들을 에이전트가 재사용할 지시문·코드 레시피로 연말 공개 예정"
+    ],
+    "apply": "어드민 사이드바 토글은 접힌/펼친 상태 모두 같은 자리에 두는 걸 컴포넌트 규칙으로 정해 두기",
+    "tags": [
+      "sidebar",
+      "app-shell",
+      "component",
+      "detail"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2124185185474211840/img/nE-k4ay6QHL-VYxJ.jpg",
+    "slack_ts": "1795422393.438309"
+  },
+  {
+    "id": "2123972597411107114",
+    "source": "X",
+    "url": "https://x.com/huhuhang/status/2123972597411107114",
+    "author": "@huhuhang",
+    "category": "UI",
+    "name": "huhuhang",
+    "avatar": "https://pbs.twimg.com/profile_images/1480533985294155778/w_C8FTn__x96.jpg",
+    "title": "Apple이 공식 제공하는 기기 프레임(Product Bezels) 에셋",
+    "summary": [
+      "iPhone·iPad·Mac 등 실제 기기 외곽 이미지를 Apple Design Resources에서 공식 배포 — 목업 사이트에서 받던 프레임을 원본으로",
+      "App Store 스크린샷·포트폴리오·제안서에 화면을 기기에 넣어 보여줄 때 바로 활용 가능"
+    ],
+    "apply": "팀 목업 템플릿의 기기 프레임을 Apple 공식 에셋으로 통일하면 비율·디테일 오류가 사라짐",
+    "tags": [
+      "resources",
+      "mockup",
+      "apple",
+      "reference"
+    ],
+    "links": [
+      {
+        "title": "Apple Design Resources — Product Bezels",
+        "url": "https://developer.apple.com/design/resources/#product-bezels"
+      }
+    ],
+    "slack_ts": "1795422395.701059"
+  },
+  {
+    "id": "2124509706916151429",
+    "source": "X",
+    "url": "https://x.com/AdhamDannaway/status/2124509706916151429",
+    "author": "@AdhamDannaway",
+    "category": "AI",
+    "name": "Adham Dannaway",
+    "avatar": "https://pbs.twimg.com/profile_images/564682290303729665/Nl1tsx2v_x96.jpeg",
+    "title": "AI 제품 디자인용 레퍼런스 사이트 — AI 인터랙션 패턴·UX 패턴·도입 현황·스킬",
+    "summary": [
+      "'AI 기능을 어떻게 설계하나'에 특화된 사이트 모음 — AI 인터랙션 패턴, AI UX 패턴(Shape of AI), AI 디자인 도입 현황 리포트, 에이전트 스킬 모음",
+      "『Practical UI』 저자가 정리(11/11 DESIGN.md 글과 같은 작가) — 일반 갤러리보다 AI 기능 설계 시 바로 참고할 수 있는 구성"
+    ],
+    "apply": "AI 기능(추천·생성·에이전트)이 들어가는 화면은 이 패턴 사이트들로 '입력·대기·결과·수정' 흐름 사례부터 확인",
+    "tags": [
+      "ai-ux",
+      "patterns",
+      "reference",
+      "resources"
+    ],
+    "image": "https://pbs.twimg.com/media/HXuRW63aAAAoinr?format=jpg&name=medium",
+    "links": [
+      {
+        "title": "AI Interaction",
+        "url": "https://ai-interaction.com/",
+        "note": "AI 인터랙션 패턴"
+      },
+      {
+        "title": "Shape of AI",
+        "url": "https://www.shapeof.ai/",
+        "note": "AI UX 패턴 모음"
+      },
+      {
+        "title": "State of AI Design",
+        "url": "https://stateofaidesign.com/",
+        "note": "AI 디자인 도입 현황"
+      },
+      {
+        "title": "UI Skills",
+        "url": "https://www.ui-skills.com/",
+        "note": "에이전트용 UI 스킬"
+      },
+      {
+        "title": "Varchive",
+        "url": "https://varchive.ai/",
+        "note": "영감 아카이브"
+      }
+    ],
+    "slack_ts": "1795422397.967939"
+  },
+  {
+    "id": "2124425193976418536",
+    "source": "X",
+    "url": "https://x.com/dadakanbanget/status/2124425193976418536",
+    "author": "@dadakanbanget",
+    "category": "AI",
+    "name": "Aziz • アジズ",
+    "avatar": "https://pbs.twimg.com/profile_images/2114717231217356800/X42fXlee_x96.jpg",
+    "title": "Claude Design 캔버스로 바뀐 실무 흐름 — 요구사항 → 시안 2~3개 → 역할 바꿔 다듬기 → UX 리뷰 스킬",
+    "summary": [
+      "PRD를 넣고 시안 2~3개를 받은 뒤, Claude에게 '사용자'와 '프로덕트 디자이너' 역할을 번갈아 씌워 반복 → 구현 → UX 리뷰 스킬로 검수",
+      "작성자 스레드: 새 디자인·기존 앱 리디자인 모두 같은 흐름, 회사 원칙·디자인 시스템에 맞춘 사내 리뷰 스킬을 따로 씀"
+    ],
+    "apply": "AI 시안 리뷰 때 '사용자 입장'과 '디자이너 입장'을 따로 지시해 두 관점의 피드백을 받아 보기",
+    "tags": [
+      "ai-workflow",
+      "claude-design",
+      "review",
+      "process"
+    ],
+    "image": "https://pbs.twimg.com/media/HXt42WlasAAWiyZ?format=jpg&name=medium",
+    "slack_ts": "1795422400.261429"
+  }
+]
