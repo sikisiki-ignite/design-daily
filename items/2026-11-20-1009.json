@@ -1,0 +1,115 @@
+[
+  {
+    "id": "th_Df7TD7HFrQT",
+    "source": "Threads",
+    "url": "https://www.threads.com/@jasondebiak/post/Df7TD7HFrQT",
+    "author": "@jasondebiak",
+    "category": "UI",
+    "name": "jasondebiak",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/jasondebiak.jpg",
+    "title": "'책 읽듯' 편안한 메일 앱 — 차가운 업무 도구 대신 종이 톤·조절 가능한 따뜻함",
+    "summary": [
+      "하루 종일 글을 읽는 도구인데 아이콘·기능으로 가득하고 차갑다는 문제의식 → 미색 종이 톤, 본문은 세리프, 기능은 최소화",
+      "설정에서 '따뜻함·글자 크기·질감'을 슬라이더로 조절, 레이아웃도 나란히/목록형 선택"
+    ],
+    "apply": "글을 오래 읽는 화면(문서·상세·리뷰)은 기능 아이콘보다 '읽기 편함(톤·서체·여백)'을 우선 설계 기준으로 두기",
+    "tags": [
+      "reading",
+      "typography",
+      "mac",
+      "tone"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_Df7TD7HFrQT.jpg",
+    "slack_ts": "1795396630.907619"
+  },
+  {
+    "id": "2123200950345294120",
+    "source": "X",
+    "url": "https://x.com/_joshbendall/status/2123200950345294120",
+    "author": "@_joshbendall",
+    "category": "UI",
+    "name": "Josh Bendall",
+    "avatar": "https://pbs.twimg.com/profile_images/2100830511463911424/L06aiKDO_x96.jpg",
+    "title": "고급 주거 브랜드 웹사이트 — 에디토리얼 레이아웃으로 차별화",
+    "summary": [
+      "건물 사진 위에 'A NEW PERSPECTIVE ON LIVING'을 단어 단위로 흩어 배치한 대형 타이포 — 잡지 표지 같은 첫 화면",
+      "부동산 사이트의 정형화된 구성 대신 편집 디자인 문법으로 '고급스러움'과 '개성'을 동시에"
+    ],
+    "apply": "브랜드 소개 페이지는 정형 템플릿 대신 타이포 배치 하나로 첫인상을 차별화하는 방법을 검토",
+    "tags": [
+      "web",
+      "editorial",
+      "typography",
+      "branding"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2123200860721414144/img/6m2NzZSK1SxISpsP.jpg",
+    "slack_ts": "1795396633.297829"
+  },
+  {
+    "id": "2123467231510057157",
+    "source": "X",
+    "url": "https://x.com/emilkowalski/status/2123467231510057157",
+    "author": "@emilkowalski",
+    "category": "AI",
+    "name": "Emil Kowalski",
+    "avatar": "https://pbs.twimg.com/profile_images/1469017066795679751/CjEOyirb_x96.jpg",
+    "title": "에이전트가 디자인 시스템을 '제대로' 쓰게 하려면 — 규칙을 강제하라 (Emil Kowalski)",
+    "summary": [
+      "린트 규칙·타입 안전한 props, 컴포넌트 오용 시 실패하는 CI 검사, 컴포넌트별 '언제·어떻게' 문서, 역할 기반(semantic) 토큰",
+      "작성자 스레드: 규칙이 정리돼 있으면 에이전트가 페이지를 10점 만점으로 채점하고 맞는 점·고칠 점 보고서를 내게 할 수 있음. DESIGN.md + MCP가 기본, 스킬은 보너스"
+    ],
+    "apply": "디자인 시스템 문서에 '이 컴포넌트를 쓰면 안 되는 경우'까지 적어 두면 AI·개발자의 오용을 자동 검사로 잡을 수 있음",
+    "tags": [
+      "design-system",
+      "agents",
+      "lint",
+      "tokens"
+    ],
+    "slack_ts": "1795396635.561199"
+  },
+  {
+    "id": "2123401152809365621",
+    "source": "X",
+    "url": "https://x.com/buildwithmaya/status/2123401152809365621",
+    "author": "@buildwithmaya",
+    "category": "AI",
+    "name": "Maya",
+    "avatar": "https://pbs.twimg.com/profile_images/1623360242586161161/TkL8rNj9_x96.jpg",
+    "title": "'AI 티 나는 사이트' 고치는 법 풀강의 — AI 슬롭 징후 8가지부터 디자인 시스템까지",
+    "summary": [
+      "Reddit에서 'AI 슬롭 같다'는 말을 듣고 디자이너 친구에게 배운 30분 강의 — 2024→2026 AI 슬롭의 변화, 8가지 징후, 좋은 디자인이 숨은 곳",
+      "웹 디자인 vs 프로덕트 디자인 차이, AI처럼 안 보이는 디자인 시스템 만들기, 에이전트와 반복 작업하는 법까지 챕터로 구성"
+    ],
+    "apply": "팀 AI 시안 검수 기준을 만들 때 이 강의의 '8가지 징후' 챕터를 출발점으로 삼기",
+    "tags": [
+      "ai-slop",
+      "course",
+      "design-system",
+      "video"
+    ],
+    "image": "https://pbs.twimg.com/media/HXfWutDWoAEWFAu.jpg",
+    "slack_ts": "1795396637.977279"
+  },
+  {
+    "id": "th_Df68QJ5jLEj",
+    "source": "Threads",
+    "url": "https://www.threads.com/@purple_dozer/post/Df68QJ5jLEj",
+    "author": "@purple_dozer",
+    "category": "AI",
+    "name": "purple_dozer",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/purple_dozer.jpg",
+    "title": "디자인 시스템용 에이전트 하네스 — 설계자·Figma 작업자·게이트·QA로 역할 분리 (우크라이나어)",
+    "summary": [
+      "설계(Opus)가 결정과 스펙을 맡고, Figma 작업(Sonnet), 디자인 시스템 토큰·컴포넌트만 통과시키는 게이트(Haiku), 운영·개발 화면 대조(Sonnet)로 분업",
+      "모든 결과는 스펙 문서로 모이고 거기서 디자인 시스템과 프론트로 — '스펙이 유일한 기준'. 하드코딩·환각을 게이트에서 차단"
+    ],
+    "apply": "AI 디자인 작업에 '디자인 시스템 밖 값은 통과 못 하는 검문소' 단계를 두면 하드코딩된 색·간격이 줄어듦",
+    "tags": [
+      "harness",
+      "design-system",
+      "agents",
+      "figma"
+    ],
+    "slack_ts": "1795396640.326099"
+  }
+]
