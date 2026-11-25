@@ -1,0 +1,111 @@
+[
+  {
+    "id": "2124952403355287876",
+    "source": "X",
+    "url": "https://x.com/StudioManneskja/status/2124952403355287876",
+    "author": "@StudioManneskja",
+    "category": "UI",
+    "name": "Manneskja",
+    "avatar": "https://pbs.twimg.com/profile_images/2119496918711541760/GCIO_-Mh_x96.jpg",
+    "title": "AI 업무 도구 'Grove' — 리서치 후 '나에게 맞춘 3가지 플레이'를 제안하는 온보딩",
+    "summary": [
+      "첫 화면에서 AI가 사용자의 도구를 살펴본 뒤 'Gmail 고객 요청 답장·Linear 버그 정리' 같은 맞춤 작업 3개를 카드로 제안 → 고르면 오른쪽에 무엇을 할지 미리보기",
+      "왼쪽 사이드바엔 자주 쓰는 작업을 고정, 오늘 실행된 작업 목록을 상태 점과 함께 — 채팅형 AI 도구에 '작업 단위' 구조를 얹은 형태"
+    ],
+    "apply": "AI 기능 온보딩은 빈 입력창 대신 '사용자 데이터 기반 추천 작업 3개'로 시작하면 첫 사용 장벽이 낮아짐",
+    "tags": [
+      "ai-product",
+      "onboarding",
+      "agent-ux",
+      "saas"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2124952376591466496/img/pHCFO78MbRTc55D0.jpg",
+    "slack_ts": "1795574763.468789"
+  },
+  {
+    "id": "2125295677320384739",
+    "source": "X",
+    "url": "https://x.com/WebDesignMuseum/status/2125295677320384739",
+    "author": "@WebDesignMuseum",
+    "category": "UI",
+    "name": "Web Design Museum",
+    "avatar": "https://pbs.twimg.com/profile_images/860928105975885828/8XLNUZIa_x96.jpg",
+    "title": "Apple Store 웹사이트 변천사 1999–2026 — 27년간의 커머스 UI 변화",
+    "summary": [
+      "1999년 iMac·iBook 사진과 'Buy Me' 버튼이 빽빽한 첫 스토어부터, 탭 내비게이션이 생긴 2000년대 초를 거쳐 오늘까지의 변화를 한눈에",
+      "정보를 다 보여주던 시대 → 제품 하나에 집중하는 여백 중심으로 바뀐 흐름이 보여 '왜 지금 이렇게 생겼는지' 설명 자료로 좋음"
+    ],
+    "apply": "커머스·상품 목록 화면 리뉴얼 논의 때 과거→현재 흐름 자료로 활용하기",
+    "tags": [
+      "history",
+      "commerce",
+      "apple",
+      "web"
+    ],
+    "image": "https://pbs.twimg.com/media/HX6Qe37XEAAmC-j?format=png&name=900x900",
+    "slack_ts": "1795574766.095769"
+  },
+  {
+    "id": "th_DgIFTsUjQ7S",
+    "source": "Threads",
+    "url": "https://www.threads.com/@petriv_olga/post/DgIFTsUjQ7S",
+    "author": "@petriv_olga",
+    "category": "UI",
+    "name": "petriv_olga",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/petriv_olga.jpg",
+    "title": "AI로 사이트 만들 때 곁에 둘 3곳 — 프롬프트 포함 디자인, SVG 배경 생성기, 무료 3D 모델",
+    "summary": [
+      "스타일을 고르면 레이아웃·모션과 함께 바로 쓸 프롬프트를 주는 디자인 모음, 그라데이션·질감 SVG 배경을 직접 만드는 생성기, 무료 3D 모델 저장소",
+      "AI 결과물이 밋밋할 때 '배경 질감'과 '3D 소품'처럼 결과물에 개성을 더하는 재료를 공급하는 용도"
+    ],
+    "apply": "AI로 만든 랜딩이 평범하면 레이아웃보다 배경 질감·3D 소품 같은 '재료'부터 바꿔 보기",
+    "tags": [
+      "reference",
+      "resources",
+      "svg",
+      "3d"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DgIFTsUjQ7S.jpg",
+    "links": [
+      {
+        "title": "Pretty Sites",
+        "url": "http://prettysites.io",
+        "note": "프롬프트 포함 사이트 디자인"
+      },
+      {
+        "title": "fffuel",
+        "url": "http://fffuel.co",
+        "note": "SVG 배경·그라데이션·질감 생성기"
+      },
+      {
+        "title": "Poly Pizza",
+        "url": "http://poly.pizza",
+        "note": "무료 3D 모델"
+      }
+    ],
+    "slack_ts": "1795574768.372759"
+  },
+  {
+    "id": "2125208091775922356",
+    "source": "X",
+    "url": "https://x.com/genevieve__h/status/2125208091775922356",
+    "author": "@genevieve__h",
+    "category": "AI",
+    "name": "genevieveh@",
+    "avatar": "https://pbs.twimg.com/profile_images/2084384724068204544/Og6wSXeS_x96.jpg",
+    "title": "Google이 공개한 Gemini 전용 프론트엔드 디자인 스킬 — '남이 만든 스킬'은 오히려 역효과?",
+    "summary": [
+      "자체 평가에서 Gemini 4는 인기 서드파티 디자인 스킬을 쓸 때보다 안 쓸 때 더 잘했고, Gemini 전용으로 만든 스킬은 대결의 약 75%에서 승리",
+      "작성자 스레드: 디자인 스킬은 모델마다 다르게 작동 — 특히 '피해야 할 패턴' 목록은 모델별로 달라야 함. 최종 선택은 블라인드 대결 + 사람 선호 투표로"
+    ],
+    "apply": "팀에서 쓰는 AI 디자인 스킬·지침은 실제로 쓰는 모델 기준으로 효과를 비교해 보고, 모델이 바뀌면 금지 패턴 목록도 다시 점검",
+    "tags": [
+      "skills",
+      "gemini",
+      "evaluation",
+      "models"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2125205913275346944/img/_8axEVROEzXsFz6j.jpg",
+    "slack_ts": "1795574770.660199"
+  }
+]
