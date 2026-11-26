@@ -1,0 +1,124 @@
+[
+  {
+    "id": "2125285106591936993",
+    "source": "X",
+    "url": "https://x.com/soybonjour/status/2125285106591936993",
+    "author": "@soybonjour",
+    "category": "UI",
+    "name": "Soybean°",
+    "avatar": "https://pbs.twimg.com/profile_images/2125217191100391424/WjnP84hm_x96.jpg",
+    "title": "타자기처럼 레버가 움직이는 iOS 키보드 리디자인",
+    "summary": [
+      "평평하게 만들어 온 입력 UI에 기계적인 움직임을 일부러 되살린 콘셉트",
+      "영상에서 키를 누를 때마다 뒤쪽 레버가 위아래로 움직이고, 삭제 키만 빨간색으로 구분된다. 다크 버전(pt.2)도 이어서 올라왔다"
+    ],
+    "apply": "자주 반복하는 입력 동작에 물리적인 피드백 모션을 하나 붙여 손맛을 주는 실험",
+    "tags": [
+      "keyboard",
+      "skeuomorphism",
+      "interaction"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2125284645663125504/img/V2wLqgePT2MhKQ0L.jpg",
+    "slack_ts": "1795676383.554859"
+  },
+  {
+    "id": "2125619146276659345",
+    "source": "X",
+    "url": "https://x.com/lumeodstudio/status/2125619146276659345",
+    "author": "@lumeodstudio",
+    "category": "UI",
+    "name": "Lumeo studio",
+    "avatar": "https://pbs.twimg.com/profile_images/2042707838817177601/rC0eWibF_x96.jpg",
+    "title": "영화 컬렉션 관리 앱 화면 (Collections 흐름)",
+    "summary": [
+      "컬렉션 목록 → 상세 → 항목 삭제까지 이어지는 화면 흐름을 한 장에 보여준다",
+      "목록은 포스터를 겹친 카드 묶음으로 컬렉션을 표현하고, 상세에서는 행을 밀면 빨간 삭제 버튼이 나온다. 하단 탭은 떠 있는 알약 모양"
+    ],
+    "apply": "여러 항목이 담긴 폴더·컬렉션은 썸네일을 겹친 카드로 표현해 내용물을 미리 보이게 하기",
+    "tags": [
+      "mobile",
+      "collection",
+      "darkUI"
+    ],
+    "image": "https://pbs.twimg.com/media/HX-3VNTX0AAlsYH?format=jpg&name=900x900",
+    "slack_ts": "1795676385.859139"
+  },
+  {
+    "id": "2125640198255972678",
+    "source": "X",
+    "url": "https://x.com/jakubkrehel/status/2125640198255972678",
+    "author": "@jakubkrehel",
+    "category": "AI",
+    "name": "Jakub Krehel",
+    "avatar": "https://pbs.twimg.com/profile_images/2117392056049967104/2lvoUOWR_x96.jpg",
+    "title": "에이전트가 디자인 시스템을 벗어나지 못하게 하는 lint 규칙 (오픈소스)",
+    "summary": [
+      "디자인 시스템 지키기를 '프롬프트로 부탁'이 아니라 '코드 검사로 강제'하는 방식",
+      "하드코딩 색·길이 금지, 기본 부품 재제작 금지 등 24개 규칙. 오류마다 고칠 방법을 알려줘 에이전트가 바로 수정한다"
+    ],
+    "apply": "개발팀과 디자인 시스템 규칙 중 '절대 어기면 안 되는 3개'를 골라 lint로 걸어보기",
+    "tags": [
+      "designsystem",
+      "agent",
+      "lint"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2125639672202190848/img/rab87I-wXOr6FYUl.jpg",
+    "links": [
+      {
+        "title": "outtrue (GitHub)",
+        "url": "https://github.com/jakubkrehel/outtrue",
+        "note": "디자인 시스템 lint 규칙, 오픈소스"
+      },
+      {
+        "title": "Interfaces",
+        "url": "https://interfaces.dev/",
+        "note": "디자인 엔지니어링 매거진 — 이번 호 '에이전트 우선 디자인 시스템'"
+      }
+    ],
+    "slack_ts": "1795676388.191029"
+  },
+  {
+    "id": "2125600393853890634",
+    "source": "X",
+    "url": "https://x.com/AdhamDannaway/status/2125600393853890634",
+    "author": "@AdhamDannaway",
+    "category": "AI",
+    "name": "Adham Dannaway",
+    "avatar": "https://pbs.twimg.com/profile_images/564682290303729665/Nl1tsx2v_x96.jpeg",
+    "title": "디자인 가이드라인을 DESIGN.md로 — Claude Code + Figma MCP",
+    "summary": [
+      "책 한 권 분량의 디자인 원칙을 AI용 파일로 옮겨 Figma 디자인 시스템과 함께 붙인 실험",
+      "답글 팁: 규칙을 너무 엄격히 쓰면 AI가 더 큰 관례를 깨면서까지 따르려 해 일부 완화했고, 규칙의 '이유'를 함께 적으니 판단이 나아졌다"
+    ],
+    "apply": "팀 가이드라인을 AI용 파일로 옮길 때 규칙마다 '왜'를 한 줄씩 덧붙이기",
+    "tags": [
+      "DESIGN.md",
+      "figmaMCP",
+      "claudecode"
+    ],
+    "image": "https://pbs.twimg.com/media/HX8w1OBaUAAtoV9?format=jpg&name=medium",
+    "slack_ts": "1795676390.095209"
+  },
+  {
+    "id": "2125601999051764133",
+    "source": "X",
+    "url": "https://x.com/semochkin_alex/status/2125601999051764133",
+    "author": "@semochkin_alex",
+    "category": "AI",
+    "name": "Alex",
+    "avatar": "https://pbs.twimg.com/profile_images/1990133058918326272/XMk5ESR2_x96.jpg",
+    "title": "로고에서 24px 브랜드 아이콘 세트를 만든 Claude 활용 과정",
+    "summary": [
+      "로고를 부품으로 분해 → 체크 가능한 규칙으로 정리 → 필요한 아이콘 목록 → 생성 순서로 진행한 긴 글",
+      "AI에게 '엄격한 아트 디렉터' 역할을 시켜 시스템이 무너지는 지점을 찾게 했고, 그 결과 '아이콘당 디테일 하나' 규칙이 생겼다"
+    ],
+    "apply": "아이콘 세트 시작 전 로고 요소를 분해·규칙화하는 단계만이라도 AI와 먼저 해보기",
+    "tags": [
+      "iconography",
+      "branding",
+      "claude"
+    ],
+    "image": "https://pbs.twimg.com/media/HX6IUGtWUAAxMZS?format=jpg&name=medium",
+    "slack_ts": "1795676392.393609"
+  }
+]
