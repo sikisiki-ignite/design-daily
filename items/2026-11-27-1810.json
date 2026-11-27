@@ -1,0 +1,104 @@
+[
+  {
+    "id": "th_DgPHduVkTZY",
+    "source": "Threads",
+    "url": "https://www.threads.com/@syaqdev_/post/DgPHduVkTZY",
+    "author": "@syaqdev_",
+    "category": "UI",
+    "name": "syaqdev_",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/syaqdev_.jpg",
+    "title": "경기장 3D 뷰로 좌석을 먼저 보여주는 티켓 예매 화면 콘셉트",
+    "summary": [
+      "좌석 번호 목록 대신 경기장 전체를 3D로 보여주고 '내 자리에서 어떻게 보이는지'부터 고르게 하는 예매 흐름",
+      "첫 화면은 야경 속 경기장 + 'Find your seat' 한 문장 + 좌석 선택 버튼만 둔 구성이고, 목록 보기로도 전환된다. 데스크톱 시안"
+    ],
+    "apply": "좌석·공간 선택은 지도·3D 뷰를 첫 단계로 두는 흐름 검토",
+    "tags": [
+      "ticketing",
+      "3D",
+      "concept"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DgPHduVkTZY.jpg",
+    "slack_ts": "1795772780.756099"
+  },
+  {
+    "id": "th_DgNnS2IkwBp",
+    "source": "Threads",
+    "url": "https://www.threads.com/@postbylokki/post/DgNnS2IkwBp",
+    "author": "@postbylokki",
+    "category": "UI",
+    "name": "postbylokki",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/postbylokki.jpg",
+    "title": "반투명 알약 행을 쌓은 위젯 디자인 미리보기",
+    "summary": [
+      "걸음 수·칼로리·거리 같은 숫자를 색 알약 한 줄씩으로 쌓아, 아이콘+숫자만으로 읽히게 만든 위젯",
+      "반투명 유리 카드 위에 날짜·날씨 위젯을 비스듬히 겹쳐 올려 깊이감을 줬다"
+    ],
+    "apply": "대시보드 요약 카드에서 지표마다 색 알약 한 줄 형식을 써보기",
+    "tags": [
+      "widget",
+      "glass",
+      "iOS"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DgNnS2IkwBp.jpg",
+    "slack_ts": "1795772783.050679"
+  },
+  {
+    "id": "th_DgO_AJRD0dq",
+    "source": "Threads",
+    "url": "https://www.threads.com/@tlvcdesigns/post/DgO_AJRD0dq",
+    "author": "@tlvcdesigns",
+    "category": "UI",
+    "name": "tlvcdesigns",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/tlvcdesigns.jpg",
+    "title": "목업에 쓸 종이 질감 사진 무료 공유 + 질감 사용 팁",
+    "summary": [
+      "AI로 만든 질감 대신 직접 찍은 종이 질감을 살짝 깔아 화면 밀도를 높이고 'AI 느낌'을 줄이자는 제안",
+      "녹색 색지·흰 한지·접힌 종이 등 10장 정도, 가로 2000px 이상. 질감을 너무 세게 쓰면 무겁고 낡아 보인다는 주의도 함께"
+    ],
+    "apply": "포트폴리오·목업 배경에 종이 질감을 낮은 불투명도로 깔아보기",
+    "tags": [
+      "texture",
+      "mockup",
+      "한국어"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DgO_AJRD0dq.jpg",
+    "links": [
+      {
+        "title": "종이 질감 사진 (Google Drive)",
+        "url": "https://drive.google.com/drive/folders/16J9dwLLxc41FOW-a96FUNJzu9Qjax1pY?usp=sharing",
+        "note": "작성자가 직접 촬영해 공유, 자유 사용"
+      }
+    ],
+    "slack_ts": "1795772785.440649"
+  },
+  {
+    "id": "2125916926048358827",
+    "source": "X",
+    "url": "https://x.com/AntLingAGI/status/2125916926048358827",
+    "author": "@AntLingAGI",
+    "category": "AI",
+    "name": "Ant Ling",
+    "avatar": "https://pbs.twimg.com/profile_images/1911666162137477120/EbzxHHzp_x96.jpg",
+    "title": "이미지 한 장을 부위별 레이어로 쪼개는 오픈소스 디자인 이미지 모델",
+    "summary": [
+      "생성보다 '레이어 분리'가 포인트 — 캐릭터 이미지를 날개·머리·팔·소품 등 수십 개 레이어로 나눠 모션 작업에 넘긴다",
+      "한 레이어만 고치고 나머지는 그대로 합성해 반복 수정해도 원본 색·질감이 덜 무너진다. 레이어 모델은 다음 주 공개 예정"
+    ],
+    "apply": "일러스트를 모션으로 옮길 때 수작업 레이어 분리 단계를 대체할 수 있는지 시험해보기",
+    "tags": [
+      "AIimage",
+      "layers",
+      "opensource"
+    ],
+    "image": "https://pbs.twimg.com/media/HYC3lC7b0AAKgrl?format=jpg&name=medium",
+    "links": [
+      {
+        "title": "Ming-Image-0.2-Design (Hugging Face)",
+        "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+        "note": "공개된 디자인 이미지 모델"
+      }
+    ],
+    "slack_ts": "1795772787.669309"
+  }
+]
