@@ -1,0 +1,97 @@
+[
+  {
+    "id": "2125704976018128969",
+    "source": "X",
+    "url": "https://x.com/augustasdesign/status/2125704976018128969",
+    "author": "@augustasdesign",
+    "category": "UI",
+    "name": "Augustas",
+    "avatar": "https://pbs.twimg.com/profile_images/2119388687918100480/kPjZldBq_x96.jpg",
+    "title": "AI 답장 초안이 붙은 영업 CRM 대시보드",
+    "summary": [
+      "표·차트 중심 대시보드에 AI 상태(초안 준비됨·확인 필요)를 한 열로 녹여 넣은 화면",
+      "행을 고르면 오른쪽 패널에 상대 답장·제안 답장·활동 기록이 뜨고 '승인 후 발송'으로 끝난다. 사이드바에 AI 에이전트 메뉴도 따로 있다"
+    ],
+    "apply": "AI 기능이 있는 목록에서 'AI 처리 상태'를 열로 두고 오른쪽 패널에서 검토·승인하는 구조 참고",
+    "tags": [
+      "dashboard",
+      "CRM",
+      "AIUX"
+    ],
+    "image": "https://pbs.twimg.com/media/HYAFZ-bXQAAUz9H?format=jpg&name=medium",
+    "slack_ts": "1795741589.040359"
+  },
+  {
+    "id": "2125460015557554682",
+    "source": "X",
+    "url": "https://x.com/sujon_co/status/2125460015557554682",
+    "author": "@sujon_co",
+    "category": "UI",
+    "name": "Sujon Hossain",
+    "avatar": "https://pbs.twimg.com/profile_images/1883457841471819777/hH4dbqtB_x96.jpg",
+    "title": "사진 위에 데이터를 얹은 피트니스 대시보드 (Surge)",
+    "summary": [
+      "흐릿한 운동 사진 배경 위에 반투명 카드로 수면 단계·심박을 올려 분위기와 정보를 함께 잡은 시안",
+      "주황 단색 톤 하나로 배경·차트·강조를 모두 통일했고, 큰 숫자(78 BPM)와 짧은 문구(Ready to push?)로 첫 화면의 위계를 만든다"
+    ],
+    "apply": "웰니스·라이프스타일 대시보드에서 배경 사진 + 단색 톤 + 반투명 카드 조합 실험",
+    "tags": [
+      "dashboard",
+      "fitness",
+      "visual"
+    ],
+    "image": "https://pbs.twimg.com/media/HX8mkhTaMAAy-K_?format=jpg&name=medium",
+    "slack_ts": "1795741591.274499"
+  },
+  {
+    "id": "2125592344695103613",
+    "source": "X",
+    "url": "https://x.com/Gianko/status/2125592344695103613",
+    "author": "@Gianko",
+    "category": "AI",
+    "name": "gianko",
+    "avatar": "https://pbs.twimg.com/profile_images/1787121432171847680/AOabxI1H_x96.jpg",
+    "title": "AI가 만든 화면을 디자인 시스템에 묶어 두는 규칙·테스트",
+    "summary": [
+      "사람이 쓴 한 장짜리 디자인 브리프를 '취향의 기준'으로 두고, 생성된 화면을 게이트·평가로 통과/실패시키는 구조",
+      "기본 AI 스타일(Inter 폰트·Tailwind 팔레트·알약 버튼·튕기는 이징)을 브리프에서 금지하고, 모션은 모델이 아니라 컴포넌트 라이브러리가 맡는다"
+    ],
+    "apply": "팀 디자인 브리프에 '쓰지 않을 AI 기본값' 목록부터 적어보기",
+    "tags": [
+      "designsystem",
+      "AIguardrails",
+      "claudecode"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2125591674931793920/img/lAH5XsCXx2QleThZ.jpg",
+    "links": [
+      {
+        "title": "design-demo (GitHub)",
+        "url": "https://github.com/gianko/design-demo/",
+        "note": "브리프·컴포넌트·게이트·평가 리포트·Figma 파일까지 공개"
+      }
+    ],
+    "slack_ts": "1795741593.493839"
+  },
+  {
+    "id": "2125335180898410825",
+    "source": "X",
+    "url": "https://x.com/lobanovskiy/status/2125335180898410825",
+    "author": "@lobanovskiy",
+    "category": "AI",
+    "name": "Eddie Lobanovskiy",
+    "avatar": "https://pbs.twimg.com/profile_images/2075442433366663168/O3O_qqBC_x96.jpg",
+    "title": "프롬프트 대신 라우터 에이전트 + 검사 루프로 디자인하는 구조도",
+    "summary": [
+      "'완료 조건'을 먼저 쓰고, 작업자와 별도의 검사자가 채점하는 루프가 핵심 — 같은 수정이 두 번 나오면 규칙으로 만든다",
+      "단계마다 다른 모델을 쓰고, 실패하면 재시도, 같은 결과가 반복되면 멈추고 사람에게 넘긴다. 작성자가 관련 제품을 준비 중이라고 언급"
+    ],
+    "apply": "AI 디자인 작업에 '완료 체크리스트'와 별도 검토 단계를 붙여 보기",
+    "tags": [
+      "agent",
+      "workflow",
+      "harness"
+    ],
+    "image": "https://pbs.twimg.com/media/HX6zFeTXAAA0i6L?format=png&name=medium",
+    "slack_ts": "1795741595.951989"
+  }
+]
