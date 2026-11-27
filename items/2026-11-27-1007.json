@@ -1,0 +1,159 @@
+[
+  {
+    "id": "2125924388411466131",
+    "source": "X",
+    "url": "https://x.com/basit_designs/status/2125924388411466131",
+    "author": "@basit_designs",
+    "category": "UI",
+    "name": "Basit A. Khan",
+    "avatar": "https://pbs.twimg.com/profile_images/2035703029631201280/MiiHz_yG_x96.jpg",
+    "title": "큰 사진·여백·검정 버튼만으로 만든 미니멀 고급형 앱 화면",
+    "summary": [
+      "장식 대신 큰 이미지 한 장과 넉넉한 여백, 하단 검정 버튼 하나로 화면마다 '할 일 하나'만 남긴 구성",
+      "영상에서 가운데 원형 꽃 이미지에 움직이는 그라데이션을 써서, 정적인 화면에 은은한 움직임 하나만 더했다"
+    ],
+    "apply": "온보딩·빈 상태 화면에 움직이는 그라데이션 하나만 넣어 분위기를 내보기",
+    "tags": [
+      "mobile",
+      "minimal",
+      "gradient"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2125924154654478336/img/6XMXOA5lKrKoZMdI.jpg",
+    "links": [
+      {
+        "title": "Grainient",
+        "url": "https://grainient.supply/",
+        "note": "작성자가 쓴 움직이는 그라데이션 소스"
+      }
+    ],
+    "slack_ts": "1795762221.487549"
+  },
+  {
+    "id": "th_DgIM4YLjD1d",
+    "source": "Threads",
+    "url": "https://www.threads.com/@dannystuart/post/DgIM4YLjD1d",
+    "author": "@dannystuart",
+    "category": "UI",
+    "name": "dannystuart",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/dannystuart.jpg",
+    "title": "모션 디자인 레퍼런스 사이트 5곳",
+    "summary": [
+      "한 사이트에 몰린 목록이 아니라 '배경 비주얼 · 웹 섹션 · 쇼릴 · 모바일 앱'으로 쓰임새가 나뉜 모션 레퍼런스 묶음"
+    ],
+    "apply": "모바일 인터랙션은 60fps.design, 웹 스크롤 섹션은 motionin.design에서 먼저 찾아보기",
+    "tags": [
+      "motion",
+      "reference",
+      "inspiration"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DgIM4YLjD1d.jpg",
+    "links": [
+      {
+        "title": "60fps.design",
+        "url": "https://60fps.design/",
+        "note": "모바일 앱 애니메이션을 프레임 단위로"
+      },
+      {
+        "title": "motionin.design",
+        "url": "https://motionin.design/",
+        "note": "인터랙티브 웹 섹션 모음"
+      },
+      {
+        "title": "Subframe Motion",
+        "url": "https://www.subframe.com/motion",
+        "note": "무료 애니메이션·인터랙션·셰이더 300+"
+      },
+      {
+        "title": "vanta.supply",
+        "url": "https://vanta.supply/",
+        "note": "움직이는 배경 비주얼 모음"
+      },
+      {
+        "title": "reelfolio.io",
+        "url": "https://reelfolio.io/",
+        "note": "프로젝트 쇼릴 모음"
+      }
+    ],
+    "slack_ts": "1795762223.861289"
+  },
+  {
+    "id": "2125653599992811637",
+    "source": "X",
+    "url": "https://x.com/contraben/status/2125653599992811637",
+    "author": "@contraben",
+    "category": "AI",
+    "name": "ben",
+    "avatar": "https://pbs.twimg.com/profile_images/1983959171012685824/xEjQL0RW_x96.jpg",
+    "title": "실제 의뢰 브리프로 AI 디자인 실력을 재는 벤치마크 공개",
+    "summary": [
+      "'어느 모델이 디자인을 잘하나'를 일반인 투표가 아니라 실제 클라이언트 요구사항과 디자이너 평가로 재려는 시도",
+      "샘플에 브리프 12개, 모델이 만든 웹사이트 191개(루브릭 점수 포함), 디자이너 27명의 블라인드 투표 360건이 들어 있다"
+    ],
+    "apply": "팀에서 AI 디자인 도구를 비교할 때 실제 과제 브리프 몇 개로 같은 조건 테스트를 해보기",
+    "tags": [
+      "benchmark",
+      "AIdesign",
+      "evaluation"
+    ],
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2125652716794109952/img/-fKw7gmJZmpwecoV.jpg",
+    "links": [
+      {
+        "title": "Frontier Design Benchmark (Hugging Face)",
+        "url": "https://huggingface.co/datasets/contra-labs/Frontier-Design-Benchmark",
+        "note": "데이터셋 샘플"
+      }
+    ],
+    "slack_ts": "1795762226.123319"
+  },
+  {
+    "id": "th_DgM1QqfGJeB",
+    "source": "Threads",
+    "url": "https://www.threads.com/@hoodi_ux/post/DgM1QqfGJeB",
+    "author": "@hoodi_ux",
+    "category": "AI",
+    "name": "hoodi_ux",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/hoodi_ux.jpg",
+    "title": "AI에게 정확히 시키기 위한 UI 용어 24개와 예시 프롬프트",
+    "summary": [
+      "'선택 UI'를 체크박스·라디오·칩·세그먼트로 정확히 구분해 말해야 AI 결과가 덜 흔들린다는 관점의 정리",
+      "용어마다 '언제 쓰는지' + 실제 서비스 상황을 넣은 한 줄 프롬프트가 붙어 있어 기획서 문장으로 바로 옮겨 쓰기 좋다"
+    ],
+    "apply": "주니어·기획자와 AI 프롬프트 쓸 때 공용 UI 용어집으로 활용",
+    "tags": [
+      "prompt",
+      "UIterms",
+      "한국어"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DgM1QqfGJeB.jpg",
+    "slack_ts": "1795762228.479139"
+  },
+  {
+    "id": "th_DgGxLUpk_2v",
+    "source": "Threads",
+    "url": "https://www.threads.com/@sandpia_com/post/DgGxLUpk_2v",
+    "author": "@sandpia_com",
+    "category": "AI",
+    "name": "sandpia_com",
+    "avatar": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/avatars/sandpia_com.jpg",
+    "title": "이미지 생성 없이 종이 공예 스타일 3D 화면을 만드는 Claude 스킬",
+    "summary": [
+      "이미지·영상 생성 모델 없이 Three.js 코드만으로 팝업북 같은 종이 질감 장면을 만든다는 점이 포인트",
+      "영상에서 나무·집·울타리가 종이를 접어 세운 듯 그림자와 함께 겹쳐 있고, 재사용 가능한 그래픽 라이브러리도 함께 들어 있다"
+    ],
+    "apply": "이벤트 페이지·온보딩 일러스트를 코드형 3D 장면으로 시안 내보기",
+    "tags": [
+      "papercraft",
+      "threejs",
+      "claudeskill"
+    ],
+    "image": "https://raw.githubusercontent.com/sikisiki-ignite/design-daily/main/assets/images/th_DgGxLUpk_2v.jpg",
+    "links": [
+      {
+        "title": "xikhar/papercraft (GitHub)",
+        "url": "https://github.com/xikhar/papercraft",
+        "note": "종이 공예 스타일 3D 제작 스킬"
+      }
+    ],
+    "slack_ts": "1795762230.808759"
+  }
+]
